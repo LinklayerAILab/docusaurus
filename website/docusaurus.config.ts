@@ -14,7 +14,7 @@ const config: Config = {
   favicon: 'img/icon.svg',
 
   // Set the production url of your site here
-  url: 'https://your-domain.com',
+  url: 'https://doc.linklayer.ai',
   baseUrl: '/',
 
   organizationName: 'LinkLayer',
