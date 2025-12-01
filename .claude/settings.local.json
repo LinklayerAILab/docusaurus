@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(node split-i18n.js:*)",
+      "Bash(node process-docs.js:*)",
+      "Bash(yarn build:*)",
+      "Bash(yarn clear:*)",
+      "Bash(tree:*)",
+      "Bash(timeout 15 yarn serve:*)",
+      "Bash(taskkill:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
