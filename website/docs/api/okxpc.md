@@ -1,23 +1,18 @@
-# OKX PC 端 API 配置
+# OKX PC API Configuration
 
-## 配置步骤
+## Configuration Steps
 
-1.登录您的OKX账号，点击右上角的人形图标，下拉菜单里选择"API"。
-
+1. Log in to your OKX account, click the person icon in the top right corner, and select "API" from the dropdown menu.
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/okkxpc/okxpc1_compressed.png)
 
-2.点击“Create API”。
-
+2. Click "Create API".
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/okkxpc/okxpc2_compressed.png)
 
-3.设置API Key名称及密码,权限选择只读。
-
+3. Set the API Key name and password, and select read-only permissions.
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/okkxpc/okxpc3_compressed.png)
-
-
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/okkxpc/okxpc4_compressed.png)
 

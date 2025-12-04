@@ -5,23 +5,23 @@ slug: /
 
 # Welcome to LinkLayer
 
-LinkLayer 是一个强大的平台，帮助您轻松管理和集成各种交易所 API。
+LinkLayer is a powerful platform that helps you easily manage and integrate various cryptocurrency exchange APIs.
 
-## 快速开始
+## Quick Start
 
-本文档将帮助您了解如何配置和使用 LinkLayer 平台的各项功能。
+This documentation will help you understand how to configure and use the various features of the LinkLayer platform.
 
-### API 文档
+### API Documentation
 
-在左侧菜单中，您可以找到各个交易所的 API 配置指南：
+In the left sidebar, you can find API configuration guides for each exchange:
 
-- **Binance (币安)**: 支持 PC 端和 App 端配置
-- **OKX (欧易)**: 支持 PC 端和 App 端配置
-- **Bitget**: 支持 PC 端和 App 端配置
-- **Bybit**: 支持 PC 端配置
+- **Binance**: Supports both PC and App configuration
+- **OKX**: Supports both PC and App configuration
+- **Bitget**: Supports both PC and App configuration
+- **Bybit**: Supports PC configuration
 
-每个指南都包含详细的步骤说明和配图，帮助您快速完成 API 密钥的创建和配置。
+Each guide includes detailed step-by-step instructions and screenshots to help you quickly complete API key creation and configuration.
 
-## 需要帮助？
+## Need Help?
 
-如果您在使用过程中遇到任何问题，请随时联系我们的技术支持团队。
+If you encounter any issues while using our platform, please feel free to contact our technical support team.

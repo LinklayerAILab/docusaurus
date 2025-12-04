@@ -1,40 +1,40 @@
-# Binance App 端 API 配置
+# Binance App API Configuration
 
-## 配置步骤
+## Configuration Steps
 
-1. 在币安 App 首页，点击左上角。
+1. On the Binance App homepage, click the top left corner.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp1_compressed.png" width="350" />
 
-2. 点击 "More Services"。
+2. Click "More Services".
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp2_compressed.png" width="350" />
 
-3. 顶部搜索框里输入 API 进行搜索。
+3. Enter "API" in the search box at the top.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp3_compressed.png" width="350" />
 
-4. 点击 "API Management"。
+4. Click "API Management".
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp4_compressed.png" width="350" />
 
-5. 点击 "Create API"。
+5. Click "Create API".
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp5_compressed.png" width="350" />
 
-6. 选择 "System generated"。
+6. Select "System generated".
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp6_compressed.png" width="350" />
 
-7. 设置 API key 的标签。
+7. Set the label for your API key.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp7_compressed.png" width="350" />
 
-8. 完成安全验证。
+8. Complete the security verification.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp8_compressed.png" width="350" />
 
-9. 验证通过后，API 限制默认选择只读。
+9. After verification, the API restriction defaults to read-only.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp9_compressed.png" width="350" />
 

@@ -1,43 +1,35 @@
-# Bitget App 端 API 配置
+# Bitget App API Configuration
 
-## 配置步骤
+## Configuration Steps
 
-1.点击Bitget App首页左上角
-
+1. Click the top left corner on the Bitget App homepage
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp1_compressed.png"  width="350" />
 
-2.点击 More Services
-
+2. Click "More Services"
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp2_compressed.png"  width="350" />
 
-3.点击API keys
-
+3. Click "API keys"
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp3_compressed.png"  width="350" />
 
-4.点击“Create a new API key”
-
+4. Click "Create a new API key"
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp4_compressed.png"  width="350" />
 
-5.选择 “Automatically generated APl keys”
-
+5. Select "Automatically generated API keys"
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp5_compressed.png"  width="350" />
 
-6.设置API key名称及Passphrase，权限选择只读，并勾选只读权限下的所有项目
-
+6. Set the API key name and Passphrase, select read-only permissions, and check all items under read-only permissions
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp6_compressed.png"  width="350" />
 
-7.完成安全验证。
-
+7. Complete the security verification.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp7_compressed.png"  width="350" />
 
-8.API Key已成功创建。
-
+8. API Key has been successfully created.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp8_compressed.png"  width="350" />

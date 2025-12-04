@@ -1,30 +1,21 @@
-# Bitget PC 端 API 配置
+# Bitget PC API Configuration
 
-## 配置步骤
+## Configuration Steps
 
-1.登录您的Bitget账户，点击右上角的用户图标，点击”API Keys”。
-
+1. Log in to your Bitget account, click the user icon in the top right corner, and click "API Keys".
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc1_compressed.png)
 
-
-
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc2_compressed.png)
-
-
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc3_compressed.png)
 
-
-
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc4_compressed.png)
 
-5.完成安全验证。
-
+5. Complete the security verification.
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc5_compressed.png)
 
-6.API Key已成功创建。
-
+6. API Key has been successfully created.
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc6_compressed.png)
