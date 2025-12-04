@@ -45,6 +45,21 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       title: 'LinkLayer',
@@ -54,8 +69,8 @@ const config: Config = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'document',
+          type: 'docSidebar',
+          sidebarId: 'document',
           position: 'left',
           label: 'Document',
         },
@@ -63,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docs',
           position: 'left',
-          label: 'API Documentation',
+          label: 'API Guide',
         },
       ],
     },

@@ -9,6 +9,57 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
+  // Document sidebar - for LinkLayer AI documentation
+  document: [
+    {
+      type: 'doc',
+      id: 'document',
+      label: 'Overview',
+    },
+    {
+      type: 'category',
+      label: 'Start Here',
+      collapsed: false,
+      items: [
+        'docs/startHere/whatIsLinkLayerAI',
+        'docs/startHere/whyLinkLayerAI',
+        'docs/startHere/linkLayerAITokenomics',
+        'docs/startHere/FAQ&Glossary',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'LinkLayerAI Products',
+      collapsed: false,
+      items: [
+        'docs/products/insightsAgent',
+        'docs/products/tradingSocialForum',
+        'docs/products/protocol&Tokens',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Technical Documentation',
+      collapsed: false,
+      items: [
+        'docs/technicalDocumentation/technicalArchitectur',
+        'docs/technicalDocumentation/smartContracts',
+        'docs/technicalDocumentation/auditReports',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Resources & Ecosystem',
+      collapsed: false,
+      items: [
+        'docs/resources&Ecosystem/litepaper',
+        'docs/resources&Ecosystem/legalDocuments',
+        'docs/resources&Ecosystem/prohibitedCountriesandRegions',
+      ],
+    },
+  ],
+
+  // API Documentation sidebar
   docs: [
     'intro',
     {
