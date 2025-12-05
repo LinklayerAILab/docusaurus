@@ -2,7 +2,7 @@
 
 LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value.
 
-# **Multi-Dimensional Trading Data**
+## **Multi-Dimensional Trading Data**
 
 In LinkLayerAI, multi-dimensional data includes:
 

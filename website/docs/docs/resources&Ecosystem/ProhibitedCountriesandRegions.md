@@ -1,4 +1,4 @@
-## **Prohibited Countries and Regions**
+# Prohibited Countries and Regions
 
 United States • Mainland China
 

@@ -1,4 +1,4 @@
-## **Technical Architecture**
+# Technical Architectur
 
 LinkLayerAI decomposes the entire **“data value production chain”** into four hierarchical layers:
 

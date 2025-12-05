@@ -2,13 +2,17 @@
 
 ## **1\. Data, Privacy & Security**
 
-**Q1: Does uploading API keys expose my assets?** **A:** Absolutely not.
+**Q1: Does uploading API keys expose my assets?**
+
+#### **A:** Absolutely not.
 
 - Only read-only permissions are required
 - These keys cannot execute trades, withdrawals, or transfers
 - All keys are encrypted and securely isolated
 
-**Q2: Will my real trading records or identity be exposed?** **A:** No.
+**Q2: Will my real trading records or identity be exposed?**
+
+#### **A:** No.
 
 We apply strict privacy measures:
 
@@ -16,7 +20,9 @@ We apply strict privacy measures:
 - Only high-level persona traits or summarized indicators are visible to others
 - No one can trace data back to your personal identity
 
-**Q3: Will my data be used for commercial purposes?** **A:** Your data sovereignty always belongs to you.
+**Q3: Will my data be used for commercial purposes?**
+
+#### **A:** Your data sovereignty always belongs to you.
 
 We will never sell your personal data. Only anonymized, aggregated data may be used to improve AI performance or produce macro insights.
 
@@ -77,7 +83,7 @@ Long-term:
 
 - Become the essential intelligence layer and value home for every trader
 
-# **Glossary**
+## **Glossary**
 
 **AI Agent** A personal AI model trained on user trading data, providing analysis, persona modeling, and interaction.
 

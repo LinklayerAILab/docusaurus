@@ -1,7 +1,5 @@
 # Legal Documents
 
-## **Legal Disclaimer**
-
 Welcome to the LinkLayerAI website and its products and services (collectively, the “Services”). Before using the Services, please carefully read this Legal Disclaimer. Accessing or using the Services indicates your understanding and acceptance of the following terms.
 
 ### **1\. Purpose of Information**
@@ -248,5 +246,3 @@ Terms disputes governed by Singapore law, resolved via Singapore International A
 - Users agree to electronic notifications; opt-out is available
 - Certain provisions remain effective after account termination
 - Terms constitute the complete agreement between users and LLA
-
-Contact: mkt@linklayer.ai

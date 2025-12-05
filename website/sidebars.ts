@@ -32,8 +32,8 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'docs/products/InsightsAgent',
-        'docs/products/TradingSocialForum',
         'docs/products/Protocol&Tokens',
+        'docs/products/TradingSocialForum',
       ],
     },
     {
@@ -42,8 +42,16 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'docs/technicalDocumentation/TechnicalArchitectur',
-        'docs/technicalDocumentation/SmartContracts',
-        'docs/technicalDocumentation/AuditReports',
+        {
+          type: 'doc',
+          id: 'docs/technicalDocumentation/SmartContracts',
+          label: 'Smart Contracts',
+        },
+        {
+          type: 'doc',
+          id: 'docs/technicalDocumentation/AuditReports',
+          label: 'Audit Reports',
+        },
       ],
     },
     {
@@ -52,8 +60,8 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'docs/resources&Ecosystem/Litepaper',
-        'docs/resources&Ecosystem/LegalDocuments',
         'docs/resources&Ecosystem/ProhibitedCountriesandRegions',
+        'docs/resources&Ecosystem/LegalDocuments',
       ],
     },
   ],
