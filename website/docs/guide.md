@@ -29,18 +29,18 @@ We currently support the following cryptocurrency exchanges:
 
 Desktop configuration guides are available for users who prefer to set up their API keys through web browsers:
 
-- [**Binance PC**](./guide/bnpc) - Configure Binance API via web platform
-- [**OKX PC**](./guide/okxpc) - Configure OKX API via web platform
-- [**Bitget PC**](./guide/bitgetpc) - Configure Bitget API via web platform
-- [**Bybit PC**](./guide/bybitpc) - Configure Bybit API via web platform
+- [**Binance PC**](guide/bnpc) - Configure Binance API via web platform
+- [**OKX PC**](guide/okxpc) - Configure OKX API via web platform
+- [**Bitget PC**](guide/bitgetpc) - Configure Bitget API via web platform
+- [**Bybit PC**](guide/bybitpc) - Configure Bybit API via web platform
 
 ### Mobile App Configuration
 
 Mobile configuration guides for users who prefer to set up API keys using exchange mobile applications:
 
-- [**Binance App**](./guide/bnapp) - Configure Binance API via mobile app
-- [**OKX App**](./guide/okxapp) - Configure OKX API via mobile app
-- [**Bitget App**](./guide/bitgetapp) - Configure Bitget API via mobile app
+- [**Binance App**](guide/bnapp) - Configure Binance API via mobile app
+- [**OKX App**](guide/okxapp) - Configure OKX API via mobile app
+- [**Bitget App**](guide/bitgetapp) - Configure Bitget API via mobile app
 
 ## General Configuration Process
 
