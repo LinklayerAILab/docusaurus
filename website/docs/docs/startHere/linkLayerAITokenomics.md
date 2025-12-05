@@ -1,5 +1,3 @@
-
-
 # LinkLayerAI Tokenomics
 
-*Coming soon…*
+_Coming soon…_

@@ -1,4 +1,3 @@
-
 # Legal Documents
 
 ## **Legal Disclaimer**
@@ -41,10 +40,10 @@ Service functionality may change due to technology upgrades, regulatory requirem
 
 Using LinkLayerAI services may involve various risks, including but not limited to:
 
-* Asset loss due to market volatility
-* Model bias or incompleteness in trading data analysis
-* Technical failures, network latency, or system interruptions
-* Data upload, storage, and processing risks
+- Asset loss due to market volatility
+- Model bias or incompleteness in trading data analysis
+- Technical failures, network latency, or system interruptions
+- Data upload, storage, and processing risks
 
 Users must fully understand and assume all associated risks. LinkLayerAI is not liable for any direct or indirect losses arising from the use of its services.
 
@@ -74,9 +73,9 @@ By accessing or using the Platform, interacting with us, or providing data, you 
 
 ### **1\. Definitions**
 
-* Cookie or Cookie Data: Technical and data elements as described in Section 7\.
-* Personal Data: Any information that directly or indirectly identifies an individual, including wallet addresses, and other data protected by applicable data protection laws.
-* Sources: Data sources as described in Section 4\.
+- Cookie or Cookie Data: Technical and data elements as described in Section 7\.
+- Personal Data: Any information that directly or indirectly identifies an individual, including wallet addresses, and other data protected by applicable data protection laws.
+- Sources: Data sources as described in Section 4\.
 
 ### **2\. Scope**
 
@@ -88,43 +87,43 @@ It does not govern interactions with third-party service providers unless author
 
 Depending on Platform use, we may collect:
 
-* Identity & contact info: wallet address, email, username
-* User records: trading analysis, personalized reports, interaction logs
-* Device info: IP address, browser, OS, device IDs, app installation info
-* Communications & requests: info from support, forms, surveys
-* User content: trading data, location, timestamps
-* Cookies: for functionality, analytics, security, personalization
-* Marketing info: preferences, registration details for newsletters/offers
-* Location info: device or inferred geographic location
-* User profiles & inferences: preferences, behaviors, and personalized analysis
+- Identity & contact info: wallet address, email, username
+- User records: trading analysis, personalized reports, interaction logs
+- Device info: IP address, browser, OS, device IDs, app installation info
+- Communications & requests: info from support, forms, surveys
+- User content: trading data, location, timestamps
+- Cookies: for functionality, analytics, security, personalization
+- Marketing info: preferences, registration details for newsletters/offers
+- Location info: device or inferred geographic location
+- User profiles & inferences: preferences, behaviors, and personalized analysis
 
 ### **4\. Data Sources**
 
-* Directly provided: registration, forms, API authorization, or activity participation
-* Third-party public channels: exchange data, social trading data
-* Third-party service providers: with user authorization
-* Automated platform generation: AI Agent, cookies, or platform behavior analysis
+- Directly provided: registration, forms, API authorization, or activity participation
+- Third-party public channels: exchange data, social trading data
+- Third-party service providers: with user authorization
+- Automated platform generation: AI Agent, cookies, or platform behavior analysis
 
 ### **5\. Data Usage Purposes**
 
 We and authorized third parties process data for:
 
-* Service provision: dashboards, personalized reports, AI analysis, support
-* Analytics & optimization: feature improvement, research, satisfaction surveys
-* Personalized experience: content, reports, recommendations
-* Security & risk management
-* Legal compliance & rights protection
-* Internal auditing & business management
+- Service provision: dashboards, personalized reports, AI analysis, support
+- Analytics & optimization: feature improvement, research, satisfaction surveys
+- Personalized experience: content, reports, recommendations
+- Security & risk management
+- Legal compliance & rights protection
+- Internal auditing & business management
 
 Data may also be anonymized or de-identified for statistics, industry analysis, and platform optimization.
 
 ### **6\. Data Sharing & Disclosure**
 
-* Service providers: developers, auditors, platform support
-* Affiliates & partners: for personalized content/services
-* Legal requirements: court orders, government, or law enforcement
-* Business transfer: mergers, acquisitions, sales, restructuring
-* Protection of rights: fraud prevention, platform/user safety
+- Service providers: developers, auditors, platform support
+- Affiliates & partners: for personalized content/services
+- Legal requirements: court orders, government, or law enforcement
+- Business transfer: mergers, acquisitions, sales, restructuring
+- Protection of rights: fraud prevention, platform/user safety
 
 ### **7\. Cookies & Analytics**
 
@@ -144,12 +143,12 @@ Data may be transferred to overseas servers or third-party providers, with compl
 
 Where applicable, users have the right to:
 
-* Access, correct, or update data
-* Restrict processing
-* Data portability
-* Object to certain processing, including marketing
-* Withdraw consent (does not affect prior lawful processing)
-* Lodge complaints with regulators
+- Access, correct, or update data
+- Restrict processing
+- Data portability
+- Object to certain processing, including marketing
+- Withdraw consent (does not affect prior lawful processing)
+- Lodge complaints with regulators
 
 Contact: mkt@linklayer.ai
 
@@ -173,10 +172,7 @@ By using the Services, users can upload trading data from exchanges and on-chain
 
 Users’ data becomes quantifiable and tradable assets, and on-chain incentives reward data contributors and active users.
 
-Definitions: “User,” “You,” or “Your” refers to any individual or entity using the Services. If representing a company/entity, you confirm:
-(a) Authority to accept Terms on behalf of the entity
-(b) Agreement to comply with Terms in entity’s name
-(c) Responsibility for entity’s actions
+Definitions: “User,” “You,” or “Your” refers to any individual or entity using the Services. If representing a company/entity, you confirm: (a) Authority to accept Terms on behalf of the entity (b) Agreement to comply with Terms in entity’s name (c) Responsibility for entity’s actions
 
 Please read carefully. Use or acceptance of Services constitutes agreement to these Terms.
 
@@ -186,38 +182,38 @@ LLA reserves the right to modify Terms at any time. Major changes will be notifi
 
 ### **Accessing the Service**
 
-* Service use requires linking LLA with third-party wallets (MetaMask, OKX/Binance Wallet, etc.).
-* Accounts bind wallet addresses for identity verification, asset ownership, and incentive distribution. Deletion may take several days. Deleted accounts will remove personal information and cancel pending rewards.
-* Users must comply with wallet terms; LLA does not control wallet assets.
-* Users must follow all applicable laws and regulations, and may be asked to provide additional verification.
+- Service use requires linking LLA with third-party wallets (MetaMask, OKX/Binance Wallet, etc.).
+- Accounts bind wallet addresses for identity verification, asset ownership, and incentive distribution. Deletion may take several days. Deleted accounts will remove personal information and cancel pending rewards.
+- Users must comply with wallet terms; LLA does not control wallet assets.
+- Users must follow all applicable laws and regulations, and may be asked to provide additional verification.
 
 ### **Age Restrictions**
 
-* Users must be 18+
-* Users 13–17 must use parent/guardian accounts
-* Users under 13 are prohibited
+- Users must be 18+
+- Users 13–17 must use parent/guardian accounts
+- Users under 13 are prohibited
 
 ### **Ownership & License**
 
-* All Services content is proprietary to LLA or licensors.
-* Unauthorized copying, modification, derivative creation, or commercial use is prohibited.
-* Feedback or suggestions submitted grant LLA global, royalty-free rights for improvement and commercialization.
-* LLA grants a limited, non-exclusive, non-transferable license for personal use only.
+- All Services content is proprietary to LLA or licensors.
+- Unauthorized copying, modification, derivative creation, or commercial use is prohibited.
+- Feedback or suggestions submitted grant LLA global, royalty-free rights for improvement and commercialization.
+- LLA grants a limited, non-exclusive, non-transferable license for personal use only.
 
 ### **Third-Party Materials**
 
-* Services may include third-party content (exchanges, APIs, market data). Users assume all associated risks.
+- Services may include third-party content (exchanges, APIs, market data). Users assume all associated risks.
 
 ### **User Activity**
 
 Users must not:
 
-* Infringe rights or laws
-* Upload illegal, harassing, obscene, defamatory, or offensive content
-* Interfere with Services
-* Access others’ accounts without authorization
-* Use automated tools without permission
-* Engage in money laundering, terrorist financing, or illegal transactions
+- Infringe rights or laws
+- Upload illegal, harassing, obscene, defamatory, or offensive content
+- Interfere with Services
+- Access others’ accounts without authorization
+- Use automated tools without permission
+- Engage in money laundering, terrorist financing, or illegal transactions
 
 ### **Intellectual Property Rights**
 
@@ -245,13 +241,12 @@ Terms disputes governed by Singapore law, resolved via Singapore International A
 
 ### **Miscellaneous**
 
-* Refer to Privacy Policy for data handling
-* LLA may modify, suspend, or terminate Services
-* Partial invalidity of Terms does not affect other provisions
-* Violation may result in irreparable harm; LLA may seek equitable remedies
-* Users agree to electronic notifications; opt-out is available
-* Certain provisions remain effective after account termination
-* Terms constitute the complete agreement between users and LLA
+- Refer to Privacy Policy for data handling
+- LLA may modify, suspend, or terminate Services
+- Partial invalidity of Terms does not affect other provisions
+- Violation may result in irreparable harm; LLA may seek equitable remedies
+- Users agree to electronic notifications; opt-out is available
+- Certain provisions remain effective after account termination
+- Terms constitute the complete agreement between users and LLA
 
 Contact: mkt@linklayer.ai
-
