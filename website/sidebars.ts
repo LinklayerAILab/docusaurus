@@ -5,7 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
@@ -21,9 +20,9 @@ const sidebars: SidebarsConfig = {
       label: 'Start Here',
       collapsed: false,
       items: [
-        'docs/startHere/whatIsLinkLayerAI',
-        'docs/startHere/whyLinkLayerAI',
-        'docs/startHere/linkLayerAITokenomics',
+        'docs/startHere/WhatIsLinkLayerAI',
+        'docs/startHere/WhyLinkLayerAI',
+        'docs/startHere/LinkLayerAITokenomics',
         'docs/startHere/FAQ&Glossary',
       ],
     },
@@ -32,9 +31,9 @@ const sidebars: SidebarsConfig = {
       label: 'LinkLayerAI Products',
       collapsed: false,
       items: [
-        'docs/products/insightsAgent',
-        'docs/products/tradingSocialForum',
-        'docs/products/protocol&Tokens',
+        'docs/products/InsightsAgent',
+        'docs/products/TradingSocialForum',
+        'docs/products/Protocol&Tokens',
       ],
     },
     {
@@ -42,9 +41,9 @@ const sidebars: SidebarsConfig = {
       label: 'Technical Documentation',
       collapsed: false,
       items: [
-        'docs/technicalDocumentation/technicalArchitectur',
-        'docs/technicalDocumentation/smartContracts',
-        'docs/technicalDocumentation/auditReports',
+        'docs/technicalDocumentation/TechnicalArchitectur',
+        'docs/technicalDocumentation/SmartContracts',
+        'docs/technicalDocumentation/AuditReports',
       ],
     },
     {
@@ -52,59 +51,43 @@ const sidebars: SidebarsConfig = {
       label: 'Resources & Ecosystem',
       collapsed: false,
       items: [
-        'docs/resources&Ecosystem/litepaper',
-        'docs/resources&Ecosystem/legalDocuments',
-        'docs/resources&Ecosystem/prohibitedCountriesandRegions',
+        'docs/resources&Ecosystem/Litepaper',
+        'docs/resources&Ecosystem/LegalDocuments',
+        'docs/resources&Ecosystem/ProhibitedCountriesandRegions',
       ],
     },
   ],
 
   // API Documentation sidebar
-  docs: [
-    'intro',
+  guide: [
+    {
+      type: 'doc',
+      id: 'guide',
+      label: 'Overview',
+    },
     {
       type: 'category',
-      label: 'API Configuration Guide',
-      link: {
-        type: 'generated-index',
-        title: 'API Configuration Guide',
-        description: 'View API key configuration tutorials for various exchanges',
-        keywords: ['api', 'configuration', 'exchange'],
-      },
+      label: 'Binance',
       collapsed: false,
-      items: [
-        {
-          type: 'category',
-          label: 'Binance',
-          items: [
-            'api/bnpc',
-            'api/bnapp',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'OKX',
-          items: [
-            'api/okxpc',
-            'api/okxapp',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Bitget',
-          items: [
-            'api/bitgetpc',
-            'api/bitgetapp',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Bybit',
-          items: [
-            'api/bybitpc',
-          ],
-        },
-      ],
+      items: ['guide/bnpc', 'guide/bnapp'],
+    },
+    {
+      type: 'category',
+      label: 'OKX',
+      collapsed: false,
+      items: ['guide/okxpc', 'guide/okxapp'],
+    },
+    {
+      type: 'category',
+      label: 'Bitget',
+      collapsed: false,
+      items: ['guide/bitgetpc', 'guide/bitgetapp'],
+    },
+    {
+      type: 'category',
+      label: 'Bybit',
+      collapsed: false,
+      items: ['guide/bybitpc'],
     },
   ],
 };

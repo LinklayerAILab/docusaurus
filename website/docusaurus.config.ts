@@ -33,6 +33,8 @@ const config: Config = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          id: 'default',
+          path: 'docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl: undefined,
@@ -76,7 +78,7 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'docs',
+          sidebarId: 'guide',
           position: 'left',
           label: 'API Guide',
         },

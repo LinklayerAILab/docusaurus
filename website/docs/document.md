@@ -1,6 +1,7 @@
 ---
+id: document
 sidebar_position: 0
-slug: /document
+slug: /
 ---
 
 # LinkLayer AI Documentation

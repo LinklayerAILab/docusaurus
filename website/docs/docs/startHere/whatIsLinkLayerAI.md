@@ -14,28 +14,27 @@ Real exchange API data / on-chain trading behavior
 
 Market prices, orderflow, on-chain signals, sentiment indicators, liquidity factors, and more
 
-Users can connect read-only exchange APIs or on-chain addresses. The protocol automatically aggregates their live trading records, behavioral patterns, and risk preferences.
-AI then structures this raw data, including:
+Users can connect read-only exchange APIs or on-chain addresses. The protocol automatically aggregates their live trading records, behavioral patterns, and risk preferences. AI then structures this raw data, including:
 
-* Strategy identification
-* Behavioral pattern analysis
-* Performance feature extraction
-* Risk profiling
-* Multi-dimensional persona modeling
+- Strategy identification
+- Behavioral pattern analysis
+- Performance feature extraction
+- Risk profiling
+- Multi-dimensional persona modeling
 
 # **Core Outputs**
 
 Based on its analysis, the system produces three primary outputs:
 
-### **• Trading Persona**
+**• Trading Persona**
 
 A complete behavioral and strategic profile of the trader.
 
-### **• Loss Debriefing**
+**• Loss Debriefing**
 
 Identifying the root causes of losses based on actual trading actions and behavioral signals.
 
-### **• Personalized Insights**
+**• Personalized Insights**
 
 Actionable optimization suggestions generated from the user’s live trading data and macro market factors.
 
@@ -53,19 +52,18 @@ Under this mechanism, trading behavior is not only analyzed but also rewarded, f
 
 Trading data in LinkLayerAI evolves into three fundamental asset types:
 
-### **1\. Behavioral Model (Persona)**
+### **3\. Behavioral Model (Persona)**
 
 A structured representation of trading style, emotional tendencies, and risk habits.
 
-### **2\. Interactive Agent (Agent Interaction)**
+### **4\. Interactive Agent (Agent Interaction)**
 
 A personal AI trained on your data—capable of analysis, Q\&A, debriefing, and continuous adaptation.
 
-### **3\. Data Asset Layer (Data Assetization)**
+### **5\. Data Asset Layer (Data Assetization)**
 
 Your trading data becomes a quantifiable, incentivized, on-chain asset class.
 
 # **Mission & Vision**
 
-LinkLayerAI aims to build a next-generation Web3 trading social network—
-one where every piece of trading data becomes **interpretable, interactive, collaborative, and valuable**, enabling traders worldwide to fully realize the value of their own data.
+LinkLayerAI aims to build a next-generation Web3 trading social network— one where every piece of trading data becomes **interpretable, interactive, collaborative, and valuable**, enabling traders worldwide to fully realize the value of their own data.
