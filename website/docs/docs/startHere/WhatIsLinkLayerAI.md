@@ -2,15 +2,15 @@
 
 LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value.
 
-## **Multi-Dimensional Trading Data**
+## Multi-Dimensional Trading Data
 
 In LinkLayerAI, multi-dimensional data includes:
 
-### **1\. Personal Live Trading Data**
+1\. Personal Live Trading Data
 
 Real exchange API data / on-chain trading behavior
 
-### **2\. Public Market Data**
+2\. Public Market Data
 
 Market prices, orderflow, on-chain signals, sentiment indicators, liquidity factors, and more
 
@@ -22,7 +22,7 @@ Users can connect read-only exchange APIs or on-chain addresses. The protocol au
 - Risk profiling
 - Multi-dimensional persona modeling
 
-# **Core Outputs**
+## Core Outputs
 
 Based on its analysis, the system produces three primary outputs:
 
@@ -40,7 +40,7 @@ Actionable optimization suggestions generated from the user’s live trading dat
 
 By integrating personal and public datasets, the AI Agent builds validated behavioral profiles, risk maps, and strategy signatures. Social connections are no longer superficial or label-based; they naturally emerge from **actual performance, risk patterns, and strategic similarity**.
 
-# **Incentives and Data Assetization**
+## Incentives and Data Assetization
 
 LinkLayerAI distills each user’s trading data into a **measurable, referenceable, and rewardable value unit**.
 
@@ -48,22 +48,22 @@ Data collection, modeling, and verification occur off-chain through the AI syste
 
 Under this mechanism, trading behavior is not only analyzed but also rewarded, forming a sustainable value loop.
 
-# **Three Core Asset Forms**
+## Three Core Asset Forms
 
 Trading data in LinkLayerAI evolves into three fundamental asset types:
 
-### **3\. Behavioral Model (Persona)**
+**1\. Behavioral Model (Persona)**
 
 A structured representation of trading style, emotional tendencies, and risk habits.
 
-### **4\. Interactive Agent (Agent Interaction)**
+**2\. Interactive Agent (Agent Interaction)**
 
 A personal AI trained on your data—capable of analysis, Q\&A, debriefing, and continuous adaptation.
 
-### **5\. Data Asset Layer (Data Assetization)**
+**3\. Data Asset Layer (Data Assetization)**
 
 Your trading data becomes a quantifiable, incentivized, on-chain asset class.
 
-# **Mission & Vision**
+## Mission & Vision
 
 LinkLayerAI aims to build a next-generation Web3 trading social network— one where every piece of trading data becomes **interpretable, interactive, collaborative, and valuable**, enabling traders worldwide to fully realize the value of their own data.

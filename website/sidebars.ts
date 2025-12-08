@@ -31,7 +31,11 @@ const sidebars: SidebarsConfig = {
       label: 'LinkLayerAI Products',
       collapsed: false,
       items: [
-        'docs/products/InsightsAgent',
+        {
+          type: 'doc',
+          id: 'docs/products/InsightsAgent',
+          label: 'Insights Agent',
+        },
         'docs/products/Protocol&Tokens',
         'docs/products/TradingSocialForum',
       ],
