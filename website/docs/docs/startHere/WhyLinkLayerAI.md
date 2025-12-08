@@ -87,4 +87,4 @@ A movement to reclaim data sovereignty, enhance intelligence, and build new trus
 
 In LinkLayerAI, every trade is no longer an endpoint
 
-it is the beginning of value creation.\*\*
+it is the beginning of value creation.

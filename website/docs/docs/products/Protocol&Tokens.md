@@ -22,15 +22,15 @@ All value flows are **recorded on-chain** for verifiable transparency.
 
 The system does not artificially distinguish between complex roles but instead **automates the calculation along the axis of “Contribution → Value → Incentive”**:
 
-1. **Data Contribution** Measures the trader’s contribution via real trading data, including:
+- **Data Contribution** Measures the trader’s contribution via real trading data, including:
 
-   - Trade depth
-   - Long-term consistency
-   - API data quality
+  - Trade depth
+  - Long-term consistency
+  - API data quality
 
-2. **Interaction Contribution** Evaluates the value of user actions in Agent invocations, strategy execution, and model feedback loops.
+- **Interaction Contribution** Evaluates the value of user actions in Agent invocations, strategy execution, and model feedback loops.
 
-3. **Ecosystem Participation** Tracks user activity in nodes, liquidity provision, and peripheral strategy markets.
+- **Ecosystem Participation** Tracks user activity in nodes, liquidity provision, and peripheral strategy markets.
 
 These contracts work in an **event-driven manner**, enabling the protocol to allocate rewards automatically and transparently. In essence, the system creates an **on-chain trust metric where data and behavior themselves are equity**.
 

@@ -6,22 +6,22 @@ slug: /api-guide
 
 # API Configuration Guide
 
-Welcome to the LinkLayer API Configuration Guide. This comprehensive guide will help you set up API keys for various cryptocurrency exchanges to connect with the LinkLayer platform.
+Welcome to the LinkLayerAI API Configuration Guide. This comprehensive guide will help you set up API keys for various cryptocurrency exchanges to connect with the LinkLayerAI platform.
 
 ## Overview
 
-LinkLayer provides seamless integration with major cryptocurrency exchanges through secure API connections. This guide covers step-by-step instructions for configuring read-only API keys across different platforms and devices.
+LinkLayerAI provides seamless integration with major cryptocurrency exchanges through secure API connections. This guide covers step-by-step instructions for configuring read-only API keys across different platforms and devices.
 
 ## Supported Exchanges
 
 We currently support the following cryptocurrency exchanges:
 
-| Exchange    | PC Configuration | App Configuration |
-| ----------- | ---------------- | ----------------- |
-| **Binance** | ✓                | ✓                 |
-| **OKX**     | ✓                | ✓                 |
-| **Bitget**  | ✓                | ✓                 |
-| **Bybit**   | ✓                | -                 |
+| Exchange    | PC Configuration   | App Configuration  |
+| ----------- | ------------------ | ------------------ |
+| **Binance** | <center>✓</center> | <center>✓</center> |
+| **OKX**     | <center>✓</center> | <center>✓</center> |
+| **Bitget**  | <center>✓</center> | <center>✓</center> |
+| **Bybit**   | <center>✓</center> | <center>-</center> |
 
 ## Configuration Options
 
@@ -55,13 +55,13 @@ All API configuration guides follow a similar workflow:
 
 ## Security Best Practices
 
-When configuring API keys for LinkLayer, please follow these security guidelines:
+When configuring API keys for LinkLayerAI, please follow these security guidelines:
 
 ### Read-Only Permissions
 
 - Always set API keys to **read-only** mode
 - Never enable trading or withdrawal permissions
-- This ensures LinkLayer can only view data, not execute transactions
+- This ensures LinkLayerAI can only view data, not execute transactions
 
 ### Key Management
 
@@ -84,7 +84,7 @@ If you encounter any issues during setup, please contact our support team for as
 ## Important Notes
 
 - All guides emphasize **read-only** API permissions for maximum security
-- API keys created through LinkLayer guides cannot execute trades or withdrawals
+- API keys created through LinkLayerAI guides cannot execute trades or withdrawals
 - Each exchange may have different interface layouts, but the general process remains similar
 - Screenshots in guides are for reference and may differ slightly from current exchange interfaces
 

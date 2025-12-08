@@ -4,19 +4,19 @@ sidebar_position: 0
 slug: /
 ---
 
-# LinkLayer AI Documentation
+# LinkLayerAI Documentation
 
-Welcome to the LinkLayer AI documentation. This comprehensive guide will help you understand our platform, products, and technical architecture.
+Welcome to the LinkLayerAI documentation. This comprehensive guide will help you understand our platform, products, and technical architecture.
 
 ## 📚 Documentation Sections
 
 ### Start Here
 
-Begin your journey with LinkLayer AI by understanding the fundamentals:
+Begin your journey with LinkLayerAI by understanding the fundamentals:
 
-- [**What Is LinkLayer AI**](docs/startHere/whatIsLinkLayerAI) - Learn about our platform and mission
-- [**Why LinkLayer AI**](docs/startHere/whyLinkLayerAI) - Discover the benefits and advantages
-- [**LinkLayer AI Tokenomics**](docs/startHere/linkLayerAITokenomics) - Understand our token economy
+- [**What Is LinkLayerAI**](docs/startHere/whatIsLinkLayerAI) - Learn about our platform and mission
+- [**Why LinkLayerAI**](docs/startHere/whyLinkLayerAI) - Discover the benefits and advantages
+- [**LinkLayerAI Tokenomics**](docs/startHere/linkLayerAITokenomics) - Understand our token economy
 - [**FAQ & Glossary**](docs/startHere/FAQ&Glossary) - Find answers to common questions
 
 ### LinkLayerAI Products
@@ -29,7 +29,7 @@ Explore our suite of products and services:
 
 ### Technical Documentation
 
-Deep dive into the technical aspects of LinkLayer AI:
+Deep dive into the technical aspects of LinkLayerAI:
 
 - [**Technical Architecture**](docs/technicalDocumentation/technicalArchitectur) - System design and architecture
 - [**Smart Contracts**](docs/technicalDocumentation/smartContracts) - Blockchain contract documentation
@@ -45,7 +45,7 @@ Additional resources and important information:
 
 ## 🚀 Quick Links
 
-- **New Users**: Start with [What Is LinkLayer AI](docs/startHere/whatIsLinkLayerAI)
+- **New Users**: Start with [What Is LinkLayerAI](docs/startHere/whatIsLinkLayerAI)
 - **Developers**: Check out our [Technical Architecture](docs/technicalDocumentation/technicalArchitectur)
 - **Community**: Join our [Trading Social Forum](docs/products/tradingSocialForum)
 
