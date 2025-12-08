@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "private": true,
-  "description": "LinkLayer API Documentation",
+  "description": "LinkLayerAI API Documentation",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

@@ -64,9 +64,9 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'LinkLayer',
+      title: 'LinkLayerAI',
       logo: {
-        alt: 'LinkLayer Logo',
+        alt: 'LinkLayerAI Logo',
         src: 'img/icon.svg',
       },
       items: [
@@ -119,7 +119,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} LinkLayer. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} LinkLayerAI. Built with Docusaurus.`,
     },
     colorMode: {
       defaultMode: 'light',

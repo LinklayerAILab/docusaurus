@@ -36,6 +36,11 @@ const sidebars: SidebarsConfig = {
           id: 'docs/products/InsightsAgent',
           label: 'Insights Agent',
         },
+        {
+          type: 'doc',
+          id: 'docs/products/TokenAgent',
+          label: 'Token Agent',
+        },
         'docs/products/Protocol&Tokens',
         'docs/products/TradingSocialForum',
       ],
