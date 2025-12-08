@@ -1,8 +1,8 @@
 # Trading Social Forum
 
-### **— A Next-Generation Trading Community Based on “Real Trading Personas”**
+**— A Next-Generation Trading Community Based on “Real Trading Personas”**
 
-### **Product Overview**
+## **Product Overview**
 
 The Trading Social Forum is **not a conventional “pump-and-dump chat group” or generic social platform**. It is a **high-quality trading community built on real trading data and AI persona models**, where each user’s identity is **not merely an avatar or nickname**, but a **trading persona** formed through their trading behavior and strategy style.
 
@@ -10,7 +10,7 @@ Here, discussions, idea sharing, and strategy exchanges are **data-driven**, rat
 
 ## **Core Capabilities**
 
-### **1\. Persona-Based Trading Identity System**
+**1\. Persona-Based Trading Identity System**
 
 Each user in the forum has a **unique trading persona**, generated from multi-dimensional behavioral features such as historical trading data, strategy preferences, and risk tolerance. The system forms a **multi-layered tag structure**:
 
@@ -36,7 +36,7 @@ Each user in the forum has a **unique trading persona**, generated from multi-di
 
 Through this mechanism, the forum establishes an **unprecedented data-driven, quantifiable trading identity system**, tightly integrating **social interaction with trading behavior**.
 
-### **2\. Trustworthy Information Exchange**
+**2\. Trustworthy Information Exchange**
 
 The forum implements a **data-backed verification system**, ensuring the credibility and professionalism of discussions:
 
@@ -62,7 +62,7 @@ The forum implements a **data-backed verification system**, ensuring the credibi
 
 This approach **dramatically reduces blind following and emotional chatter**, enabling users to gain **professional insights based on real data**.
 
-### **3\. Community-Level Insights & Rankings**
+**3\. Community-Level Insights & Rankings**
 
 Through smart analysis and statistical processing, the forum provides **multi-dimensional insights and dynamic leaderboards**:
 
@@ -90,7 +90,7 @@ Through smart analysis and statistical processing, the forum provides **multi-di
 
 These features make the forum **not just a discussion space**, but a **core entry point for trading insights and learning**, helping users quickly identify high-value information and actionable strategies.
 
-### **4\. Agent Integration & Forum Interconnectivity**
+**4\. Agent Integration & Forum Interconnectivity**
 
 LinkLayerAI’s **Agents** not only analyze individual user trading data but also identify **behavioral patterns and social connections across the community**, transforming them into **forum discussion topics**:
 
