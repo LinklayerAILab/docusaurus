@@ -113,5 +113,3 @@ This cycle forms a structured, three-stage value logic:
 Within this mechanism, LLAx is continuously burned, and LLA is continuously bought back, constituting a stable deflationary structure. The token value is anchored to real ecosystem revenue, while ecosystem growth, in turn, brings more activity, greater Equity, and stronger value, thereby accelerating the flywheel effect.
 
 Ultimately, LLA carries the protocol's value and governance functions, while LLAx focuses on contribution incentives. Together, they form a sustainable, sell-pressure resistant, strongly incentivized, dual-token economic system backed by real revenue.
-
-\*\*
