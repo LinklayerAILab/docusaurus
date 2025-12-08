@@ -42,7 +42,7 @@ The LLA Protocol employs a **dual-token model**:
 
 They serve **complementary roles** within the ecosystem.
 
-### **1\. LLA — Governance Token**
+### **\. LLA — Governance Token**
 
 LLA serves as the ecosystem’s **value anchor**, performing critical functions in governance and long-term coordination:
 
@@ -53,7 +53,7 @@ LLA serves as the ecosystem’s **value anchor**, performing critical functions 
 
 LLA ensures **protocol consistency and community-driven evolution**.
 
-### **2\. LLAx — Equity Token**
+### **\. LLAx — Equity Token**
 
 LLAx is a **practical, scenario-driven token** used to measure multi-role contributions and facilitate internal circulation. It does **not** carry governance rights but drives daily ecosystem operations.
 
@@ -71,14 +71,14 @@ LLAx growth is fully **tied to user behavior**, serving as the **energy and cred
 
 The protocol primarily serves **three roles**: **Traders**, **Trader-Leaders**, and **Advertisers/Projects**.
 
-### **1\. Traders — Core Users**
+### **\. Traders — Core Users**
 
 - **Participation**: Submit read-only exchange APIs or on-chain addresses, continuously generating real trading data.
 - **Value Measurement**: Contracts score traders based on data quality, stability, strategy diversity, and market mapping; the Agent updates persona trust dynamically.
 - **Rewards**: LLAx is distributed periodically based on contribution and can be used to access enhanced services, visibility in the community, or ranking rewards.
 - **Value Proposition**: Traders receive immediate LLAx rewards while improving their persona weight over time, gaining more visibility and influence in social recommendation and copy trading systems.
 
-### **2\. Trader-Leaders — Trust Amplifiers**
+### **\. Trader-Leaders — Trust Amplifiers**
 
 - **Definition**: Users recognized by the community and contracts as “Leaders” due to stable performance, strategic influence, or high copy rates.
 - **Role**: Act as signal sources and strategy amplifiers; their strategies are more likely to be recommended, attracting followers to copy or subscribe.
@@ -86,7 +86,7 @@ The protocol primarily serves **three roles**: **Traders**, **Trader-Leaders**, 
 - **Incentives**: Receive higher LLAx allocation, exclusive display spots, or priority in advertising pools. Their actions amplify the impact of marketing campaigns.
 - **Governance & Growth**: Leader qualifications and weights are recorded on governance contracts, with community oversight via LLA holders to ensure fairness.
 
-### **3\. Advertisers / Projects — Demand Side**
+### **\. Advertisers / Projects — Demand Side**
 
 - **Participation**: Promote products or campaigns targeted at specific Trading Personas or rank-based placements.
 - **Settlement & Measurement**: Budgets deposited in LLAx or stablecoins are processed via smart contracts, settled only after verifiable events such as strategy copies or engagement.
