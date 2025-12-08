@@ -150,8 +150,6 @@ Where applicable, users have the right to:
 - Withdraw consent (does not affect prior lawful processing)
 - Lodge complaints with regulators
 
-Contact: mkt@linklayer.ai
-
 **11\. Data Retention**
 
 Data is retained as long as necessary for processing, legal requirements, or dispute resolution, then deleted or anonymized.
@@ -248,3 +246,5 @@ Terms disputes governed by Singapore law, resolved via Singapore International A
 - Users agree to electronic notifications; opt-out is available
 - Certain provisions remain effective after account termination
 - Terms constitute the complete agreement between users and LLA
+
+Contact: mkt@linklayer.ai
