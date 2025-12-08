@@ -6,11 +6,11 @@ LinkLayerAI is an intelligent incentive protocol built around multi-dimensional 
 
 In LinkLayerAI, multi-dimensional data includes:
 
-1\. Personal Live Trading Data
+**1\. Personal Live Trading Data**
 
 Real exchange API data / on-chain trading behavior
 
-2\. Public Market Data
+**2\. Public Market Data**
 
 Market prices, orderflow, on-chain signals, sentiment indicators, liquidity factors, and more
 

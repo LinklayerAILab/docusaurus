@@ -22,9 +22,9 @@ LinkLayerAI is the first protocol to **systematically implement “Trading Data 
 
 We bring data to life through AI Agents, turning raw records into:
 
-- **Understandable Behavioral Models (Persona)**
-- **Interactive Intelligent Agents (Agent Interaction)**
-- **Rewardable On-Chain Assets (Data Assetization)**
+- Understandable Behavioral Models (Persona)
+- Interactive Intelligent Agents (Agent Interaction)
+- Rewardable On-Chain Assets (Data Assetization)
 
 LinkLayerAI returns data ownership and value back to users.
 
