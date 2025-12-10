@@ -12,9 +12,7 @@
 
 **Q2: Will my real trading records or identity be exposed?**
 
-**A:** No.
-
-We apply strict privacy measures:
+**A:** No.We apply strict privacy measures:
 
 - All identifiable information is anonymized
 - Only high-level persona traits or summarized indicators are visible to others
@@ -30,7 +28,7 @@ We will never sell your personal data. Only anonymized, aggregated data may be u
 
 **Q4: What exactly is a Trading Persona?**
 
-**A:**A dynamic digital identity built through multi-dimensional analysis of your live trading data. It includes:
+**A:** A dynamic digital identity built through multi-dimensional analysis of your live trading data. It includes:
 
 - Behavioral patterns
 - Strategy preferences
@@ -41,7 +39,7 @@ It evolves with your trading behavior.
 
 **Q5: How is the AI Agent different from typical trading tools?**
 
-**A:**Key differences:
+**A:** Key differences:
 
 - It is exclusive to your data
 - It allows conversational interaction
@@ -55,9 +53,7 @@ It evolves with your trading behavior.
 
 **Q7: Does trading more mean earning more rewards?**
 
-**A:** No.
-
-Rewards focus on **quality**, not quantity:
+**A:** No.Rewards focus on **quality**, not quantity:
 
 - valuable and consistent data
 - meaningful insights or reviews
@@ -65,9 +61,7 @@ Rewards focus on **quality**, not quantity:
 
 **Q8: Can beginners earn rewards too?**
 
-**A:** Absolutely.
-
-Beginners can contribute by:
+**A:** Absolutely.Beginners can contribute by:
 
 - learning through AI insights
 - joining discussions
@@ -85,7 +79,7 @@ Beginners can contribute by:
 
 **Q10: What is the future plan for LinkLayerAI?**
 
-**A:**We aim to build the world’s largest AI-powered trading data value network.
+**A:** We aim to build the world’s largest AI-powered trading data value network.
 
 Short-term:
 
