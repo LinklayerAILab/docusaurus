@@ -1,16 +1,16 @@
 # What Is LinkLayerAI
 
-LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value.
+LinkLayerAI is a network that integrates AI agents with real trading data, reconstructing social interaction and value discovery based on data commonality. It is also an intelligent incentive protocol built on multidimensional trading data. Through the analysis, modeling, and tokenization of global traders’ real trading data by AI agents, it ultimately forms a scalable, open, and sustainable data-value network.
 
 ## Multi-Dimensional Trading Data
 
 In LinkLayerAI, multi-dimensional data includes:
 
-**1\. Personal Live Trading Data**
+1\. Personal Live Trading Data
 
 Real exchange API data / on-chain trading behavior
 
-**2\. Public Market Data**
+2\. Public Market Data
 
 Market prices, orderflow, on-chain signals, sentiment indicators, liquidity factors, and more
 
@@ -26,9 +26,11 @@ Users can connect read-only exchange APIs or on-chain addresses. The protocol au
 
 Based on its analysis, the system produces three primary outputs:
 
-**• Trading Persona**
+**• Trading Persona and Social Interaction**
 
-A complete behavioral and strategic profile of the trader.
+A trading persona is the behavioral profile naturally formed from a trader’s long-term real trading data, reflecting their directional preferences, decision-making rhythms, and risk choices.
+
+Longer, Shorter, Scalper, and Newbie are not subjective labels but distinct persona types identified through trading data, collectively forming the fundamental spectrum of trading behavior.
 
 **• Loss Debriefing**
 
