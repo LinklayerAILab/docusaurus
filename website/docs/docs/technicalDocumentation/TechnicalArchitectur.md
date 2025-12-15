@@ -6,8 +6,6 @@ LinkLayerAI decomposes the entire **“data value production chain”** into fou
 
 These four layers form a **closed loop from data generation, feature extraction, value quantification, to application interaction**, enabling the system to be **sustainable, scalable, and incentivized**.
 
----
-
 ## **1\. Data Layer**
 
 The Data Layer is the **core foundation** of LinkLayerAI, driven by **real trading behavior** to build a **high-quality, multi-dimensional, structured data repository**.
@@ -42,8 +40,6 @@ All data undergoes:
 - **Behavior Embedding** (serialized into vector space for modeling)
 
 This forms the **Multi-Dimensional Trading Database**, covering **behavior, sequence, risk, factors, and labels**.
-
----
 
 ## **2\. Algorithm & Modeling Layer**
 
@@ -96,8 +92,6 @@ Composed of two key models:
 
 This is the **core model driving user-Agent interaction**.
 
----
-
 ## **3\. Incentive Layer**
 
 The Incentive Layer **assigns economic value to data flow and AI computation**, closing the loop: **Behavior → Data → Value → Reward**.
@@ -133,8 +127,6 @@ LLAx, the **application-layer token**, supports:
 - Participating in the Agent Marketplace (buy/sell strategies)
 
 The Incentive Layer ensures **ecosystem self-growth**.
-
----
 
 ## **4\. Agent Application Layer**
 

@@ -28,23 +28,17 @@ LinkLayerAI employs a dual-token economic system comprised of LLA and LLAx to ac
 
 Through the linkage of these three elements, a sustainably growing economic cycle, backed by real value, is constructed.
 
----
-
 ## LLA: Protocol Value Accrual & Governance Token
 
 LLA is the core value and governance vehicle of the LinkLayerAI ecosystem, representing the real economic foundation accumulated during the protocol's long-term operation. All ecosystem revenue originating from AI Agent services, data analysis services, API tools, and trading-related functionalities is automatically used via smart contracts to buy back and burn LLA, establishing it as the value anchor of the entire system. As the ecosystem scales and revenue grows, the buyback pressure on LLA intensifies correspondingly, creating a mechanism for continuous value concentration.
 
 Concurrently, LLA undertakes governance functions, serving as the credential for participating in key processes such as ecosystem decision-making, protocol upgrades, and parameter setting. LLA is not used for behavioral rewards nor short-term incentives; it focuses solely on the long-term roles of value accrual, profit accumulation, and governance rights. It is the sovereign asset within the economic system that ultimately captures value.
 
----
-
 ## LLAx: Ecosystem Behavioral Contribution & Equity Token
 
 LLAx is the behavioral incentive and contribution measurement token within LinkLayerAI, used to quantify users' genuine interactions within the ecosystem—including data contributions, strategy performance, trading authorizations, usage frequency, and social influence—into redeemable equity. LLAx can be unidirectionally converted into LLA, and is permanently burned (destroyed) in the conversion process, endowing it with a naturally deflationary property that intensifies as ecosystem usage grows.
 
 As the driver of ecosystem growth, LLAx is not directly tradable on open markets. Its purpose is to connect the path between "Behavior → Utility→ Value", allowing user participation to ultimately accrete into protocol value. Within the overall system, LLAx is responsible for incentivizing expansion, promoting activity, and driving ecosystem growth, while the value is ultimately channeled into LLA through its conversion and burn mechanism. This constitutes a healthy, sustainable, layered system of incentives and value.
-
----
 
 ## One-way Conversion Mechanism
 
@@ -71,8 +65,6 @@ In essence:
 - LLAx reflects contribution; LLA accrues value.
 - LLAx disappears after conversion; LLA strengthens with ecosystem development.
 
----
-
 ## Buyback Mechanism
 
 LinkLayerAI's ecosystem revenue originates from:
@@ -95,8 +87,6 @@ Buyback Logic:
    - Injected into the protocol value pool (e.g., for Staking / DAO purposes).
 
 The buyback mechanism provides a strong consensus foundation: More ecosystem usage → Stronger buybacks → Greater LLA scarcity → More stable value appreciation. This is the keystone supporting the entire economic system with "Real Value."
-
----
 
 ## Economic Model Summary
 
