@@ -9,7 +9,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'LinkLayer',
+  title: 'LinkLayerAI',
   tagline: 'Your Gateway to Crypto Exchange APIs',
   favicon: 'img/icon.svg',
 
@@ -17,7 +17,7 @@ const config: Config = {
   url: 'https://doc.linklayer.ai',
   baseUrl: '/',
 
-  organizationName: 'LinkLayer',
+  organizationName: 'LinkLayerAI',
   projectName: 'linklayer-docs',
 
   onBrokenLinks: 'warn',
@@ -100,12 +100,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: '#',
+              label: 'Telegram',
+              href: 'https://t.me/LinkLayerAiOfficial',
             },
             {
               label: 'Twitter',
-              href: '#',
+              href: 'https://x.com/intent/follow?screen_name=LinkLayerAI',
             },
           ],
         },
@@ -114,12 +114,16 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: '#',
+              href: 'https://github.com/LinklayerAILab',
+            },
+            {
+              label: 'Official Website',
+              href: 'https://www.linklayer.ai/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} LinkLayerAI. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} LinkLayerAI. All rights reserved.`,
     },
     colorMode: {
       defaultMode: 'light',

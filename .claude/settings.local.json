@@ -10,7 +10,9 @@
       "Bash(timeout 15 yarn serve:*)",
       "Bash(taskkill:*)",
       "Bash(yarn add:*)",
-      "Bash(yarn install:*)"
+      "Bash(yarn install:*)",
+      "Bash(node -e:*)",
+      "Bash(yarn start)"
     ],
     "deny": [],
     "ask": []
