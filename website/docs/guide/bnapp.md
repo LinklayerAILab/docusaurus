@@ -2,6 +2,12 @@
 
 ## Configuration Steps
 
+### Tip：
+
+Create your API key with Read-Only permissions only.
+
+👉 A Read-Only API cannot trade, withdraw, or operate your account — it can only view data. Your funds stay safe and untouched.
+
 1. On the Binance App homepage, click the top left corner.
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bnapp/bnapp1_compressed.png" width="350" />

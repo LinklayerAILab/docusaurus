@@ -2,6 +2,12 @@
 
 ## Configuration Steps
 
+### Tip：
+
+Create your API key with Read-Only permissions only.
+
+👉 A Read-Only API cannot trade, withdraw, or operate your account — it can only view data. Your funds stay safe and untouched.
+
 1. Click the top left corner on the Bitget App homepage
 
 <img src="https://cdn.linklayer.ai/webpage/doc/api/bitgetapp/bgapp1_compressed.png"  width="350" />

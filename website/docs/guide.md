@@ -1,7 +1,7 @@
 ---
 id: guide
 sidebar_position: 0
-slug: /api-guide
+slug: /guide
 ---
 
 # API Configuration Guide

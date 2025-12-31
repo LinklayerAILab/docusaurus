@@ -2,6 +2,12 @@
 
 ## Configuration Steps
 
+### Tip：
+
+Create your API key with Read-Only permissions only.
+
+👉 A Read-Only API cannot trade, withdraw, or operate your account — it can only view data. Your funds stay safe and untouched.
+
 1. Log in to your Bitget account, click the user icon in the top right corner, and click "API Keys".
 
 ![](https://cdn.linklayer.ai/webpage/doc/api/bitgetpc/bgpc1_compressed.png)
