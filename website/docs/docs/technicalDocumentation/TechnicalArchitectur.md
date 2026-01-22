@@ -1,178 +1,169 @@
 # Technical Architectur
 
-LinkLayerAI decomposes the entire **“data value production chain”** into four hierarchical layers:
+LinkLayerAI's technical system is goal-oriented towards the three core product lines and implemented with a verifiable, auditable engineering structure.
 
-**Data Layer → Algorithm & Modeling Layer → Incentive Layer → Agent Application Layer**
+- Alpha Agent (On-Chain State Machine): Targets Binance Alpha-related assets, outputting mid-cycle liquidity/structural state and risk change interpretation.
+- Perps Agent (CEX Contract Risk Control): Targets user-submitted exchange read-only APIs, outputting real-time position risk suggestions and compiling verifiable risk event statistics for data equity rewards.
+- Executable Trading Agent (Prediction Asset): Executes strategies transparently on-chain, forming publicly traceable records as the factual basis for prediction assets and market consensus.
 
-These four layers form a **closed loop from data generation, feature extraction, value quantification, to application interaction**, enabling the system to be **sustainable, scalable, and incentivized**.
+To support these product lines, the system is organized into four layers following the logic: Data → Computation → Settlement → Application/Execution:
+
+Data Layer → Algorithm & Modeling Layer → Incentive & Settlement Layer → Agent Application & Execution Layer.
+
+Concurrently, the system employs a backbone of "Unified Object Model + State Machines/Triggers + Evidence Chain Explanation Layer" to ensure outputs are explainable, traceable, and auditable.
 
 ## **1\. Data Layer**
 
-The Data Layer is the **core foundation** of LinkLayerAI, driven by **real trading behavior** to build a **high-quality, multi-dimensional, structured data repository**.
+### **1.1 Goal & Requirements**
 
-### **1.1 Public Market Data**
+- Goal: Construct a multi-source trading data foundation capable of real-time service, continuous historical analysis, and verifiable auditing.
+- Core Requirements: Multi-source integration, unified schema, real-time streaming + historical storage, user data isolation, full-chain auditability.
 
-Covers key market structure data and on-chain ecosystem metrics, including:
+### **1.2 Public Trading Data**
 
-- Multi-exchange market data (price, volume, depth, pair trends)
-- Derivatives market metrics (funding rates, open interest, leverage structures)
-- On-chain activities (large transfers, whale behavior, fund flows)
-- Market sentiment factors (Fear & Greed, social sentiment intensity, forum discussion activity)
-- Macro factors (e.g., BTC ETFs, regulatory impacts, cycle indicators)
+Covers market structure data and on-chain metrics for risk alignment and state determination, including but not limited to:
 
-Data is **time-series sliced, factorized, and volatility-adjusted**, supporting **correlation analysis between user behavior and market context**.
+- CEX Market Data: Price, volume, order book depth, tick-by-tick trades, spread/slippage proxy indicators.
+- Contract Metrics: Funding rates, Open Interest (OI), liquidation distributions, leverage structure changes.
+- DEX Structure: Liquidity pool depth/concentration, LP additions/removals, Swap inflow/outflow, routing behavior.
+- On-Chain Capital Flows: Large transfers, key address cluster movements, exchange deposit/withdrawal heuristics.
+- Events & Risk Factors: Volatility regimes, liquidity contraction signals, major event window markers.
 
-### **1.2 User Live Trading Data**
+Processing: Time-slicing (1m/5m/1h/4h/1d) → Feature derivation (volatility, funding pressure, OI delta, depth decay, slippage proxy) → Benchmark alignment (market state labeling).
 
-Sourced via **read-only API** from Binance, OKX, Bybit, etc., including:
+### **1.3 Individual Live Trading Data**
 
-- Historical trades, position trajectories, entry/exit points
-- Leverage preferences, order timing, slippage exposure, fee structures
-- P\&L volatility characteristics (win/loss run-up)
-- Sequential behaviors (e.g., FOMO chasing, counter-trend additions, stop-loss habits)
-- Abstracted trading styles (scalping / swing / position trading)
+Sources are categorized into two types:
 
-All data undergoes:
+**A. CEX Read-Only API (Key for Perps):**
 
-- **Denoising** (removing dirty data and invalid orders)
-- **Normalization** (aligning exchange-specific fields)
-- **Dimension Expansion** (label generation, derived features)
-- **Behavior Embedding** (serialized into vector space for modeling)
+- Positions: Direction, size, entry price, mark price, leverage, margin, liquidation level, unrealized P&L, funding rate.
+- Orders/Fills: Order details, executions, fees, approximate slippage, execution sequence.
+- Account/Margin: Margin balance, risk ratio, position concentration.
 
-This forms the **Multi-Dimensional Trading Database**, covering **behavior, sequence, risk, factors, and labels**.
+**B. On-Chain Address Data (Key for Alpha):**
+
+- Address holding changes, transfers, key contract interaction history.
+- Pool structures related to holdings (depth/concentration/net inflow-outflow).
+
+### **1.4 Unified Object Model**
+
+To prevent field discrepancies across different exchanges/chains from affecting upper-layer logic, the system standardizes data into four internal object types (serving as common input for subsequent state machines and risk control):
+
+- PositionSnapshot: Direction, size, leverage, margin, liquidation level, unrealized P&L, funding rate pressure, exposure concentration.
+- ExecutionTrace: Execution path, slippage, fees, position adjustment cadence, stop-loss trigger paths.
+- LiquiditySnapshot: Pool depth, concentration, net inflow-outflow, slippage-sensitive zones, support fragility.
+- MarketContext: Volatility regime, funding rate/OI crowding, liquidation structure, event windows.
+
+### **1.5 Data Pipeline & Storage Topology**
+
+- Ingestion: API polling + (priority if available) WebSocket; on-chain Indexer + Node RPC.
+- Processing: Standardized mapping → cleansing, deduplication, error correction → derived feature enhancement → dual-write to storage.
+- Storage Topology:
+  - Hot Store: Second/minute-level read-write (position/risk/liquidity snapshots) for real-time inference and alerts.
+  - Warm Store: Recent 30–180 days for analysis (liquidation/loss-taking paths, state evolution).
+  - Cold Store: Long-term archival (training/audit/comparison).
+
+Data Isolation: Public market database and user private databases are physically/logically isolated, coordinate least-privilege access control and full-chain auditing.
 
 ## **2\. Algorithm & Modeling Layer**
 
-This layer is the **brain of the system**, extracting value signals from data and converting them into **actionable trading intelligence**.
+### **2.1 Online Feature Computation**
 
-### **2.1 Algorithm Processing Engine**
+Performs online feature computation on unified objects, prioritizing "explainable features" over black-box outputs:
 
-Provides a **structured data computation framework**, including:
+- Risk Structure Features: Liquidation buffer, margin pressure, drawdown path, direction/asset concentration.
+- Execution Discipline Features: Position adjustment rhythm, stop-loss failures, style drift, and anomalous behavior points.
+- Liquidity Structure Features: Depth decay, concentration changes, net inflow-outflow, support fragility.
+- Market Alignment Features: Volatility regime, funding pressure, OI delta, liquidation clustering zones.
 
-- **Sequence Parsing:** identify trading chains and behavior flows
-- **Pattern Mining:** extract common or unique patterns from time-series data
-- **Factor Alignment:** correlate user behavior with market states
-- **Risk Vectorization:** generate risk features covering exposure, volatility, drawdowns
-- **Consistency Metrics:** calculate stability cycles, win-rate fluctuation, and return consistency
+### **2.2 State Machines & Triggers**
 
-Outputs intermediate feature vectors for the modeling layer:
+The system's core output employs "state language," driven by threshold/evidence chain triggers:
 
-- Behavioral Embedding
-- Risk & Exposure Vector
-- Strategy Signature
-- Drawdown Signature
-- Market Alignment Score
+- Alpha Mid-Cycle State Machine: Configurable states (e.g., Accumulation, Expansion, Contestation, Decay); each state transition must have a traceable evidence chain.
+- Perps Risk State Machine: States like Safe, Alert, High Risk, Critical (based on liquidation buffer, funding rate pressure, volatility & liquidity).
+- Event Triggers: Outputs alerts and suggestions when key features cross defined thresholds (e.g., "48h depth decrease of 20%", "liquidation buffer below threshold").
 
-### **2.2 Model Layer**
+### **2.3 Explanation Layer & Evidence Chain**
 
-Composed of two key models:
+Every output must be accompanied by a "why":
 
-**Persona Model (Behavioral/Persona Model):**
+- Current state/risk level.
+- Evidence source (Position/Liquidity/MarketContext).
+- Triggered thresholds and sensitive variables.
+- Version number and configuration (traceable rule/model versions).
 
-- Generates for each user:
+This forms the engineering foundation for "verifiable consensus."
 
-  - Trading style (conservative / emotional / aggressive)
-  - Risk preference curves (long-term, short-term, volatility adaptation)
-  - Decision pattern deviations (momentum chasing, counter-trend, frequent trading)
-  - Behavioral consistency score
-  - Anomalies detection
+### **2.4 Model/Rule Hybrid Approach**
 
-- Forms the **user’s Trading Persona ID** within the system
+For explainability and auditability, a hybrid "rules + model" approach is recommended:
 
-**Insight Model (Insights & Recommendation Model):**
+- Alpha State Determination: Structural factors + state machine rules + anomaly detection.
+- Perps Risk Suggestions: Risk structure calculation + scenario simulation + suggestion threshold strategies.
+- Evolution Logging: Records iterations of Agent thresholds/rules/model versions during service, forming a traceable capability evolution path.
 
-- Combines persona \+ market factors to generate:
+## **3\. Incentive & Settlement Layer**
 
-  - Loss attribution analysis
-  - Behavioral diagnostics (strategy blind spots, fund management issues)
-  - Current position risk assessment
-  - Risk-adjusted strategy recommendations (RAR)
-  - Portfolio exposure optimization
-  - Market environment adaptability analysis
+Goal: To bind verifiable behaviors to real revenue/fees, preventing exploitation, ensuring auditability, and promoting sustainability.
 
-This is the **core model driving user-Agent interaction**.
+### **3.1 LLAx Behavioral Equity Distribution (Core)**
 
-## **3\. Incentive Layer**
+Distribution is based primarily on verifiable events:
 
-The Incentive Layer **assigns economic value to data flow and AI computation**, closing the loop: **Behavior → Data → Value → Reward**.
+- API access integrity and continuity (data completeness, consistency).
+- Verifiable risk event statistics: Past six-month liquidation/loss-taking counts (one-time equity), future monthly rolling statistics (monthly equity).
+- Service usage feedback: Corresponding rewards for genuine paid usage/real calls (to prevent interaction farming).
 
-### **3.1 Data Contribution Rewards**
+### **3.2 One-Way Conversion & Burn (Economic Alignment)**
 
-Quantifies the value of user data to the protocol based on:
+- LLAx → LLA: Convertible. Conversion burns (destroys) the LLAx.
+- LLA → LLAx: Not convertible.
 
-- Data volume and completeness
-- Sequence continuity (long-term contribution preferred)
-- Rarity (unique assets or strategies)
-- Contribution to model optimization
-- Structured label value (complex behavior chains)
+This ensures behavioral value unidirectionally accumulates into the value anchor (LLA), preventing circular arbitrage.
 
-**Token Reward \= Contribution Value × System Weight**
+### **3.3 Prediction Fee Distribution in LLA (No-Inflation Distribution Channel)**
 
-### **3.2 Agent Application & Social Rewards**
+When an Executable Trading Agent becomes a prediction asset:
 
-Includes:
+- Platform fees are distributed to participants who lost predictions in LLA.
+- The distribution source is real fees, not released spontaneously.
+- This creates a closed loop: Prediction → Value Backflow → Service Consumption / Ecosystem Participation.
 
-- Queries, analysis discussions, strategy reviews, insight feedback
-- Knowledge, case, and review contributions in the trading social forum
-- Citations, likes, shares generate contribution points
-- All actions are **captured and quantified by the incentive model**
+## **4\. Agent Application & Execution Layer**
 
-### **3.3 LLAx Incentive System**
+Functionality and interfaces are organized according to the three core product lines to avoid a disjointed "feature knocking together".
 
-LLAx, the **application-layer token**, supports:
+### **4.1 Alpha Agent (On-Chain State Machine)**
 
-- Unlocking personalized models (private persona, strategy testing)
-- Purchasing premium AI tools
-- Displaying capabilities and reputation in the trading social forum
-- Participating in the Agent Marketplace (buy/sell strategies)
+- Input: LiquiditySnapshot + MarketContext + key address behavior.
+- Processing: Structural signal identification (depth, concentration, net inflow-outflow, support fragility) + mid-cycle state machine logic.
+- Output: Holding state briefs, risk alerts, structural change explanations (with attached evidence chain and thresholds).
 
-The Incentive Layer ensures **ecosystem self-growth**.
+### **4.2 Perps Agent (CEX Risk Control)**
 
-## **4\. Agent Application Layer**
+- Input: PositionSnapshot + ExecutionTrace + MarketContext (funding/OI/liquidation/volatility).
+- Processing: Liquidation buffer calculation, margin pressure assessment, drawdown path analysis, scenario simulation, trigger activation.
+- Output: Real-time risk level, position constraint suggestions, risk source explanations; and generation of verifiable event statistics (six-month one-time + monthly rolling) for LLAx equity rewards.
 
-The **user-facing layer** where all value is presented.
+### **4.3 Executable Trading Agent (Prediction Asset Foundation)**
 
-### **4.1 Insight Agent**
+- Input: Strategy module + risk boundaries (position limits, drawdown limits, circuit breaker rules, parameter governance).
+- Execution: Transparent trading via an independent on-chain wallet on DEXs (fully on-chain traceable).
+- Output: Public trading history and auditable performance metrics (returns, drawdowns, risk discipline, execution consistency), serving as the factual basis for a prediction asset.
 
-Core capabilities:
+## **5\. Security, Privacy & Risk Controls**
 
-**① Persona Generation:**
+- Read-Only Permissions: Users never grant order placement or withdrawal permissions.
+- Key Management: End-to-end encryption, principle of least privilege, short-term usage, full-process auditing.
+- Data Isolation: User private data and public data are stored and accessed in isolation.
+- Execution Security: Executable Agent wallets use multi-signature/tiered permissions, circuit breakers, and abnormal trade alerts.
+- Auditability: Output evidence chains, version logs, and parameter change records are fully retrospective.
 
-- Automatically creates:
+## **6\. Observability**
 
-  - Trading behavior profile
-  - Risk tolerance characteristics
-  - Behavioral stability score
-  - Decision biases (momentum chasing, panic selling)
-  - Trading cycle features
-
-**② Live Trade Diagnosis & Review:**
-
-- Trade health report
-- Automated loss reviews
-- Anomaly detection (FOMO, revenge trading)
-- Strategy analysis and improvement points
-
-**③ Factor-Driven Position Risk Recommendations:**
-
-- Public and individual factor integration for:
-
-  - Position risk warnings
-  - Overexposure alerts
-  - Market factor alignment
-  - Stop-loss and reduction suggestions
-  - Potential strategy switches
-
-This layer is the **presentation layer of all system computations**.
-
-### **4.2 Trading Social Forum**
-
-Core features:
-
-- Layered social interactions driven by **trading ability and behavior profile**
-- Matching with users of similar personas or strategy preferences
-- Supports public reviews, strategy discussions, and group behavior analysis
-- Reputation system guaranteed by **on-chain data**
-- All contributions included in the **incentive layer**
-
-Forms a **Data-Driven Social Trading Network**.
+- Monitoring of data pipeline latency, gaps, and quality (SLA).
+- Archiving of state machine transition logs and evidence chains.
+- Tracking of risk control trigger statistics, false positives/negatives.
+- Chain-auditable views of Executable Agent strategy versions, parameter changes, and circuit breaker records.
