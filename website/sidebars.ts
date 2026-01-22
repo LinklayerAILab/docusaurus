@@ -34,14 +34,19 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'docs/products/InsightsAgent',
-          label: 'Insights Agent',
+          label: 'Alpha Agent',
         },
         {
           type: 'doc',
           id: 'docs/products/TokenAgent',
-          label: 'Token Agent',
+          label: 'Perps Agent',
         },
-        'docs/products/Protocol&Tokens',
+        {
+          type: 'doc',
+          id: 'docs/products/Protocol&Tokens',
+          label: 'Trading Agent',
+        },
+
         // 'docs/products/TradingSocialForum',
       ],
     },
