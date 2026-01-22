@@ -42,7 +42,7 @@ const sidebars: SidebarsConfig = {
           label: 'Token Agent',
         },
         'docs/products/Protocol&Tokens',
-        'docs/products/TradingSocialForum',
+        // 'docs/products/TradingSocialForum',
       ],
     },
     {

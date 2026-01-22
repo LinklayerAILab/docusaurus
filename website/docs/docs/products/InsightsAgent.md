@@ -1,4 +1,6 @@
-# Alpha Agent (Binance Alpha Asset Holding State Machine)
+# Alpha Agent
+
+## ——Binance Alpha Asset Holding State Machine
 
 ## Product Overview
 

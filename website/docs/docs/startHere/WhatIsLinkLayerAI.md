@@ -1,69 +1,45 @@
-# Why LinkLayerAI?
+# What Is LinkLayerAI
 
-In today's Web3 ecosystem, we don't lack data; we lack a genuine understanding and return of its value. We also don't lack trading tools; we lack intelligent systems that can operate continuously on real trading behavior and produce verifiable consensus. The birth of LinkLayerAI is not about adding another option to a crowded field but to fundamentally answer a core question: In trading, Web3's core behavioral domain, how can an individual's real value be continuously seen, understood, verified, and ultimately form intelligent capabilities upon which the market can reach consensus?
+LinkLayerAI is an Agent-native protocol built around individuals' multidimensional live trading data. It aims to serve, model, and verify global traders' on-chain and off-chain live holdings through continuously operating Agents. This transforms real trading behavior from static records into intelligent infrastructure that can be understood long-term, executed transparently, and ultimately form market consensus.
 
-## **1\. Because data should not be a "silent mineral deposit," but a "speaking" reality.**
+## Multidimensional Trading Data
 
-Every trader continuously generates the most precious behavioral data—every entry/exit, every profit-taking/stop-loss, every leverage choice and position adjustment is a real record of their strategic logic, risk preferences, and market reactions. Yet, under the current landscape, this data is either sealed within centralized exchange servers or scattered on-chain in raw, fragmented forms, difficult to integrate and even harder to continuously understand.
+In LinkLayerAI, multidimensional data includes:
 
-Why LinkLayerAI? Because we systematically propose and implement a more fundamental path: putting trading data into an intelligent closed loop of "continuous service and continuous feedback."
+**•** Individual Live Trading Data: Exchange read-only API data (including Perpetuals contract positions, margin, liquidation levels, etc.) and on-chain address holdings and trading behavior (including spot activity such as Alpha and Meme assets).
 
-Through continuously operating Agents, we transform data from cold records into:
+**•** Public Trading Data: Public market signals such as market price feeds, on-chain liquidity and trading structures, funding rates, and volatility factors (used for contextual analysis and risk factor modeling).
 
-**•** Understandable Position State & Risk Structure: Not more indicators, but letting you know what phase you're in, what risks you're bearing, and which variables are changing your position structure.
+Users can connect exchange read-only APIs or on-chain addresses to the system. The protocol automatically aggregates their real holdings, trading paths, and risk exposure, standardizing and aligning individual data with public market data. Subsequently, Agents operate continuously around users' "live holdings in progress": providing state interpretation and structural change alerts for spot positions, and offering risk control and risk boundary suggestions for contract positions, integrated with external factors. Unlike traditional tools, LinkLayerAI's core is not one-time analysis reports but continuous service and feedback centered on live positions.
 
-**•** An Interactive, Continuous Service System: An Agent that operates in real-time around your real holdings, is queryable, debriefable, feedback-responsive—not a one-time report.
+## Core Outputs
 
-**•** A Verifiable Behavioral Trajectory Foundation: When data and service form a continuous history, capability gains the potential to be verified and compared, no longer relying on narratives and claims.
+Based on continuous comparison between live data and public factors, the system ultimately produces three core outputs:
 
-LinkLayerAI transforms data from a platform-owned "resource" back into a "reality foundation" led by users, capable of continuously generating intelligent feedback.
+**1\.** Position State & Risk Structure – Provides explainable state determination and risk boundaries for the user's current holdings (e.g., mid-cycle liquidity state for Alpha assets, short-cycle state machine for MemeRush, liquidation and drawdown structures for Perpetuals).
 
-## **2\. Because prediction markets lack not mechanisms, but "credible assets."**
+**2\.** Execution Debriefing – Identifies key points of success and loss based on real trading paths and market structural factors, forming traceable decision and execution attribution.
 
-Prediction markets are considered one of the mechanisms closest to consensus generation in Web3, but over the past years they have repeatedly surged and cooled. The problem isn't insufficient complexity in mechanics, but the assets themselves being insufficiently credible: opaque, subject to intervention, outcomes dependent on external arbitration, processes not sustainably observable. Participants often aren't predicting the future but betting on information asymmetry, arbitration biases, and black-box manipulation.
+**3\.** Actionable Guidance – Offers executable risk control and position management suggestions based on the individual's real exposure and external factors, focusing on "constraints and boundaries" rather than emotional signals.
 
-Why LinkLayerAI? Because we provide a type of asset long missing from prediction markets: executable, verifiable, sustainably operating trading Agents.
+The goal of these outputs is to give traders, for the first time, a continuous "cognitive feedback loop": understanding what risks they are currently bearing, what phase they are in, and which variables are changing their position structure.
 
-LinkLayerAI's path is not to start with prediction, but to first get Agents verified in real trading:
+## Incentives and Value Assetization
 
-**•** First, serve users' real holdings on DEX (Alpha/Meme) and CEX (Perpetuals) continuously, forming the first layer of "consensus on capability that has been proven in use."
+LinkLayerAI refines users' live trading data and verifiable participation into measurable, referenceable, incentivizable units of value. Data collection, analysis, and verification happen off-chain, while value incentives and settlements are executed via on-chain smart contracts, ensuring transparency, fairness, and traceability.
 
-**•** Then, let mature Agents execute transparently on DEXs from independent wallets, forming public, traceable, immutable behavioral trajectories.
+Under this mechanism, users' real trading behavior is not only served and understood but can also generate stable value backflow at the protocol layer: users contribute real data and real risk exposure; the system continuously outputs service and feedback; the protocol provides equity rewards based on verifiable participation, and further forms a sustainable consensus closed loop in subsequent executable trading Agent and prediction scenarios.
 
-**•** Finally, when capability becomes a factual object, the market gains a fair foundation for forming judgments and predictions around it.
+## Three Core Assets
 
-Prediction is not the starting point, but the external manifestation of consensus. The more transparent and non-intervenable the asset, the closer prediction gets to true capability pricing.
+In LinkLayerAI, trading data is no longer just static historical records but is refined into three core assets:
 
-## **3\. Because intelligence should not be a "black box and monopoly," but "personal and verifiable."**
+**1\.** Understandable State & Risk Structure (State Asset) – An explainable mapping of your current holding's phase, liquidity structure, and risk boundaries.
 
-The market isn't short of data analysis tools, but most are generic, static, isolating users from the algorithms. Traders receive conclusions, not the process of understanding and growth; more critically, these tools cannot operate continuously on real risk and real holdings, making it difficult to form long-term verifiable capabilities.
+**2\.** Serviceable, Evolvable Agent Capability (Agent Capability) – A trading Agent that operates continuously around real holdings, is debriefable, queryable, feedback-responsive, and continuously learns and self-calibrates during service.
 
-Why LinkLayerAI? Because our Agents are designed as each user's "continuously operating system," not just analytical plugins:
+**3\.** Verifiable Execution & Consensus Foundation (Verifiable Execution) – When an Agent executes strategies transparently on-chain from an independent wallet, its traceable trajectory becomes a market-verifiable factual object, laying the groundwork for forming market consensus and prediction assets.
 
-**•** They operate around real holdings: After you connect your wallet/read-only API, the Agent provides real-time state interpretation and risk constraints for your spot and contract positions.
+## Goal & Vision
 
-**•** They are interactive and queryable: You can ask, "Where is my risk coming from?" or "Which past mistake does this drawdown resemble?" and get answers based on real behavioral paths.
-
-**•** They evolve in service: The Agent's capability isn't trained once; it continuously calibrates and enhances through long-term service of real trading, forming a traceable capability evolution path.
-
-At LinkLayerAI, intelligence is not a mysterious, detached algorithm but a long-term capability system operating in sync with your real trading and independently verifiable.
-
-## **4\. Because we build a "consensus closed loop," not a "piecemeal feature set."**
-
-Many products offer isolated features, but features lack organic connection, unable to form a sustainable ecosystem. LinkLayerAI's core advantage is its carefully designed closed-loop structure: starting from individual live data, forming capability in service, forming consensus in execution, externally manifesting consensus in prediction, and backflowing value for continued system growth.
-
-This can be summarized as a continuous chain:
-
-**•** Service & Learning Loop: Individual live data access → Agent serves holdings continuously → Learns and calibrates in service → Capability gradually strengthens.
-
-**•** Execution & Consensus Loop: Mature Agent executes transparently → Trajectory is publicly verifiable → Market forms capability judgments → Consensus gradually solidifies.
-
-**•** Prediction & Value Backflow Loop: When Agent becomes a prediction asset → Market strategic interaction forms pricing → Fees and proceeds backflow (which can further be used for service consumption and incentive design) → In turn, promotes more high-quality data and stronger Agent capability.
-
-This closed loop ensures the ecosystem is driven not by narratives but by real trading behavior and verifiable execution, possessing self-reinforcing growth logic.
-
-## **Conclusion**
-
-Choosing LinkLayerAI means choosing no longer to let your live trading data sleep in isolated islands; choosing to no longer rely on unverifiable opinions and narratives; choosing to own a trading Agent system that operates continuously around real holdings and is verifiable in real markets. We are not just a protocol; we are initiators of a new path: letting trading intelligence grow from individual live data, letting market consensus form around executable capability.
-
-Why LinkLayerAI? Because here, every trade you make is no longer just an outcome but a starting point for intelligence formation and consensus building.
+LinkLayerAI's goal is to build a new Web3 trading intelligence infrastructure: enabling every piece of live trading data to be served, understood, verified, and ultimately evolved into trading Agent consensus. In this system, trading intelligence no longer relies on narratives and authority but is rooted in real trading behavior, transparent execution, and long-term verification.

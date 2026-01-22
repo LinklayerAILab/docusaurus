@@ -24,7 +24,7 @@ Begin your journey with LinkLayerAI by understanding the fundamentals:
 Explore our suite of products and services:
 
 - [**Insights Agent**](docs/products/insightsAgent) - AI-powered market insights and analytics
-- [**Trading Social Forum**](docs/products/tradingSocialForum) - Connect and share with the trading community
+<!-- - [**Trading Social Forum**](docs/products/tradingSocialForum) - Connect and share with the trading community -->
 - [**Protocol & Tokens**](docs/products/protocol&Tokens) - Our blockchain protocol and token utilities
 
 ### Technical Documentation
@@ -47,7 +47,7 @@ Additional resources and important information:
 
 - **New Users**: Start with [What Is LinkLayerAI](docs/startHere/whatIsLinkLayerAI)
 - **Developers**: Check out our [Technical Architecture](docs/technicalDocumentation/technicalArchitectur)
-- **Community**: Join our [Trading Social Forum](docs/products/tradingSocialForum)
+<!-- - **Community**: Join our [Trading Social Forum](docs/products/tradingSocialForum) -->
 
 ## 💡 Need Help?
 
