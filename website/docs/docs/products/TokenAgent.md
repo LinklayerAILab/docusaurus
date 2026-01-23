@@ -1,4 +1,6 @@
-# Perps Agent (CEX Contract Holding Risk Control & Data Equity Reward)
+# Perps Agent
+
+## ——CEX Contract Holding Risk Control & Data Equity Reward
 
 ## Product Overview
 

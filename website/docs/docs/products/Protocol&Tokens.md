@@ -1,4 +1,6 @@
-# Trading Agent (Executable Trading Agent: Learning, Evolution & Prediction Asset)
+# Trading Agent
+
+## ——Executable Trading Agent: Learning, Evolution & Prediction Asset
 
 ## Product Overview
 
