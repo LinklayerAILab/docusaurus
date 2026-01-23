@@ -39,7 +39,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'document/products/TokenAgent',
-          label: 'Perps AI Agent',
+          label: 'Perps Agent',
         },
         {
           type: 'doc',
