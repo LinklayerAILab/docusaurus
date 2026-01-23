@@ -10,14 +10,11 @@ Users' real holdings and execution behaviors on DEXs and CEXs are the most authe
 
 LinkLayerAI's Agents are not centered on "opinion output" but on "continuous service around real holdings." Agents generate diagnostics, risk controls, and state judgments in service while continuously learning and calibrating from real market feedback. When Agents further execute trades transparently from independent wallets, their capability moves beyond the analytical layer to become execution facts observable and verifiable by the market, thus forming the basis for becoming prediction assets.
 
-**2\. Incentive Closed Loop: Real Participation → Protocol Growth → User Returns.**
+**3\. Incentive Closed Loop: Real Participation → Protocol Growth → User Returns.**
 
 The economic model must ensure:
 
-- Sustainability: Incentives rely not on infinite inflation but on real behavioral contributions and real fee/revenue sources.
-- Growth Potential: As real data and usage grow, Agent capability and protocol value increase synchronously.
-- Self-Consistency: Incentives are deeply bound to data access, service usage, transparent execution, and prediction participation.
-- Alignment: The interests of users, Agents, and the protocol are aligned within the same closed loop.
+**•** Sustainability: Incentives rely not on infinite inflation but on real behavioral contributions and real fee/revenue sources. **•** Growth Potential: As real data and usage grow, Agent capability and protocol value increase synchronously. **•** Self-Consistency: Incentives are deeply bound to data access, service usage, transparent execution, and prediction participation. **•** Alignment: The interests of users, Agents, and the protocol are aligned within the same closed loop.
 
 Therefore, LinkLayerAI adopts a dual-token model:
 
@@ -57,10 +54,7 @@ This one-way conversion ensures:
 
 This one-way conversion mechanism ensures:
 
-- One-way flow of Behavioral Value → Ecosystem Value.
-- The total supply of LLAx continuously decreases (deflation) as the ecosystem grows.
-- The value density of LLA continuously increases (value concentration) through conversions.
-- Early ecosystem contributors receive a higher weighting for long-term returns.
+**•** One-way flow of Behavioral Value → Ecosystem Value. **•** The total supply of LLAx continuously decreases (deflation) as the ecosystem grows. **•** The value density of LLA continuously increases (value concentration) through conversions. **•** Early ecosystem contributors receive a higher weighting for long-term returns.
 
 The mechanism's essence is: LLAx reflects contribution, LLA carries value; LLAx disappears upon conversion, LLA strengthens with ecosystem development.
 
