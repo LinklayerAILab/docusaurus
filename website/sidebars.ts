@@ -6,7 +6,7 @@
  */
  
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
-
+  
 const sidebars: SidebarsConfig = {
   // Document sidebar - for LinkLayer AI documentation
   document: [
