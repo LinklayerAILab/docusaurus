@@ -55,14 +55,19 @@ LLA and LLAx employ a strict one-way conversion design:
 Conversion Principles:
 
 **•** Users can convert LLAx earned through behavior into LLA.
+
 **•** After each conversion, the converted LLAx is permanently burned by the protocol (Burn).
+
 **•** The protocol dynamically manages the conversion ratio and can be adjusted according to ecosystem progress.
 
 This one-way conversion ensures:
 
 **•** Behavioral value flows one-way towards protocol value.
+
 **•** The total supply of LLAx continuously decreases with ecosystem growth (deflationary).
+
 **•** The value density of LLA continuously increases with conversion (value concentration).
+
 **•** Early contributors receive a higher weight for long-term returns.
 
 This one-way conversion mechanism ensures:
