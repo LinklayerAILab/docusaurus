@@ -33,17 +33,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'document/products/InsightsAgent',
+          id: 'document/products/AlphaAgent',
           label: 'Alpha Agent',
         },
         {
           type: 'doc',
-          id: 'document/products/TokenAgent',
+          id: 'document/products/PerpsAgent',
           label: 'Perps Agent',
         },
         {
           type: 'doc',
-          id: 'document/products/Protocol&Tokens',
+          id: 'document/products/TradingAgent',
           label: 'Trading Agent',
         },
       ],
