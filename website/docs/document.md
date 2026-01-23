@@ -23,9 +23,9 @@ Begin your journey with LinkLayerAI by understanding the fundamentals:
 
 The core product lines of LinkLayerAI consist of three types of Agents, each addressing the most authentic, frequent, and non-falsifiable trading scenarios for users:
 
-- [**Alpha Agent**](document/products/InsightsAgent) - Alpha Spot Holding State Machine (On-Chain)
-- [**Perps Agent**](document/products/TokenAgent) - Perps Contract Holding Risk Control (CEX)
-- [**Trading Agent**](document/products/Protocol&Tokens) - Executable Trading Agent (Prediction Asset)
+- [**Alpha Agent**](document/products/AlphaAgent) - Alpha Spot Holding State Machine (On-Chain)
+- [**Perps Agent**](document/products/PerpsAgent) - Perps Contract Holding Risk Control (CEX)
+- [**Trading Agent**](document/products/TradingAgent) - Executable Trading Agent (Prediction Asset)
 
 Together, they form an evolutionary path: Serve Real Holdings → Learn in Service → Evolve into a Verifiable Trading Entity → Become a Predictable Asset.
 
