@@ -16,16 +16,19 @@ Begin your journey with LinkLayerAI by understanding the fundamentals:
 
 - [**What Is LinkLayerAI**](docs/startHere/whatIsLinkLayerAI) - Learn about our platform and mission
 - [**Why LinkLayerAI**](docs/startHere/whyLinkLayerAI) - Discover the benefits and advantages
-- [**LinkLayerAI Tokenomics**](docs/startHere/linkLayerAITokenomics) - Understand our token economy
+- [**LinkLayerAI Economic Model**](document/startHere/LinkLayerAITokenomics) - Understand our token economy
 - [**FAQ & Glossary**](docs/startHere/FAQ&Glossary) - Find answers to common questions
 
 ### LinkLayerAI Products
 
-Explore our suite of products and services:
+The core product lines of LinkLayerAI consist of three types of Agents, each addressing the most authentic, frequent, and non-falsifiable trading scenarios for users:
 
-- [**Insights Agent**](docs/products/insightsAgent) - AI-powered market insights and analytics
+- [**Alpha Agent**](document/products/InsightsAgent) - Alpha Spot Holding State Machine (On-Chain)
 <!-- - [**Trading Social Forum**](docs/products/tradingSocialForum) - Connect and share with the trading community -->
-- [**Protocol & Tokens**](docs/products/protocol&Tokens) - Our blockchain protocol and token utilities
+- [**Perps Agent**](document/products/TokenAgent) - Perps Contract Holding Risk Control (CEX)
+- [**Trading Agent**](document/products/Protocol&Tokens) - Executable Trading Agent (Prediction Asset)
+
+Together, they form an evolutionary path: Serve Real Holdings → Learn in Service → Evolve into a Verifiable Trading Entity → Become a Predictable Asset.
 
 ### Technical Documentation
 
