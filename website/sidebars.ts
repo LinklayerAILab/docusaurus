@@ -4,9 +4,9 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
-  
+
 const sidebars: SidebarsConfig = {
   // Document sidebar - for LinkLayer AI documentation
   document: [
@@ -20,10 +20,10 @@ const sidebars: SidebarsConfig = {
       label: 'Start Here',
       collapsed: false,
       items: [
-        'docs/startHere/WhatIsLinkLayerAI',
-        'docs/startHere/WhyLinkLayerAI',
-        'docs/startHere/LinkLayerAITokenomics',
-        'docs/startHere/FAQ&Glossary',
+        'document/startHere/WhatIsLinkLayerAI',
+        'document/startHere/WhyLinkLayerAI',
+        'document/startHere/LinkLayerAITokenomics',
+        'document/startHere/FAQ&Glossary',
       ],
     },
     {
@@ -33,21 +33,19 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'docs/products/InsightsAgent',
+          id: 'document/products/InsightsAgent',
           label: 'Alpha Agent',
         },
         {
           type: 'doc',
-          id: 'docs/products/TokenAgent',
+          id: 'document/products/TokenAgent',
           label: 'Perps AI Agent',
         },
         {
           type: 'doc',
-          id: 'docs/products/Protocol&Tokens',
+          id: 'document/products/Protocol&Tokens',
           label: 'Trading Agent',
         },
-
-        // 'docs/products/TradingSocialForum',
       ],
     },
     {
@@ -55,15 +53,15 @@ const sidebars: SidebarsConfig = {
       label: 'Technical Documentation',
       collapsed: false,
       items: [
-        'docs/technicalDocumentation/TechnicalArchitectur',
+        'document/technicalDocumentation/TechnicalArchitectur',
         {
           type: 'doc',
-          id: 'docs/technicalDocumentation/SmartContracts',
+          id: 'document/technicalDocumentation/SmartContracts',
           label: 'Smart Contracts',
         },
         {
           type: 'doc',
-          id: 'docs/technicalDocumentation/AuditReports',
+          id: 'document/technicalDocumentation/AuditReports',
           label: 'Audit Reports',
         },
       ],
@@ -73,9 +71,9 @@ const sidebars: SidebarsConfig = {
       label: 'Resources & Ecosystem',
       collapsed: false,
       items: [
-        'docs/resources&Ecosystem/Litepaper',
-        'docs/resources&Ecosystem/ProhibitedCountriesandRegions',
-        'docs/resources&Ecosystem/LegalDocuments',
+        'document/resources&Ecosystem/Litepaper',
+        'document/resources&Ecosystem/ProhibitedCountriesandRegions',
+        'document/resources&Ecosystem/LegalDocuments',
       ],
     },
   ],
