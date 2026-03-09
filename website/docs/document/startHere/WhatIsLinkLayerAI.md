@@ -6,9 +6,8 @@ LinkLayerAI is an Agent-native protocol built around individuals' multidimension
 
 In LinkLayerAI, multidimensional data includes:
 
-**•** Individual Live Trading Data: Exchange read-only API data (including Perpetuals contract positions, margin, liquidation levels, etc.) and on-chain address holdings and trading behavior (including spot activity such as Alpha and Meme assets).
-
-**•** Public Trading Data: Public market signals such as market price feeds, on-chain liquidity and trading structures, funding rates, and volatility factors (used for contextual analysis and risk factor modeling).
+- Individual Live Trading Data: Exchange read-only API data (including Perpetuals contract positions, margin, liquidation levels, etc.) and on-chain address holdings and trading behavior (including spot activity such as Alpha and Meme assets).
+- Public Trading Data: Public market signals such as market price feeds, on-chain liquidity and trading structures, funding rates, and volatility factors (used for contextual analysis and risk factor modeling).
 
 Users can connect exchange read-only APIs or on-chain addresses to the system. The protocol automatically aggregates their real holdings, trading paths, and risk exposure, standardizing and aligning individual data with public market data. Subsequently, Agents operate continuously around users' "live holdings in progress": providing state interpretation and structural change alerts for spot positions, and offering risk control and risk boundary suggestions for contract positions, integrated with external factors. Unlike traditional tools, LinkLayerAI's core is not one-time analysis reports but continuous service and feedback centered on live positions.
 

@@ -14,41 +14,43 @@ Welcome to the LinkLayerAI documentation. This comprehensive guide will help you
 
 Begin your journey with LinkLayerAI by understanding the fundamentals:
 
-- [**What Is LinkLayerAI**](docs/startHere/whatIsLinkLayerAI) - Learn about our platform and mission
-- [**Why LinkLayerAI**](docs/startHere/whyLinkLayerAI) - Discover the benefits and advantages
-- [**LinkLayerAI Tokenomics**](docs/startHere/linkLayerAITokenomics) - Understand our token economy
-- [**FAQ & Glossary**](docs/startHere/FAQ&Glossary) - Find answers to common questions
+- [**What Is LinkLayerAI**](document/startHere/whatIsLinkLayerAI) - Learn about our platform and mission
+- [**Why LinkLayerAI**](document/startHere/whyLinkLayerAI) - Discover the benefits and advantages
+- [**LinkLayerAI Economic Model**](document/startHere/LinkLayerAITokenomics) - Understand our token economy
+- [**FAQ & Glossary**](document/startHere/FAQ&Glossary) - Find answers to common questions
 
 ### LinkLayerAI Products
 
-Explore our suite of products and services:
+The core product lines of LinkLayerAI consist of three types of Agents, each addressing the most authentic, frequent, and non-falsifiable trading scenarios for users:
 
-- [**Insights Agent**](docs/products/insightsAgent) - AI-powered market insights and analytics
-<!-- - [**Trading Social Forum**](docs/products/tradingSocialForum) - Connect and share with the trading community -->
-- [**Protocol & Tokens**](docs/products/protocol&Tokens) - Our blockchain protocol and token utilities
+- [**Alpha Agent**](document/products/AlphaAgent) - Alpha Spot Holding State Machine (On-Chain)
+- [**Perps Agent**](document/products/PerpsAgent) - Perps Contract Holding Risk Control (CEX)
+- [**Trading Agent**](document/products/TradingAgent) - Executable Trading Agent (Prediction Asset)
+
+Together, they form an evolutionary path: Serve Real Holdings → Learn in Service → Evolve into a Verifiable Trading Entity → Become a Predictable Asset.
 
 ### Technical Documentation
 
 Deep dive into the technical aspects of LinkLayerAI:
 
-- [**Technical Architecture**](docs/technicalDocumentation/technicalArchitectur) - System design and architecture
-- [**Smart Contracts**](docs/technicalDocumentation/smartContracts) - Blockchain contract documentation
-- [**Audit Reports**](docs/technicalDocumentation/auditReports) - Security audits and reports
+- [**Technical Architecture**](document/technicalDocumentation/technicalArchitectur) - System design and architecture
+- [**Smart Contracts**](document/technicalDocumentation/smartContracts) - Blockchain contract documentation
+- [**Audit Reports**](document/technicalDocumentation/auditReports) - Security audits and reports
 
 ### Resources & Ecosystem
 
 Additional resources and important information:
 
-- [**Litepaper**](docs/resources&Ecosystem/litepaper) - Technical overview and vision
-- [**Legal Documents**](docs/resources&Ecosystem/legalDocuments) - Terms, policies, and legal information
-- [**Prohibited Countries and Regions**](docs/resources&Ecosystem/prohibitedCountriesandRegions) - Service availability information
+- [**Litepaper**](document/resources&Ecosystem/litepaper) - Technical overview and vision
+- [**Legal Documents**](document/resources&Ecosystem/legalDocuments) - Terms, policies, and legal information
+- [**Prohibited Countries and Regions**](document/resources&Ecosystem/prohibitedCountriesandRegions) - Service availability information
 
 ## 🚀 Quick Links
 
-- **New Users**: Start with [What Is LinkLayerAI](docs/startHere/whatIsLinkLayerAI)
-- **Developers**: Check out our [Technical Architecture](docs/technicalDocumentation/technicalArchitectur)
+- **New Users**: Start with [What Is LinkLayerAI](document/startHere/whatIsLinkLayerAI)
+- **Developers**: Check out our [Technical Architecture](document/technicalDocumentation/technicalArchitectur)
 <!-- - **Community**: Join our [Trading Social Forum](docs/products/tradingSocialForum) -->
 
 ## 💡 Need Help?
 
-If you can't find what you're looking for, check our [FAQ & Glossary](docs/startHere/FAQ&Glossary) or reach out to our community.
+If you can't find what you're looking for, check our [FAQ & Glossary](document/startHere/FAQ&Glossary) or reach out to our community.
