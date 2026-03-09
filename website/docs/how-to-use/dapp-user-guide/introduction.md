@@ -1,6 +1,6 @@
-# Introduction
+# Introduction to DApp
 
-Welcome to the LinkLayerAI DApp! This guide will help you get started with our platform.
+Welcome to the LinkLayerAI DApp!
 
 ## What is LinkLayerAI DApp?
 
@@ -30,4 +30,5 @@ Before you begin, make sure you have:
 ## Next Steps
 
 - [Installation Guide](./installation) - Set up your environment
-- [Quick Start](./quick-start) - Get started quickly
+- [Dashboard Features](./dashboard) - Learn about the interface
+- [Trading Guide](./trading) - Start trading

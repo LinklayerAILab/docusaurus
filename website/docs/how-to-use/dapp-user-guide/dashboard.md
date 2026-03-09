@@ -1,6 +1,6 @@
-# Dashboard
+# Dashboard Features
 
-The LinkLayerAI Dashboard provides a comprehensive overview of your trading activities and portfolio.
+The LinkLayerAI Dashboard provides a comprehensive overview of your trading activities.
 
 ## Dashboard Overview
 
@@ -10,7 +10,6 @@ The main dashboard displays:
 - **Active Positions**: Current open positions and their status
 - **Recent Trades**: History of your recent trading activity
 - **Agent Performance**: Performance metrics of your AI agents
-- **Market Overview**: Real-time market data and trends
 
 ## Key Features
 
@@ -31,7 +30,6 @@ The main dashboard displays:
 - Performance charts and graphs
 - Win rate statistics
 - Risk metrics
-- Portfolio allocation breakdown
 
 ## Navigation
 
@@ -43,34 +41,12 @@ The main dashboard displays:
 - **Wallet**: Manage funds
 - **Settings**: Configure preferences
 
-### Quick Actions
-
-- Quick trade buttons
-- One-click deposit/withdraw
-- Emergency close all positions
-
 ## Tips for Using the Dashboard
 
 1. **Set Up Alerts**: Configure price and position alerts
 2. **Use Filters**: Filter positions by exchange, pair, or status
 3. **Export Data**: Download trading history for analysis
-4. **Monitor Regularly**: Check dashboard frequently for updates
 
-## Customization Options
+## Next Steps
 
-### Theme
-
-- Light/Dark mode
-- Custom color schemes
-
-### Display Preferences
-
-- Compact vs detailed view
-- Chart types (candlestick, line, etc.)
-- Time zone settings
-
-### Notifications
-
-- Email alerts
-- Push notifications
-- Telegram integration
+Learn how to execute trades in the [Trading Guide](./trading).

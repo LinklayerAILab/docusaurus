@@ -1,4 +1,4 @@
-# Installation
+# DApp Installation
 
 Learn how to install and set up the LinkLayerAI DApp.
 
@@ -41,12 +41,6 @@ If you're having trouble connecting your wallet:
 3. Clear your browser cache and try again
 4. Ensure your browser allows Web3 connections
 
-### Network Issues
-
-- Switch to a different network if available
-- Check your internet connection
-- Try using a VPN if you're in a restricted region
-
 ## Next Steps
 
-Once installed, proceed to [Quick Start](./quick-start) to start using the DApp.
+Once installed, explore the [Dashboard](./dashboard) to start using the DApp.

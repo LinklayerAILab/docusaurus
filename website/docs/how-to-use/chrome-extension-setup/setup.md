@@ -1,4 +1,4 @@
-# Setup Guide
+# Extension Setup Guide
 
 Step-by-step instructions to install and set up the LinkLayerAI Chrome Extension.
 
@@ -29,8 +29,6 @@ After installation, you'll see the LinkLayerAI icon in your browser toolbar.
 
 ### Step 3: Connect Exchanges
 
-You can connect multiple exchanges:
-
 1. Click "Add Exchange"
 2. Select your exchange (Binance, OKX, Bybit, Bitget)
 3. Enter your API keys:
@@ -49,7 +47,6 @@ You can connect multiple exchanges:
 
 - **Default Exchange**: Set your primary exchange
 - **Currency**: Choose your preferred display currency
-- **Language**: Select interface language
 - **Theme**: Light or dark mode
 
 #### Trading Settings
@@ -57,38 +54,6 @@ You can connect multiple exchanges:
 - **Default Order Type**: Market, Limit, or Stop-Limit
 - **Leverage**: Set default leverage (1x-100x)
 - **Risk Level**: Conservative, Moderate, or Aggressive
-- **Position Size**: Default position size as % of portfolio
-
-#### Notification Settings
-
-- ☑ Price Alerts
-- ☑ Trade Confirmations
-- ☑ Position Updates
-- ☑ Agent Recommendations
-- Choose notification method: Browser / Telegram / Email
-
-### Step 5: Security Setup
-
-#### Two-Factor Authentication (2FA)
-
-1. Go to Settings > Security
-2. Click "Enable 2FA"
-3. Scan QR code with your authenticator app
-4. Enter verification code
-5. Save backup codes
-
-#### API Key Security
-
-1. Review connected exchanges
-2. Verify IP whitelist is configured
-3. Set up separate read-only keys
-4. Enable withdrawal confirmation
-
-#### Session Settings
-
-- Auto-lock timeout (5, 15, 30, 60 minutes)
-- IP restrictions
-- Device management
 
 ## Verification Checklist
 
@@ -99,29 +64,20 @@ After setup, verify:
 - [ ] At least one exchange connected
 - [ ] API keys verified working
 - [ ] Settings configured to preference
-- [ ] 2FA enabled
-- [ ] Notifications tested
 
 ## Testing Your Setup
 
-### 1. Test Connection
+### Test Connection
 
 1. Click the extension icon
 2. Check exchange status (should show "Connected")
 3. View balance data loading
 
-### 2. Test Read Access
+### Test Read Access
 
 1. Navigate to any exchange page
 2. Open LinkLayerAI extension
 3. Verify balance and position data
-
-### 3. Test Trade (Optional)
-
-1. Use testnet first!
-2. Place small test order
-3. Verify execution
-4. Check order history
 
 ## Common Setup Issues
 
@@ -139,19 +95,6 @@ After setup, verify:
 - Disable VPN or proxy
 - Try different browser
 
-### "Extension Not Responding"
-
-- Clear browser cache
-- Disable other extensions temporarily
-- Restart browser
-- Reinstall extension
-
 ## Next Steps
 
-Once setup is complete, proceed to [Configuration](./configuration) to customize your experience.
-
-## Need Help?
-
-- Join our [Telegram community](https://t.me/LinkLayerAiOfficial)
-- Check our [FAQ](../usage/troubleshooting)
-- Open a support ticket on GitHub
+Once setup is complete, explore [Basic Usage](./basic-usage) to start using the extension.

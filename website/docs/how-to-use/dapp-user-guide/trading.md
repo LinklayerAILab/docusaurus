@@ -1,4 +1,4 @@
-# Trading
+# Trading Guide
 
 Learn how to execute trades on the LinkLayerAI DApp.
 
@@ -30,12 +30,6 @@ The trading interface provides:
 - Automatically sell at a predetermined price
 - Protects against significant losses
 - Essential for risk management
-
-### Take-Profit Orders
-
-- Automatically sell at a target price
-- Locks in profits
-- Helps maintain trading discipline
 
 ## AI-Assisted Trading
 
@@ -78,7 +72,6 @@ The trading interface provides:
 2. **Start with small positions** to test strategies
 3. **Keep a trading journal** to track performance
 4. **Stay updated** on market news and events
-5. **Don't overtrade** - quality over quantity
 
 ## Troubleshooting
 
@@ -93,10 +86,3 @@ The trading interface provides:
 - Reduce order size
 - Use limit orders instead of market
 - Check market liquidity
-
-## Advanced Features
-
-- **Trailing Stops**: Automatically adjust stop-loss as price moves favorably
-- **Iceberg Orders**: Hide large orders
-- **TWAP**: Time-weighted average price execution
-- **Algo Trading**: Custom trading strategies

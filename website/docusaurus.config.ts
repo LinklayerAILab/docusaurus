@@ -84,15 +84,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'dapp-user-guide',
+          sidebarId: 'how-to-use',
           position: 'left',
-          label: 'DApp User Guide',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'chrome-extension-setup',
-          position: 'left',
-          label: 'Chrome Extension Setup',
+          label: 'How to use',
         },
       ],
     },

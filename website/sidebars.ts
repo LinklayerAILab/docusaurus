@@ -111,60 +111,60 @@ const sidebars: SidebarsConfig = {
     },
   ],
 
-  // DApp User Guide sidebar
-  'dapp-user-guide': [
+  // How to Use sidebar
+  'how-to-use': [
     {
       type: 'doc',
-      id: 'dapp-user-guide',
+      id: 'how-to-use',
       label: 'Overview',
     },
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'DApp User Guide',
       collapsed: false,
       items: [
-        'dapp-user-guide/getting-started/introduction',
-        'dapp-user-guide/getting-started/installation',
-        'dapp-user-guide/getting-started/quick-start',
+        {
+          type: 'doc',
+          id: 'how-to-use/dapp-user-guide/introduction',
+          label: 'Introduction',
+        },
+        {
+          type: 'doc',
+          id: 'how-to-use/dapp-user-guide/installation',
+          label: 'Installation',
+        },
+        {
+          type: 'doc',
+          id: 'how-to-use/dapp-user-guide/dashboard',
+          label: 'Dashboard',
+        },
+        {
+          type: 'doc',
+          id: 'how-to-use/dapp-user-guide/trading',
+          label: 'Trading',
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Features',
+      label: 'Chrome Extension Setup',
       collapsed: false,
       items: [
-        'dapp-user-guide/features/dashboard',
-        'dapp-user-guide/features/trading',
-        'dapp-user-guide/features/wallet',
-      ],
-    },
-  ],
-
-  // Chrome Extension Setup sidebar
-  'chrome-extension-setup': [
-    {
-      type: 'doc',
-      id: 'chrome-extension-setup',
-      label: 'Overview',
-    },
-    {
-      type: 'category',
-      label: 'Installation',
-      collapsed: false,
-      items: [
-        'chrome-extension-setup/installation/requirements',
-        'chrome-extension-setup/installation/setup',
-        'chrome-extension-setup/installation/configuration',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Usage',
-      collapsed: false,
-      items: [
-        'chrome-extension-setup/usage/basic-usage',
-        'chrome-extension-setup/usage/advanced-features',
-        'chrome-extension-setup/usage/troubleshooting',
+        {
+          type: 'doc',
+          id: 'how-to-use/chrome-extension-setup/requirements',
+          label: 'Requirements',
+        },
+        {
+          type: 'doc',
+          id: 'how-to-use/chrome-extension-setup/setup',
+          label: 'Setup Guide',
+        },
+        {
+          type: 'doc',
+          id: 'how-to-use/chrome-extension-setup/basic-usage',
+          label: 'Basic Usage',
+        },
       ],
     },
   ],
