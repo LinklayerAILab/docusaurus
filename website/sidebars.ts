@@ -110,6 +110,64 @@ const sidebars: SidebarsConfig = {
       items: ['guide/bybitpc'],
     },
   ],
+
+  // DApp User Guide sidebar
+  'dapp-user-guide': [
+    {
+      type: 'doc',
+      id: 'dapp-user-guide',
+      label: 'Overview',
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      collapsed: false,
+      items: [
+        'dapp-user-guide/getting-started/introduction',
+        'dapp-user-guide/getting-started/installation',
+        'dapp-user-guide/getting-started/quick-start',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Features',
+      collapsed: false,
+      items: [
+        'dapp-user-guide/features/dashboard',
+        'dapp-user-guide/features/trading',
+        'dapp-user-guide/features/wallet',
+      ],
+    },
+  ],
+
+  // Chrome Extension Setup sidebar
+  'chrome-extension-setup': [
+    {
+      type: 'doc',
+      id: 'chrome-extension-setup',
+      label: 'Overview',
+    },
+    {
+      type: 'category',
+      label: 'Installation',
+      collapsed: false,
+      items: [
+        'chrome-extension-setup/installation/requirements',
+        'chrome-extension-setup/installation/setup',
+        'chrome-extension-setup/installation/configuration',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Usage',
+      collapsed: false,
+      items: [
+        'chrome-extension-setup/usage/basic-usage',
+        'chrome-extension-setup/usage/advanced-features',
+        'chrome-extension-setup/usage/troubleshooting',
+      ],
+    },
+  ],
 };
 
 export default sidebars;

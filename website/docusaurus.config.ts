@@ -82,6 +82,18 @@ const config: Config = {
           position: 'left',
           label: 'API Guide',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dapp-user-guide',
+          position: 'left',
+          label: 'DApp User Guide',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'chrome-extension-setup',
+          position: 'left',
+          label: 'Chrome Extension Setup',
+        },
       ],
     },
     footer: {
