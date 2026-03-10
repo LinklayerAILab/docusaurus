@@ -1,6 +1,6 @@
-# Extension Setup Guide
+# Chrome Extension User Guide
 
-Step-by-step instructions to install and set up the LinkLayerAI Chrome Extension.
+A step-by-step guide to installing and using the LinkLayerAI Chrome extension.
 
 ## Installation Steps
 
