@@ -119,53 +119,14 @@ const sidebars: SidebarsConfig = {
       label: 'Overview',
     },
     {
-      type: 'category',
+      type: 'doc',
       label: 'DApp User Guide',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'how-to-use/dapp-user-guide/introduction',
-          label: 'Introduction',
-        },
-        {
-          type: 'doc',
-          id: 'how-to-use/dapp-user-guide/installation',
-          label: 'Installation',
-        },
-        {
-          type: 'doc',
-          id: 'how-to-use/dapp-user-guide/dashboard',
-          label: 'Dashboard',
-        },
-        {
-          type: 'doc',
-          id: 'how-to-use/dapp-user-guide/trading',
-          label: 'Trading',
-        },
-      ],
+      id: 'how-to-use/dapp-user-guide',
     },
     {
-      type: 'category',
+      type: 'doc',
       label: 'Chrome Extension Setup',
-      collapsed: false,
-      items: [
-        {
-          type: 'doc',
-          id: 'how-to-use/chrome-extension-setup/requirements',
-          label: 'Requirements',
-        },
-        {
-          type: 'doc',
-          id: 'how-to-use/chrome-extension-setup/setup',
-          label: 'Setup Guide',
-        },
-        {
-          type: 'doc',
-          id: 'how-to-use/chrome-extension-setup/basic-usage',
-          label: 'Basic Usage',
-        },
-      ],
+      id: 'how-to-use/chrome-extension-setup',
     },
   ],
 };
