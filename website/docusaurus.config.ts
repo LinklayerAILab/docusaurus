@@ -86,7 +86,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'how-to-use',
           position: 'left',
-          label: 'How to use',
+          label: 'Product Guide',
         },
       ],
     },
