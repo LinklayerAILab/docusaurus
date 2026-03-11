@@ -60,11 +60,11 @@ The bottom left corner shows the exchange spot list. Click any token icon and th
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/54.png)
 
-Perps Mining：  
+Perps Mining：
 
-Retroactive：A one-time reward issued after you connect your API, automatically calculated based on your liquidation history from the past 6 months.  
+Retroactive：A one-time reward issued after you connect your API, automatically calculated based on your liquidation history from the past 6 months.
 
-Recurring：Ongoing rewards distributed every 30 days, based on your new liquidation records during each period.  
+Recurring：Ongoing rewards distributed every 30 days, based on your new liquidation records during each period.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/55.png)
 
@@ -103,4 +103,3 @@ Click "Graph" on the left to view your referral graph.
 Click "Rewards" on the left to swap LLA for LLAX and stake your tokens.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/8.png)
-
