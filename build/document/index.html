@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-document" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Start Here | LinkLayer</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://doc.linklayer.ai/document"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Start Here | LinkLayer"><meta data-rh="true" name="description" content="LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value."><meta data-rh="true" property="og:description" content="LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value."><link data-rh="true" rel="icon" href="/img/icon.svg"><link data-rh="true" rel="canonical" href="https://doc.linklayer.ai/document"><link data-rh="true" rel="alternate" href="https://doc.linklayer.ai/document" hreflang="en"><link data-rh="true" rel="alternate" href="https://doc.linklayer.ai/document" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.c31b57cf.css">
+<script src="/assets/js/runtime~main.25206d4d.js" defer="defer"></script>
+<script src="/assets/js/main.60f514e4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/icon.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_UHvc" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/icon.svg" alt="LinkLayer Logo" class="themedComponent_bJGS themedComponent--light_LEkC"><img src="/img/icon.svg" alt="LinkLayer Logo" class="themedComponent_bJGS themedComponent--dark_jnGk"></div><b class="navbar__title text--truncate">LinkLayer</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/document">Document</a><a class="navbar__item navbar__link" href="/">API Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_bT41 colorModeToggle_UolE"><button class="clean-btn toggleButton_x9TT toggleButtonDisabled_Dj8q" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_nCQi lightToggleIcon_dnYY"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_nCQi darkToggleIcon_OBbf"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_nCQi systemToggleIcon_IWwm"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_dDCC"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_PEsc"><div class="docsWrapper_lLmf"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_PuQw" type="button"></button><div class="docRoot_kBZ6"><main class="docMainContainer_EfwR docMainContainerEnhanced_r8nV"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_n6xZ"><div class="docItemContainer_RhpI"><article><div class="tocCollapsible_BEWm theme-doc-toc-mobile tocMobile_NSfz"><button type="button" class="clean-btn tocCollapsibleButton_IbtT">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Start Here</h1></header>
+<h1>What Is LinkLayerAI</h1>
+<p>LinkLayerAI is an intelligent incentive protocol built around multi-dimensional trading data. Its purpose is to analyze, model, and assetize real trading data from global traders through AI Agents, forming a scalable, open, and sustainable network of data value.</p>
+<h1><strong>Multi-Dimensional Trading Data</strong></h1>
+<p>In LinkLayerAI, multi-dimensional data includes:</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-personal-live-trading-data"><strong>1. Personal Live Trading Data</strong><a href="#1-personal-live-trading-data" class="hash-link" aria-label="Direct link to 1-personal-live-trading-data" title="Direct link to 1-personal-live-trading-data" translate="no">​</a></h3>
+<p>Real exchange API data / on-chain trading behavior</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-public-market-data"><strong>2. Public Market Data</strong><a href="#2-public-market-data" class="hash-link" aria-label="Direct link to 2-public-market-data" title="Direct link to 2-public-market-data" translate="no">​</a></h3>
+<p>Market prices, orderflow, on-chain signals, sentiment indicators, liquidity factors, and more</p>
+<p>Users can connect read-only exchange APIs or on-chain addresses. The protocol automatically aggregates their live trading records, behavioral patterns, and risk preferences.
+AI then structures this raw data, including:</p>
+<ul>
+<li class="">Strategy identification</li>
+<li class="">Behavioral pattern analysis</li>
+<li class="">Performance feature extraction</li>
+<li class="">Risk profiling</li>
+<li class="">Multi-dimensional persona modeling</li>
+</ul>
+<h1><strong>Core Outputs</strong></h1>
+<p>Based on its analysis, the system produces three primary outputs:</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="-trading-persona"><strong>• Trading Persona</strong><a href="#-trading-persona" class="hash-link" aria-label="Direct link to -trading-persona" title="Direct link to -trading-persona" translate="no">​</a></h3>
+<p>A complete behavioral and strategic profile of the trader.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="-loss-debriefing"><strong>• Loss Debriefing</strong><a href="#-loss-debriefing" class="hash-link" aria-label="Direct link to -loss-debriefing" title="Direct link to -loss-debriefing" translate="no">​</a></h3>
+<p>Identifying the root causes of losses based on actual trading actions and behavioral signals.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="-personalized-insights"><strong>• Personalized Insights</strong><a href="#-personalized-insights" class="hash-link" aria-label="Direct link to -personalized-insights" title="Direct link to -personalized-insights" translate="no">​</a></h3>
+<p>Actionable optimization suggestions generated from the user’s live trading data and macro market factors.</p>
+<p>By integrating personal and public datasets, the AI Agent builds validated behavioral profiles, risk maps, and strategy signatures. Social connections are no longer superficial or label-based; they naturally emerge from <strong>actual performance, risk patterns, and strategic similarity</strong>.</p>
+<h1><strong>Incentives and Data Assetization</strong></h1>
+<p>LinkLayerAI distills each user’s trading data into a <strong>measurable, referenceable, and rewardable value unit</strong>.</p>
+<p>Data collection, modeling, and verification occur off-chain through the AI system, while <strong>value distribution and incentives are executed on-chain</strong>, ensuring transparency, fairness, and traceability.</p>
+<p>Under this mechanism, trading behavior is not only analyzed but also rewarded, forming a sustainable value loop.</p>
+<h1><strong>Three Core Asset Forms</strong></h1>
+<p>Trading data in LinkLayerAI evolves into three fundamental asset types:</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-behavioral-model-persona"><strong>1. Behavioral Model (Persona)</strong><a href="#1-behavioral-model-persona" class="hash-link" aria-label="Direct link to 1-behavioral-model-persona" title="Direct link to 1-behavioral-model-persona" translate="no">​</a></h3>
+<p>A structured representation of trading style, emotional tendencies, and risk habits.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-interactive-agent-agent-interaction"><strong>2. Interactive Agent (Agent Interaction)</strong><a href="#2-interactive-agent-agent-interaction" class="hash-link" aria-label="Direct link to 2-interactive-agent-agent-interaction" title="Direct link to 2-interactive-agent-agent-interaction" translate="no">​</a></h3>
+<p>A personal AI trained on your data—capable of analysis, Q&amp;A, debriefing, and continuous adaptation.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-data-asset-layer-data-assetization"><strong>3. Data Asset Layer (Data Assetization)</strong><a href="#3-data-asset-layer-data-assetization" class="hash-link" aria-label="Direct link to 3-data-asset-layer-data-assetization" title="Direct link to 3-data-asset-layer-data-assetization" translate="no">​</a></h3>
+<p>Your trading data becomes a quantifiable, incentivized, on-chain asset class.</p>
+<h1><strong>Mission &amp; Vision</strong></h1>
+<p>LinkLayerAI aims to build a next-generation Web3 trading social network—
+one where every piece of trading data becomes <strong>interpretable, interactive, collaborative, and valuable</strong>, enabling traders worldwide to fully realize the value of their own data.</p>
+<h1><strong>Why LinkLayerAI?</strong></h1>
+<p>In today’s Web3 landscape, we are not lacking data—
+we are lacking <strong>understanding</strong>, <strong>ownership</strong>, and <strong>value return</strong> for data.</p>
+<p>We are not lacking social platforms—
+we are lacking ones built on <strong>real behavior</strong>, <strong>trust</strong>, and <strong>competence</strong>.</p>
+<p>LinkLayerAI exists to answer a fundamental question:</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="how-can-the-core-behavior-of-web3tradingbe-transformed-into-measurable-value-for-every-individual"><strong>How can the core behavior of Web3—trading—be transformed into measurable value for every individual?</strong><a href="#how-can-the-core-behavior-of-web3tradingbe-transformed-into-measurable-value-for-every-individual" class="hash-link" aria-label="Direct link to how-can-the-core-behavior-of-web3tradingbe-transformed-into-measurable-value-for-every-individual" title="Direct link to how-can-the-core-behavior-of-web3tradingbe-transformed-into-measurable-value-for-every-individual" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-because-data-should-be-a-speaking-asset-not-a-silent-resource"><strong>1. Because Data Should Be a “Speaking Asset,” Not a Silent Resource</strong><a href="#1-because-data-should-be-a-speaking-asset-not-a-silent-resource" class="hash-link" aria-label="Direct link to 1-because-data-should-be-a-speaking-asset-not-a-silent-resource" title="Direct link to 1-because-data-should-be-a-speaking-asset-not-a-silent-resource" translate="no">​</a></h2>
+<p>Every trader generates incredibly valuable behavioral signals:
+every entry, exit, stop-loss, and decision reflects cognitive patterns, risk logic, and strategy design.</p>
+<p>Yet today:</p>
+<ul>
+<li class="">these data are locked inside centralized exchanges, or</li>
+<li class="">they exist as raw, fragmented on-chain records with no structure</li>
+<li class="">they cannot be interpreted, modeled, or rewarded</li>
+</ul>
+<p>LinkLayerAI is the first protocol to <strong>systematically implement “Trading Data Assetization.”</strong></p>
+<p>We bring data to life through AI Agents, turning raw records into:</p>
+<ul>
+<li class=""><strong>Understandable Behavioral Models (Persona)</strong></li>
+<li class=""><strong>Interactive Intelligent Agents (Agent Interaction)</strong></li>
+<li class=""><strong>Rewardable On-Chain Assets (Data Assetization)</strong></li>
+</ul>
+<p>LinkLayerAI returns data ownership and value back to users.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-because-social-should-be-value-based-resonance-not-empty-connections"><strong>2. Because Social Should Be “Value-Based Resonance,” Not Empty Connections</strong><a href="#2-because-social-should-be-value-based-resonance-not-empty-connections" class="hash-link" aria-label="Direct link to 2-because-social-should-be-value-based-resonance-not-empty-connections" title="Direct link to 2-because-social-should-be-value-based-resonance-not-empty-connections" translate="no">​</a></h2>
+<p>Web3 social has become a loop of follower counts, airdrops, and vanity metrics—
+none of which reflect real competence.</p>
+<p>LinkLayerAI redefines the foundation of social interaction by making <strong>Trading Persona</strong> the core identity.</p>
+<p>Here:</p>
+<ul>
+<li class="">Identity is defined by your real trading profile, not PFPs</li>
+<li class="">Socializing happens between traders with similar strategies or complementary styles</li>
+<li class="">Trust is built on validated, data-backed performance—not reputation games</li>
+</ul>
+<p>We create a network where connections form through <strong>shared value</strong>, not empty interaction.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-because-ai-should-be-personalized-empowerment-not-a-black-box"><strong>3. Because AI Should Be “Personalized Empowerment,” Not a Black Box</strong><a href="#3-because-ai-should-be-personalized-empowerment-not-a-black-box" class="hash-link" aria-label="Direct link to 3-because-ai-should-be-personalized-empowerment-not-a-black-box" title="Direct link to 3-because-ai-should-be-personalized-empowerment-not-a-black-box" translate="no">​</a></h2>
+<p>Most trading tools are generic dashboards—
+they do not understand the user, nor evolve with them.</p>
+<p>LinkLayerAI’s AI Agent is your <strong>personal intelligent extension</strong>, designed to:</p>
+<ul>
+<li class="">deeply personalize itself based on your real trading data</li>
+<li class="">explain losses, behavior patterns, and strategic blind spots</li>
+<li class="">improve as you improve, evolve as you evolve</li>
+</ul>
+<p>Here, AI is not a tool above you—
+it is an intelligent partner beside you.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-because-linklayerai-builds-a-value-flywheel-not-just-product-features"><strong>4. Because LinkLayerAI Builds a “Value Flywheel,” Not Just Product Features</strong><a href="#4-because-linklayerai-builds-a-value-flywheel-not-just-product-features" class="hash-link" aria-label="Direct link to 4-because-linklayerai-builds-a-value-flywheel-not-just-product-features" title="Direct link to 4-because-linklayerai-builds-a-value-flywheel-not-just-product-features" translate="no">​</a></h2>
+<p>Many Web3 products stitch together isolated features.
+LinkLayerAI instead constructs a dual-axis value loop:</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="data-value-axis"><strong>Data Value Axis</strong><a href="#data-value-axis" class="hash-link" aria-label="Direct link to data-value-axis" title="Direct link to data-value-axis" translate="no">​</a></h3>
+<p>Data contribution → AI modeling → persona generation → behavior insights → value activation</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="social-value-axis"><strong>Social Value Axis</strong><a href="#social-value-axis" class="hash-link" aria-label="Direct link to social-value-axis" title="Direct link to social-value-axis" translate="no">​</a></h3>
+<p>Persona-driven matching → social engagement → contribution → on-chain rewards → higher-quality data</p>
+<p>These two loops reinforce each other:</p>
+<p><strong>More data → better personas → higher-quality social → more incentives → more participation → even richer data</strong></p>
+<p>A compounding ecosystem.</p>
+<h1><strong>Conclusion</strong></h1>
+<p>Choosing LinkLayerAI means:</p>
+<ul>
+<li class="">your data no longer sleeps in centralized silos</li>
+<li class="">your social network is built on competence and verified performance</li>
+<li class="">your AI companion becomes your strategic partner</li>
+<li class="">your trading experience transitions from “isolated actions” to “value creation”</li>
+</ul>
+<p>LinkLayerAI is not just a protocol—
+it is a movement.</p>
+<p>A movement to reclaim data sovereignty, enhance intelligence, and build new trust networks based on real behavior.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="in-linklayerai-every-trade-is-no-longer-an-endpoint"><strong>**In LinkLayerAI, every trade is no longer an endpoint—</strong><a href="#in-linklayerai-every-trade-is-no-longer-an-endpoint" class="hash-link" aria-label="Direct link to in-linklayerai-every-trade-is-no-longer-an-endpoint" title="Direct link to in-linklayerai-every-trade-is-no-longer-an-endpoint" translate="no">​</a></h3>
+<p>it is the beginning of value creation.**</p>
+<h1><strong>LinkLayerAI Tokenomics</strong></h1>
+<p><em>Coming soon…</em></p>
+<h1><strong>FAQ &amp; Glossary</strong></h1>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-data-privacy--security"><strong>1. Data, Privacy &amp; Security</strong><a href="#1-data-privacy--security" class="hash-link" aria-label="Direct link to 1-data-privacy--security" title="Direct link to 1-data-privacy--security" translate="no">​</a></h2>
+<p><strong>Q1: Does uploading API keys expose my assets?</strong>
+<strong>A:</strong> Absolutely not.</p>
+<ul>
+<li class="">Only read-only permissions are required</li>
+<li class="">These keys cannot execute trades, withdrawals, or transfers</li>
+<li class="">All keys are encrypted and securely isolated</li>
+</ul>
+<p><strong>Q2: Will my real trading records or identity be exposed?</strong>
+<strong>A:</strong> No.</p>
+<p>We apply strict privacy measures:</p>
+<ul>
+<li class="">All identifiable information is anonymized</li>
+<li class="">Only high-level persona traits or summarized indicators are visible to others</li>
+<li class="">No one can trace data back to your personal identity</li>
+</ul>
+<p><strong>Q3: Will my data be used for commercial purposes?</strong>
+<strong>A:</strong> Your data sovereignty always belongs to you.</p>
+<p>We will never sell your personal data.
+Only anonymized, aggregated data may be used to improve AI performance or produce macro insights.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-trading-persona--ai-core"><strong>2. Trading Persona &amp; AI Core</strong><a href="#2-trading-persona--ai-core" class="hash-link" aria-label="Direct link to 2-trading-persona--ai-core" title="Direct link to 2-trading-persona--ai-core" translate="no">​</a></h2>
+<p><strong>Q4: What exactly is a Trading Persona?</strong>
+A dynamic digital identity built through multi-dimensional analysis of your live trading data. It includes:</p>
+<ul>
+<li class="">Behavioral patterns</li>
+<li class="">Strategy preferences</li>
+<li class="">Risk profiles</li>
+<li class="">Volatility response traits</li>
+</ul>
+<p>It evolves with your trading behavior.</p>
+<p><strong>Q5: How is the AI Agent different from typical trading tools?</strong>
+Key differences:</p>
+<ul>
+<li class="">It is exclusive to your data</li>
+<li class="">It allows conversational interaction</li>
+<li class="">It explains not just <em>what</em> happened, but <em>why</em></li>
+</ul>
+<p><strong>Q6: If my trading style changes, will my persona update?</strong>
+<strong>A:</strong> Yes.
+Your AI Agent continuously learns and updates your model.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-incentives-contribution--participation"><strong>3. Incentives, Contribution &amp; Participation</strong><a href="#3-incentives-contribution--participation" class="hash-link" aria-label="Direct link to 3-incentives-contribution--participation" title="Direct link to 3-incentives-contribution--participation" translate="no">​</a></h2>
+<p><strong>Q7: Does trading more mean earning more rewards?</strong>
+<strong>A:</strong> No.</p>
+<p>Rewards focus on <strong>quality</strong>, not quantity:</p>
+<ul>
+<li class="">valuable and consistent data</li>
+<li class="">meaningful insights or reviews</li>
+<li class="">constructive social contributions</li>
+</ul>
+<p><strong>Q8: Can beginners earn rewards too?</strong>
+<strong>A:</strong> Absolutely.</p>
+<p>Beginners can contribute by:</p>
+<ul>
+<li class="">learning through AI insights</li>
+<li class="">joining discussions</li>
+<li class="">performing validation tasks</li>
+<li class="">engaging in community activities</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-ecosystem--tokens"><strong>4. Ecosystem &amp; Tokens</strong><a href="#4-ecosystem--tokens" class="hash-link" aria-label="Direct link to 4-ecosystem--tokens" title="Direct link to 4-ecosystem--tokens" translate="no">​</a></h2>
+<p><strong>Q9: What are LLA and LLAx tokens used for?</strong></p>
+<ul>
+<li class=""><strong>LLAx</strong> — Equity &amp; incentive token for contributions and ecosystem activities</li>
+<li class=""><strong>LLA</strong> — Governance token for protocol-level decisions and DAO management</li>
+</ul>
+<p><strong>Q10: What is the future plan for LinkLayerAI?</strong>
+We aim to build the world’s largest AI-powered trading data value network.</p>
+<p>Short-term:</p>
+<ul>
+<li class="">Expand integrations</li>
+<li class="">Strengthen AI modeling</li>
+<li class="">Build richer social and incentive layers</li>
+</ul>
+<p>Long-term:</p>
+<ul>
+<li class="">Become the essential intelligence layer and value home for every trader</li>
+</ul>
+<h1><strong>Glossary</strong></h1>
+<p><strong>AI Agent</strong>
+A personal AI model trained on user trading data, providing analysis, persona modeling, and interaction.</p>
+<p><strong>Trading Persona</strong>
+A multi-dimensional behavioral identity derived from real trading actions.</p>
+<p><strong>Read-Only API</strong>
+A secure exchange API permission allowing data viewing only.</p>
+<p><strong>Multi-Dimensional Trading Data</strong>
+Combined personal live trading data and public macro/on-chain data.</p>
+<p><strong>LLA / LLAx</strong>
+The dual-token system of the LinkLayerAI ecosystem.</p>
+<h1><strong>LinkLayerAI Products</strong></h1>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="insights-agent"><strong>Insights Agent</strong><a href="#insights-agent" class="hash-link" aria-label="Direct link to insights-agent" title="Direct link to insights-agent" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="product-overview--building-your-trading-persona-with-deep-behavioral-intelligence"><strong>Product Overview – Building Your “Trading Persona” with Deep Behavioral Intelligence</strong><a href="#product-overview--building-your-trading-persona-with-deep-behavioral-intelligence" class="hash-link" aria-label="Direct link to product-overview--building-your-trading-persona-with-deep-behavioral-intelligence" title="Direct link to product-overview--building-your-trading-persona-with-deep-behavioral-intelligence" translate="no">​</a></h3>
+<p>The <strong>Insights Agent</strong> is the core analytical engine of the LinkLayerAI ecosystem.
+It leverages real trading-exchange API data and on-chain behavioral signals to model a user’s trading patterns, risk preferences, decision habits, strengths, and weaknesses—ultimately generating an evolving <strong>Trading Persona</strong>.</p>
+<p>Rather than functioning as a simple analytics widget, the Insights Agent acts as a continuously learning, adaptive trading companion that understands the user’s behavior over time.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="core-capabilities"><strong>Core Capabilities</strong><a href="#core-capabilities" class="hash-link" aria-label="Direct link to core-capabilities" title="Direct link to core-capabilities" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-trading-persona-modeling"><strong>1. Trading Persona Modeling</strong><a href="#1-trading-persona-modeling" class="hash-link" aria-label="Direct link to 1-trading-persona-modeling" title="Direct link to 1-trading-persona-modeling" translate="no">​</a></h3>
+<p>The Insights Agent extracts key behavioral features across multiple dimensions, including:</p>
+<ul>
+<li class="">Profit/loss structure and win-rate models</li>
+<li class="">Order cadence, take-profit/stop-loss behaviors</li>
+<li class="">Leverage preferences and risk tolerance</li>
+<li class="">Performance across different market regimes</li>
+<li class="">Indicators of emotional trading (chasing pumps, panic selling, etc.)</li>
+<li class="">Strategy consistency and behavioral stability</li>
+</ul>
+<p>These factors are synthesized into a visualized <strong>Persona Profile</strong>, functioning like a behavioral “DNA map” of the trader.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-personalized-behavioral-insights"><strong>2. Personalized Behavioral Insights</strong><a href="#2-personalized-behavioral-insights" class="hash-link" aria-label="Direct link to 2-personalized-behavioral-insights" title="Direct link to 2-personalized-behavioral-insights" translate="no">​</a></h3>
+<p>Based on the Trading Persona, the system generates tailored insights such as:</p>
+<ul>
+<li class="">Market conditions where the user performs best</li>
+<li class="">Common loss-making patterns</li>
+<li class="">Indicators that may trigger emotional decisions</li>
+<li class="">Personalized strategy suggestions and risk alerts</li>
+<li class="">Identification of harmful trading habits and structural risks</li>
+</ul>
+<p>This level of insight goes far beyond what traditional trading tools can provide.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-strategy-level-performance-analysis"><strong>3. Strategy-Level Performance Analysis</strong><a href="#3-strategy-level-performance-analysis" class="hash-link" aria-label="Direct link to 3-strategy-level-performance-analysis" title="Direct link to 3-strategy-level-performance-analysis" translate="no">​</a></h3>
+<p>The Insights Agent automatically detects strategy patterns from historical trades and evaluates how each performs across phases and market conditions:</p>
+<ul>
+<li class="">Trend-following adaptability</li>
+<li class="">Breakout accuracy</li>
+<li class="">Grid/range strategy performance curves</li>
+<li class="">Stability of high-frequency or short-term strategies</li>
+<li class="">Yield differences under varying volatility regimes</li>
+</ul>
+<p>Users gain a clear understanding of <strong>what styles they are suited for—and which ones they are not.</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-persona-driven-user-experience"><strong>4. Persona-Driven User Experience</strong><a href="#4-persona-driven-user-experience" class="hash-link" aria-label="Direct link to 4-persona-driven-user-experience" title="Direct link to 4-persona-driven-user-experience" translate="no">​</a></h3>
+<p>The Trading Persona is not just an analysis output—it directly influences user experience across the ecosystem:</p>
+<ul>
+<li class="">Intelligent risk prompts</li>
+<li class="">Personalized strategy filtering</li>
+<li class="">Verified identity representation in community forums</li>
+<li class="">Weighting within the reward and ranking system</li>
+</ul>
+<p>The Insights Agent defines <strong>“who you are” in the network</strong>, becoming the foundation for all downstream interaction.</p>
+<h1><strong>Token Agent</strong></h1>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="product-overview--ai-powered-tokenized-incentives-and-real-time-market-intelligence"><strong>Product Overview – AI-Powered Tokenized Incentives and Real-Time Market Intelligence</strong><a href="#product-overview--ai-powered-tokenized-incentives-and-real-time-market-intelligence" class="hash-link" aria-label="Direct link to product-overview--ai-powered-tokenized-incentives-and-real-time-market-intelligence" title="Direct link to product-overview--ai-powered-tokenized-incentives-and-real-time-market-intelligence" translate="no">​</a></h3>
+<p>The <strong>Token Agent</strong> focuses on enabling users to seamlessly explore, analyze, and interact with the Web3 token landscape through AI-powered insights.
+It transforms fragmented market data into structured, conversational intelligence while integrating deeply with each user’s Trading Persona to deliver personalized token discovery and market interpretation.</p>
+<p>Compared with traditional token screeners or market dashboards, the Token Agent operates as a <strong>context-aware, intent-driven AI system</strong> that understands market dynamics, user risk profiles, and token fundamentals simultaneously.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="core-capabilities-1"><strong>Core Capabilities</strong><a href="#core-capabilities-1" class="hash-link" aria-label="Direct link to core-capabilities-1" title="Direct link to core-capabilities-1" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-natural-language-token-search"><strong>1. Natural Language Token Search</strong><a href="#1-natural-language-token-search" class="hash-link" aria-label="Direct link to 1-natural-language-token-search" title="Direct link to 1-natural-language-token-search" translate="no">​</a></h3>
+<p>The Token Agent supports true intent-based search:</p>
+<ul>
+<li class="">Find tokens by sector, narrative, chain, or function</li>
+<li class="">Search by sentiment, risk level, or market positioning</li>
+<li class="">Discover emerging trends and early narratives</li>
+<li class="">Query tokens using plain natural language (“give me low-cap AI tokens with strong liquidity”)</li>
+</ul>
+<p>It reconstructs raw, unstructured on-chain &amp; market data into a multilingual semantic knowledge graph for accurate and intelligent retrieval.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-smart-ranking--opportunity-discovery"><strong>2. Smart Ranking &amp; Opportunity Discovery</strong><a href="#2-smart-ranking--opportunity-discovery" class="hash-link" aria-label="Direct link to 2-smart-ranking--opportunity-discovery" title="Direct link to 2-smart-ranking--opportunity-discovery" translate="no">​</a></h3>
+<p>The system evaluates tokens using a multi-factor, dynamic ranking framework that includes:</p>
+<ul>
+<li class="">Liquidity structure</li>
+<li class="">Market depth and volatility patterns</li>
+<li class="">Token velocity, holder distribution, and trader profiles</li>
+<li class="">Social momentum and narrative strength</li>
+<li class="">Correlation with market cycles and sector rotations</li>
+</ul>
+<p>The result is a <strong>personalized, persona-aware ranking system</strong> that highlights opportunities suited to the user’s trading characteristics and risk tolerance.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-holistic-token-profiling"><strong>3. Holistic Token Profiling</strong><a href="#3-holistic-token-profiling" class="hash-link" aria-label="Direct link to 3-holistic-token-profiling" title="Direct link to 3-holistic-token-profiling" translate="no">​</a></h3>
+<p>For any given asset, the Token Agent can generate a comprehensive token summary, including:</p>
+<ul>
+<li class="">Project overview and fundamentals</li>
+<li class="">Tokenomics and unlock schedules</li>
+<li class="">On-chain activity and holder stability</li>
+<li class="">Exchange listings and liquidity fragmentation</li>
+<li class="">Security risks and abnormal behavioral signals</li>
+<li class="">Sentiment indicators and narrative trajectory</li>
+</ul>
+<p>This gives users an “instant due diligence” tool for any token across the entire market.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-personalized-token-recommendations"><strong>4. Personalized Token Recommendations</strong><a href="#4-personalized-token-recommendations" class="hash-link" aria-label="Direct link to 4-personalized-token-recommendations" title="Direct link to 4-personalized-token-recommendations" translate="no">​</a></h3>
+<p>The Token Agent aligns token recommendations with the user’s <strong>Trading Persona</strong>, enabling hyper-personalized suggestions such as:</p>
+<ul>
+<li class="">Tokens whose volatility matches the user’s preferred risk profile</li>
+<li class="">Assets structurally suited for the user’s strongest trading behavior</li>
+<li class="">Narrative sectors where the user historically performs best</li>
+<li class="">Token pairs optimized for the user’s strategy patterns</li>
+</ul>
+<p>It is the Web3 equivalent of an AI-driven investment assistant—
+<strong>but powered by real trading data and behavioral intelligence rather than guesswork.</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="5-real-time-analysis--risk-alerts"><strong>5. Real-Time Analysis &amp; Risk Alerts</strong><a href="#5-real-time-analysis--risk-alerts" class="hash-link" aria-label="Direct link to 5-real-time-analysis--risk-alerts" title="Direct link to 5-real-time-analysis--risk-alerts" translate="no">​</a></h3>
+<p>To support continuous decision-making, the Token Agent provides:</p>
+<ul>
+<li class="">Price movement interpretation</li>
+<li class="">Market structure breakdown</li>
+<li class="">Whale activity and liquidity changes</li>
+<li class="">Volatility regime shifts</li>
+<li class="">Early-warning signals for abnormal risk patterns</li>
+</ul>
+<p>Insights are delivered through a conversational interface, enabling users to understand market conditions immediately and intuitively.</p>
+<h1><strong>Protocol &amp; Tokens</strong></h1>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="linklayerai-protocol-lla-protocol"><strong>LinkLayerAI Protocol (LLA Protocol)</strong><a href="#linklayerai-protocol-lla-protocol" class="hash-link" aria-label="Direct link to linklayerai-protocol-lla-protocol" title="Direct link to linklayerai-protocol-lla-protocol" translate="no">​</a></h3>
+<p>The <strong>LLA Protocol</strong> is an intelligent data-value protocol built around <strong>real trading data</strong>, <strong>on-chain interactions</strong>, and <strong>multi-role participation</strong>.
+It leverages a <strong>multi-contract system</strong> to quantify the trustworthy contributions of different ecosystem participants and establishes a comprehensive incentive framework through <strong>LLA</strong> and <strong>LLAx</strong> tokens. This enables trading data to be <strong>verifiable, accumulative, and tradable</strong>, ultimately forming an <strong>open and sustainable intelligent trading network</strong>.</p>
+<p>The core philosophy of the LLA Protocol is:</p>
+<p>Make the <strong>data value of trading behavior</strong> an asset <strong>co-created and shared by all participants</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="i-multi-contract-system--trust--contribution-measurement-engine"><strong>I. Multi-Contract System — Trust &amp; Contribution Measurement Engine</strong><a href="#i-multi-contract-system--trust--contribution-measurement-engine" class="hash-link" aria-label="Direct link to i-multi-contract-system--trust--contribution-measurement-engine" title="Direct link to i-multi-contract-system--trust--contribution-measurement-engine" translate="no">​</a></h2>
+<p>The LLA Protocol uses a <strong>multi-contract architecture</strong> to automatically measure the trustworthy contributions of various participants. These contracts cover:</p>
+<ul>
+<li class="">Trading data contributions</li>
+<li class="">Strategy performance</li>
+<li class="">Human-agent interaction feedback</li>
+<li class="">Agent invocation data</li>
+<li class="">LLAx circulation behavior</li>
+</ul>
+<p>All value flows are <strong>recorded on-chain</strong> for verifiable transparency.</p>
+<p>The system does not artificially distinguish between complex roles but instead <strong>automates the calculation along the axis of “Contribution → Value → Incentive”</strong>:</p>
+<ol>
+<li class="">
+<p><strong>Data Contribution</strong>
+Measures the trader’s contribution via real trading data, including:</p>
+<ul>
+<li class="">Trade depth</li>
+<li class="">Long-term consistency</li>
+<li class="">API data quality</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Interaction Contribution</strong>
+Evaluates the value of user actions in Agent invocations, strategy execution, and model feedback loops.</p>
+</li>
+<li class="">
+<p><strong>Ecosystem Participation</strong>
+Tracks user activity in nodes, liquidity provision, and peripheral strategy markets.</p>
+</li>
+</ol>
+<p>These contracts work in an <strong>event-driven manner</strong>, enabling the protocol to allocate rewards automatically and transparently. In essence, the system creates an <strong>on-chain trust metric where data and behavior themselves are equity</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="ii-dual-token-system--layered-governance--equity-incentives"><strong>II. Dual-Token System — Layered Governance &amp; Equity Incentives</strong><a href="#ii-dual-token-system--layered-governance--equity-incentives" class="hash-link" aria-label="Direct link to ii-dual-token-system--layered-governance--equity-incentives" title="Direct link to ii-dual-token-system--layered-governance--equity-incentives" translate="no">​</a></h2>
+<p>The LLA Protocol employs a <strong>dual-token model</strong>:</p>
+<ul>
+<li class=""><strong>LLA</strong> — Governance Token</li>
+<li class=""><strong>LLAx</strong> — Equity/Contribution Token</li>
+</ul>
+<p>They serve <strong>complementary roles</strong> within the ecosystem.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-lla--governance-token"><strong>1. LLA — Governance Token</strong><a href="#1-lla--governance-token" class="hash-link" aria-label="Direct link to 1-lla--governance-token" title="Direct link to 1-lla--governance-token" translate="no">​</a></h3>
+<p>LLA serves as the ecosystem’s <strong>value anchor</strong>, performing critical functions in governance and long-term coordination:</p>
+<ul>
+<li class="">Protocol parameter governance (e.g., incentive weights, contract upgrades)</li>
+<li class="">Policy making for Agent and strategy markets</li>
+<li class="">Voting for ecosystem partner nodes</li>
+<li class="">Long-term value capture and staking mining</li>
+</ul>
+<p>LLA ensures <strong>protocol consistency and community-driven evolution</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-llax--equity-token"><strong>2. LLAx — Equity Token</strong><a href="#2-llax--equity-token" class="hash-link" aria-label="Direct link to 2-llax--equity-token" title="Direct link to 2-llax--equity-token" translate="no">​</a></h3>
+<p>LLAx is a <strong>practical, scenario-driven token</strong> used to measure multi-role contributions and facilitate internal circulation. It does <strong>not</strong> carry governance rights but drives daily ecosystem operations.</p>
+<p>Use cases include:</p>
+<ul>
+<li class="">Fuel for Agent invocations and executions</li>
+<li class="">Incentive distributions based on contribution</li>
+<li class="">Settlement in strategy and data markets</li>
+<li class="">Unlocking enhanced product permissions, boosts, or acceleration features</li>
+<li class="">Accumulating value from trader real-time data (e.g., XP → LLAx)</li>
+</ul>
+<p>LLAx growth is fully <strong>tied to user behavior</strong>, serving as the <strong>energy and credibility layer</strong> of the protocol.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="iii-incentive-loops-for-three-core-roles"><strong>III. Incentive Loops for Three Core Roles</strong><a href="#iii-incentive-loops-for-three-core-roles" class="hash-link" aria-label="Direct link to iii-incentive-loops-for-three-core-roles" title="Direct link to iii-incentive-loops-for-three-core-roles" translate="no">​</a></h2>
+<p>The protocol primarily serves <strong>three roles</strong>: <strong>Traders</strong>, <strong>Trader-Leaders</strong>, and <strong>Advertisers/Projects</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-traders--core-users"><strong>1. Traders — Core Users</strong><a href="#1-traders--core-users" class="hash-link" aria-label="Direct link to 1-traders--core-users" title="Direct link to 1-traders--core-users" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Participation</strong>: Submit read-only exchange APIs or on-chain addresses, continuously generating real trading data.</li>
+<li class=""><strong>Value Measurement</strong>: Contracts score traders based on data quality, stability, strategy diversity, and market mapping; the Agent updates persona trust dynamically.</li>
+<li class=""><strong>Rewards</strong>: LLAx is distributed periodically based on contribution and can be used to access enhanced services, visibility in the community, or ranking rewards.</li>
+<li class=""><strong>Value Proposition</strong>: Traders receive immediate LLAx rewards while improving their persona weight over time, gaining more visibility and influence in social recommendation and copy trading systems.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-trader-leaders--trust-amplifiers"><strong>2. Trader-Leaders — Trust Amplifiers</strong><a href="#2-trader-leaders--trust-amplifiers" class="hash-link" aria-label="Direct link to 2-trader-leaders--trust-amplifiers" title="Direct link to 2-trader-leaders--trust-amplifiers" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Definition</strong>: Users recognized by the community and contracts as “Leaders” due to stable performance, strategic influence, or high copy rates.</li>
+<li class=""><strong>Role</strong>: Act as signal sources and strategy amplifiers; their strategies are more likely to be recommended, attracting followers to copy or subscribe.</li>
+<li class=""><strong>Measurement</strong>: Contracts weigh additional metrics such as follower activity, strategy copy success, and community contributions (teaching, reviews, discussions).</li>
+<li class=""><strong>Incentives</strong>: Receive higher LLAx allocation, exclusive display spots, or priority in advertising pools. Their actions amplify the impact of marketing campaigns.</li>
+<li class=""><strong>Governance &amp; Growth</strong>: Leader qualifications and weights are recorded on governance contracts, with community oversight via LLA holders to ensure fairness.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-advertisers--projects--demand-side"><strong>3. Advertisers / Projects — Demand Side</strong><a href="#3-advertisers--projects--demand-side" class="hash-link" aria-label="Direct link to 3-advertisers--projects--demand-side" title="Direct link to 3-advertisers--projects--demand-side" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Participation</strong>: Promote products or campaigns targeted at specific Trading Personas or rank-based placements.</li>
+<li class=""><strong>Settlement &amp; Measurement</strong>: Budgets deposited in LLAx or stablecoins are processed via smart contracts, settled only after verifiable events such as strategy copies or engagement.</li>
+<li class=""><strong>Value Assurance</strong>: Persona-based targeting ensures higher conversion rates and lower wasted spend.</li>
+<li class=""><strong>Mutual Incentive</strong>: Part of advertiser budgets flows back to reward traders and leaders, creating a <strong>“deploy → feedback → reward → redeploy”</strong> virtuous cycle.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="iv-structural-problems-addressed"><strong>IV. Structural Problems Addressed</strong><a href="#iv-structural-problems-addressed" class="hash-link" aria-label="Direct link to iv-structural-problems-addressed" title="Direct link to iv-structural-problems-addressed" translate="no">​</a></h2>
+<p>The LLA Protocol resolves long-standing challenges in Web3 trading ecosystems:</p>
+<ul>
+<li class="">Lack of measurable trading data value</li>
+<li class="">Strategies and AI applications lacking data-driven guidance</li>
+<li class="">Ecosystem participants unable to claim rewards proportional to contribution</li>
+<li class="">User behavior rarely accumulates as tradable assets</li>
+<li class="">Absence of unified incentives across AI and on-chain applications</li>
+</ul>
+<p>Through the <strong>multi-contract system + dual-token model</strong>, the protocol builds <strong>future-ready intelligent trading infrastructure</strong>, allowing every participant to transparently receive their fair share of value.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="v-unique-value-of-lla-protocol"><strong>V. Unique Value of LLA Protocol</strong><a href="#v-unique-value-of-lla-protocol" class="hash-link" aria-label="Direct link to v-unique-value-of-lla-protocol" title="Direct link to v-unique-value-of-lla-protocol" translate="no">​</a></h2>
+<p>The LLA Protocol is not a single product but a <strong>multi-role value network</strong> for traders, developers, nodes, and strategy markets:</p>
+<ul>
+<li class=""><strong>On-chain trust metrics</strong></li>
+<li class=""><strong>Dual-token system</strong></li>
+<li class=""><strong>Agent-driven scenario applications</strong></li>
+</ul>
+<p>Together, these transform trading data from <strong>passive records</strong> into <strong>liquid assets</strong>:</p>
+<ul>
+<li class=""><strong>LLA</strong> anchors governance and long-term value</li>
+<li class=""><strong>LLAx</strong> fuels activity and usability</li>
+<li class=""><strong>Multi-contracts</strong> form the infrastructure for equitable value distribution</li>
+</ul>
+<p>Collectively, they constitute a <strong>new data-asset protocol for the AI Agent and trading era</strong>.</p>
+<h1><strong>Trading Social Forum</strong></h1>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="-a-next-generation-trading-community-based-on-real-trading-personas"><strong>— A Next-Generation Trading Community Based on “Real Trading Personas”</strong><a href="#-a-next-generation-trading-community-based-on-real-trading-personas" class="hash-link" aria-label="Direct link to -a-next-generation-trading-community-based-on-real-trading-personas" title="Direct link to -a-next-generation-trading-community-based-on-real-trading-personas" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="product-overview"><strong>Product Overview</strong><a href="#product-overview" class="hash-link" aria-label="Direct link to product-overview" title="Direct link to product-overview" translate="no">​</a></h3>
+<p>The Trading Social Forum is <strong>not a conventional “pump-and-dump chat group” or generic social platform</strong>.
+It is a <strong>high-quality trading community built on real trading data and AI persona models</strong>, where each user’s identity is <strong>not merely an avatar or nickname</strong>, but a <strong>trading persona</strong> formed through their trading behavior and strategy style.</p>
+<p>Here, discussions, idea sharing, and strategy exchanges are <strong>data-driven</strong>, rather than based on personal emotions or market noise. Every post, every interaction is <strong>quantifiable, traceable, and verifiable</strong>, ensuring the <strong>professionalism, authenticity, and value</strong> of community content.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="core-capabilities-2"><strong>Core Capabilities</strong><a href="#core-capabilities-2" class="hash-link" aria-label="Direct link to core-capabilities-2" title="Direct link to core-capabilities-2" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-persona-based-trading-identity-system"><strong>1. Persona-Based Trading Identity System</strong><a href="#1-persona-based-trading-identity-system" class="hash-link" aria-label="Direct link to 1-persona-based-trading-identity-system" title="Direct link to 1-persona-based-trading-identity-system" translate="no">​</a></h3>
+<p>Each user in the forum has a <strong>unique trading persona</strong>, generated from multi-dimensional behavioral features such as historical trading data, strategy preferences, and risk tolerance. The system forms a <strong>multi-layered tag structure</strong>:</p>
+<p><strong>Type Classification:</strong></p>
+<ul>
+<li class="">Risk-oriented, conservative, trend-following, short-term, etc.</li>
+<li class="">Sub-tags for each type, e.g., high-frequency short-term, low-volatility mid-to-long-term</li>
+</ul>
+<p><strong>Data Aggregation:</strong></p>
+<ul>
+<li class="">Summarizes historical returns, P&amp;L volatility, position preferences, strategy stability</li>
+<li class="">Automatically generates visual reports showing the evolution of user trading styles</li>
+</ul>
+<p><strong>Traceable &amp; Evolving:</strong></p>
+<ul>
+<li class="">User behavior updates persona attributes in real time</li>
+<li class="">As trading experience grows, the persona model iterates dynamically, forming evolving identity tags</li>
+</ul>
+<p><strong>Public Social Identity:</strong></p>
+<ul>
+<li class="">Users can choose to share parts of their persona as their social identity</li>
+<li class="">The trading persona becomes a <strong>core marker</strong> for participating in discussions, contributing content, and gaining influence</li>
+</ul>
+<p>Through this mechanism, the forum establishes an <strong>unprecedented data-driven, quantifiable trading identity system</strong>, tightly integrating <strong>social interaction with trading behavior</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-trustworthy-information-exchange"><strong>2. Trustworthy Information Exchange</strong><a href="#2-trustworthy-information-exchange" class="hash-link" aria-label="Direct link to 2-trustworthy-information-exchange" title="Direct link to 2-trustworthy-information-exchange" translate="no">​</a></h3>
+<p>The forum implements a <strong>data-backed verification system</strong>, ensuring the credibility and professionalism of discussions:</p>
+<p><strong>Data-Driven Discussion:</strong></p>
+<ul>
+<li class="">Strategy sharing and viewpoints must be linked to <strong>actual trading data</strong></li>
+<li class="">The system <strong>automatically verifies data sources</strong>, reducing false or exaggerated claims</li>
+</ul>
+<p><strong>Verifiable Strategy Performance:</strong></p>
+<ul>
+<li class="">All shared strategies and trading suggestions are supported by historical performance</li>
+<li class="">Users can check contributors’ win rates, risk levels, and position structures via visual dashboards</li>
+</ul>
+<p><strong>Social Influence Tied to Contribution:</strong></p>
+<ul>
+<li class="">Users publishing high-value insights or strategies earn community recognition and points</li>
+<li class="">Rankings increase visibility and influence within the forum</li>
+</ul>
+<p><strong>Noise Filtering &amp; Quality Assurance:</strong></p>
+<ul>
+<li class="">The system automatically detects duplicate, low-quality, or non-data-driven content</li>
+<li class="">Algorithms recommend high-value threads, focusing community discussions on meaningful content</li>
+</ul>
+<p>This approach <strong>dramatically reduces blind following and emotional chatter</strong>, enabling users to gain <strong>professional insights based on real data</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-community-level-insights--rankings"><strong>3. Community-Level Insights &amp; Rankings</strong><a href="#3-community-level-insights--rankings" class="hash-link" aria-label="Direct link to 3-community-level-insights--rankings" title="Direct link to 3-community-level-insights--rankings" translate="no">​</a></h3>
+<p>Through smart analysis and statistical processing, the forum provides <strong>multi-dimensional insights and dynamic leaderboards</strong>:</p>
+<p><strong>Trading Persona Leaderboards:</strong></p>
+<ul>
+<li class="">Fastest-growing trading personas</li>
+<li class="">High win-rate users in specific strategy domains</li>
+<li class="">Active users with different risk preferences</li>
+</ul>
+<p><strong>Topic &amp; Strategy Insights:</strong></p>
+<ul>
+<li class="">Discussion heatmaps for various strategy directions</li>
+<li class="">Emerging trading areas and coins with active topics</li>
+<li class="">Visualization of community-wide risk preferences and trading trends</li>
+</ul>
+<p><strong>High-Value Threads:</strong></p>
+<ul>
+<li class="">Top threads selected by contribution and engagement</li>
+<li class="">Summaries and interpretations of key market signals</li>
+</ul>
+<p><strong>Real-Time &amp; Customizable Visualizations:</strong></p>
+<ul>
+<li class="">All leaderboards and insights can be filtered by time, strategy, or asset</li>
+<li class="">Users can follow specific topics or personas for <strong>personalized information feeds</strong></li>
+</ul>
+<p>These features make the forum <strong>not just a discussion space</strong>, but a <strong>core entry point for trading insights and learning</strong>, helping users quickly identify high-value information and actionable strategies.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-agent-integration--forum-interconnectivity"><strong>4. Agent Integration &amp; Forum Interconnectivity</strong><a href="#4-agent-integration--forum-interconnectivity" class="hash-link" aria-label="Direct link to 4-agent-integration--forum-interconnectivity" title="Direct link to 4-agent-integration--forum-interconnectivity" translate="no">​</a></h3>
+<p>LinkLayerAI’s <strong>Agents</strong> not only analyze individual user trading data but also identify <strong>behavioral patterns and social connections across the community</strong>, transforming them into <strong>forum discussion topics</strong>:</p>
+<p><strong>Group Pattern Recognition:</strong></p>
+<ul>
+<li class="">
+<p>Agents automatically detect clusters of users with similar trading behavior, e.g.:</p>
+<ul>
+<li class="">Users experiencing consecutive losses in the same strategy</li>
+<li class="">Users holding similar coins or position structures</li>
+<li class="">Users making similar decisions based on technical indicators</li>
+</ul>
+</li>
+<li class="">
+<p>Each cluster is <strong>quantifiably backed by trading data</strong>, ensuring authenticity</p>
+</li>
+</ul>
+<p><strong>Topic Generation &amp; Smart Recommendation:</strong></p>
+<ul>
+<li class="">
+<p>Agents convert cluster insights into discussion topics, e.g.:</p>
+<ul>
+<li class="">“How do ETH/USDT holders handle short-term volatility?”</li>
+<li class="">“Experience sharing from BTC arbitrage users with consecutive losses”</li>
+</ul>
+</li>
+<li class="">
+<p>The system recommends topics or groups to users based on their trading behavior</p>
+</li>
+</ul>
+<p><strong>Data-Driven Social Interaction:</strong></p>
+<ul>
+<li class="">Users share experiences, adjust strategies, or discuss risk management in topics</li>
+<li class="">All viewpoints can be <strong>verified via visualized agent-generated data</strong></li>
+<li class="">Social interactions revolve around <strong>actual trading behavior</strong>, reducing noise and emotional chatter</li>
+</ul>
+<p><strong>Agent-Assisted Social Growth:</strong></p>
+<ul>
+<li class="">Agents provide personalized navigation: discover potential topics and strategy-relevant groups</li>
+<li class="">Users can see differences and similarities between themselves and the group in strategy, risk preference, and positions</li>
+<li class="">Data-driven and agent-assisted analysis helps users build <strong>targeted social networks</strong>, enhancing interaction efficiency and value</li>
+</ul>
+<p>Through this <strong>“Agent + Data-Driven Social Pattern”</strong> integration, the Trading Social Forum becomes a <strong>truly behavior-oriented trading social ecosystem</strong>:
+Users can <strong>share strategies and insights</strong>, while <strong>building high-value social connections around real trading behavior</strong>, forming a <strong>closed loop of social interaction, learning, and data-driven insight</strong>.</p>
+<h1><strong>Technical Documentation</strong></h1>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="technical-architecture"><strong>Technical Architecture</strong><a href="#technical-architecture" class="hash-link" aria-label="Direct link to technical-architecture" title="Direct link to technical-architecture" translate="no">​</a></h2>
+<p>LinkLayerAI decomposes the entire <strong>“data value production chain”</strong> into four hierarchical layers:</p>
+<p><strong>Data Layer → Algorithm &amp; Modeling Layer → Incentive Layer → Agent Application Layer</strong></p>
+<p>These four layers form a <strong>closed loop from data generation, feature extraction, value quantification, to application interaction</strong>, enabling the system to be <strong>sustainable, scalable, and incentivized</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-data-layer"><strong>1. Data Layer</strong><a href="#1-data-layer" class="hash-link" aria-label="Direct link to 1-data-layer" title="Direct link to 1-data-layer" translate="no">​</a></h2>
+<p>The Data Layer is the <strong>core foundation</strong> of LinkLayerAI, driven by <strong>real trading behavior</strong> to build a <strong>high-quality, multi-dimensional, structured data repository</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="11-public-market-data"><strong>1.1 Public Market Data</strong><a href="#11-public-market-data" class="hash-link" aria-label="Direct link to 11-public-market-data" title="Direct link to 11-public-market-data" translate="no">​</a></h3>
+<p>Covers key market structure data and on-chain ecosystem metrics, including:</p>
+<ul>
+<li class="">Multi-exchange market data (price, volume, depth, pair trends)</li>
+<li class="">Derivatives market metrics (funding rates, open interest, leverage structures)</li>
+<li class="">On-chain activities (large transfers, whale behavior, fund flows)</li>
+<li class="">Market sentiment factors (Fear &amp; Greed, social sentiment intensity, forum discussion activity)</li>
+<li class="">Macro factors (e.g., BTC ETFs, regulatory impacts, cycle indicators)</li>
+</ul>
+<p>Data is <strong>time-series sliced, factorized, and volatility-adjusted</strong>, supporting <strong>correlation analysis between user behavior and market context</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="12-user-live-trading-data"><strong>1.2 User Live Trading Data</strong><a href="#12-user-live-trading-data" class="hash-link" aria-label="Direct link to 12-user-live-trading-data" title="Direct link to 12-user-live-trading-data" translate="no">​</a></h3>
+<p>Sourced via <strong>read-only API</strong> from Binance, OKX, Bybit, etc., including:</p>
+<ul>
+<li class="">Historical trades, position trajectories, entry/exit points</li>
+<li class="">Leverage preferences, order timing, slippage exposure, fee structures</li>
+<li class="">P&amp;L volatility characteristics (win/loss run-up)</li>
+<li class="">Sequential behaviors (e.g., FOMO chasing, counter-trend additions, stop-loss habits)</li>
+<li class="">Abstracted trading styles (scalping / swing / position trading)</li>
+</ul>
+<p>All data undergoes:</p>
+<ul>
+<li class=""><strong>Denoising</strong> (removing dirty data and invalid orders)</li>
+<li class=""><strong>Normalization</strong> (aligning exchange-specific fields)</li>
+<li class=""><strong>Dimension Expansion</strong> (label generation, derived features)</li>
+<li class=""><strong>Behavior Embedding</strong> (serialized into vector space for modeling)</li>
+</ul>
+<p>This forms the <strong>Multi-Dimensional Trading Database</strong>, covering <strong>behavior, sequence, risk, factors, and labels</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-algorithm--modeling-layer"><strong>2. Algorithm &amp; Modeling Layer</strong><a href="#2-algorithm--modeling-layer" class="hash-link" aria-label="Direct link to 2-algorithm--modeling-layer" title="Direct link to 2-algorithm--modeling-layer" translate="no">​</a></h2>
+<p>This layer is the <strong>brain of the system</strong>, extracting value signals from data and converting them into <strong>actionable trading intelligence</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="21-algorithm-processing-engine"><strong>2.1 Algorithm Processing Engine</strong><a href="#21-algorithm-processing-engine" class="hash-link" aria-label="Direct link to 21-algorithm-processing-engine" title="Direct link to 21-algorithm-processing-engine" translate="no">​</a></h3>
+<p>Provides a <strong>structured data computation framework</strong>, including:</p>
+<ul>
+<li class=""><strong>Sequence Parsing:</strong> identify trading chains and behavior flows</li>
+<li class=""><strong>Pattern Mining:</strong> extract common or unique patterns from time-series data</li>
+<li class=""><strong>Factor Alignment:</strong> correlate user behavior with market states</li>
+<li class=""><strong>Risk Vectorization:</strong> generate risk features covering exposure, volatility, drawdowns</li>
+<li class=""><strong>Consistency Metrics:</strong> calculate stability cycles, win-rate fluctuation, and return consistency</li>
+</ul>
+<p>Outputs intermediate feature vectors for the modeling layer:</p>
+<ul>
+<li class="">Behavioral Embedding</li>
+<li class="">Risk &amp; Exposure Vector</li>
+<li class="">Strategy Signature</li>
+<li class="">Drawdown Signature</li>
+<li class="">Market Alignment Score</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="22-model-layer"><strong>2.2 Model Layer</strong><a href="#22-model-layer" class="hash-link" aria-label="Direct link to 22-model-layer" title="Direct link to 22-model-layer" translate="no">​</a></h3>
+<p>Composed of two key models:</p>
+<p><strong>Persona Model (Behavioral/Persona Model):</strong></p>
+<ul>
+<li class="">
+<p>Generates for each user:</p>
+<ul>
+<li class="">Trading style (conservative / emotional / aggressive)</li>
+<li class="">Risk preference curves (long-term, short-term, volatility adaptation)</li>
+<li class="">Decision pattern deviations (momentum chasing, counter-trend, frequent trading)</li>
+<li class="">Behavioral consistency score</li>
+<li class="">Anomalies detection</li>
+</ul>
+</li>
+<li class="">
+<p>Forms the <strong>user’s Trading Persona ID</strong> within the system</p>
+</li>
+</ul>
+<p><strong>Insight Model (Insights &amp; Recommendation Model):</strong></p>
+<ul>
+<li class="">
+<p>Combines persona + market factors to generate:</p>
+<ul>
+<li class="">Loss attribution analysis</li>
+<li class="">Behavioral diagnostics (strategy blind spots, fund management issues)</li>
+<li class="">Current position risk assessment</li>
+<li class="">Risk-adjusted strategy recommendations (RAR)</li>
+<li class="">Portfolio exposure optimization</li>
+<li class="">Market environment adaptability analysis</li>
+</ul>
+</li>
+</ul>
+<p>This is the <strong>core model driving user-Agent interaction</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-incentive-layer"><strong>3. Incentive Layer</strong><a href="#3-incentive-layer" class="hash-link" aria-label="Direct link to 3-incentive-layer" title="Direct link to 3-incentive-layer" translate="no">​</a></h2>
+<p>The Incentive Layer <strong>assigns economic value to data flow and AI computation</strong>, closing the loop: <strong>Behavior → Data → Value → Reward</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="31-data-contribution-rewards"><strong>3.1 Data Contribution Rewards</strong><a href="#31-data-contribution-rewards" class="hash-link" aria-label="Direct link to 31-data-contribution-rewards" title="Direct link to 31-data-contribution-rewards" translate="no">​</a></h3>
+<p>Quantifies the value of user data to the protocol based on:</p>
+<ul>
+<li class="">Data volume and completeness</li>
+<li class="">Sequence continuity (long-term contribution preferred)</li>
+<li class="">Rarity (unique assets or strategies)</li>
+<li class="">Contribution to model optimization</li>
+<li class="">Structured label value (complex behavior chains)</li>
+</ul>
+<p><strong>Token Reward = Contribution Value × System Weight</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="32-agent-application--social-rewards"><strong>3.2 Agent Application &amp; Social Rewards</strong><a href="#32-agent-application--social-rewards" class="hash-link" aria-label="Direct link to 32-agent-application--social-rewards" title="Direct link to 32-agent-application--social-rewards" translate="no">​</a></h3>
+<p>Includes:</p>
+<ul>
+<li class="">Queries, analysis discussions, strategy reviews, insight feedback</li>
+<li class="">Knowledge, case, and review contributions in the trading social forum</li>
+<li class="">Citations, likes, shares generate contribution points</li>
+<li class="">All actions are <strong>captured and quantified by the incentive model</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="33-llax-incentive-system"><strong>3.3 LLAx Incentive System</strong><a href="#33-llax-incentive-system" class="hash-link" aria-label="Direct link to 33-llax-incentive-system" title="Direct link to 33-llax-incentive-system" translate="no">​</a></h3>
+<p>LLAx, the <strong>application-layer token</strong>, supports:</p>
+<ul>
+<li class="">Unlocking personalized models (private persona, strategy testing)</li>
+<li class="">Purchasing premium AI tools</li>
+<li class="">Displaying capabilities and reputation in the trading social forum</li>
+<li class="">Participating in the Agent Marketplace (buy/sell strategies)</li>
+</ul>
+<p>The Incentive Layer ensures <strong>ecosystem self-growth</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-agent-application-layer"><strong>4. Agent Application Layer</strong><a href="#4-agent-application-layer" class="hash-link" aria-label="Direct link to 4-agent-application-layer" title="Direct link to 4-agent-application-layer" translate="no">​</a></h2>
+<p>The <strong>user-facing layer</strong> where all value is presented.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="41-insight-agent"><strong>4.1 Insight Agent</strong><a href="#41-insight-agent" class="hash-link" aria-label="Direct link to 41-insight-agent" title="Direct link to 41-insight-agent" translate="no">​</a></h3>
+<p>Core capabilities:</p>
+<p><strong>① Persona Generation:</strong></p>
+<ul>
+<li class="">
+<p>Automatically creates:</p>
+<ul>
+<li class="">Trading behavior profile</li>
+<li class="">Risk tolerance characteristics</li>
+<li class="">Behavioral stability score</li>
+<li class="">Decision biases (momentum chasing, panic selling)</li>
+<li class="">Trading cycle features</li>
+</ul>
+</li>
+</ul>
+<p><strong>② Live Trade Diagnosis &amp; Review:</strong></p>
+<ul>
+<li class="">Trade health report</li>
+<li class="">Automated loss reviews</li>
+<li class="">Anomaly detection (FOMO, revenge trading)</li>
+<li class="">Strategy analysis and improvement points</li>
+</ul>
+<p><strong>③ Factor-Driven Position Risk Recommendations:</strong></p>
+<ul>
+<li class="">
+<p>Public and individual factor integration for:</p>
+<ul>
+<li class="">Position risk warnings</li>
+<li class="">Overexposure alerts</li>
+<li class="">Market factor alignment</li>
+<li class="">Stop-loss and reduction suggestions</li>
+<li class="">Potential strategy switches</li>
+</ul>
+</li>
+</ul>
+<p>This layer is the <strong>presentation layer of all system computations</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="42-trading-social-forum"><strong>4.2 Trading Social Forum</strong><a href="#42-trading-social-forum" class="hash-link" aria-label="Direct link to 42-trading-social-forum" title="Direct link to 42-trading-social-forum" translate="no">​</a></h3>
+<p>Core features:</p>
+<ul>
+<li class="">Layered social interactions driven by <strong>trading ability and behavior profile</strong></li>
+<li class="">Matching with users of similar personas or strategy preferences</li>
+<li class="">Supports public reviews, strategy discussions, and group behavior analysis</li>
+<li class="">Reputation system guaranteed by <strong>on-chain data</strong></li>
+<li class="">All contributions included in the <strong>incentive layer</strong></li>
+</ul>
+<p>Forms a <strong>Data-Driven Social Trading Network</strong>.</p>
+<p><strong>Smart contracts coming soon…</strong>
+<strong>Audit reports coming soon…</strong></p>
+<h1><strong>Resources &amp; Ecosystem</strong></h1>
+<p><strong>Litepaper</strong>
+<a class="" href="/document?tab=t.aey143xwyxd">https://docs.google.com/document/d/1EIMkwBfgqjAlbygKHkwnpApHkrWVsXX1GczXt6gC8I8/edit?tab=t.aey143xwyxd</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="prohibited-countries-and-regions"><strong>Prohibited Countries and Regions</strong><a href="#prohibited-countries-and-regions" class="hash-link" aria-label="Direct link to prohibited-countries-and-regions" title="Direct link to prohibited-countries-and-regions" translate="no">​</a></h2>
+<p>United States • Mainland China</p>
+<p>The above countries, along with any other locations that may be designated by LinkLayerAI from time to time, constitute the List of Prohibited Countries and Regions as specified in LinkLayerAI’s Terms of Use. These countries and regions are included for various reasons, such as local legal and regulatory restrictions, security concerns, and compliance requirements.</p>
+<p>LinkLayerAI reserves the right to update or modify this list at any time to ensure the compliance and safety of its services. Users from any country or region included on this list will not be permitted to access or use LinkLayerAI services. This measure is intended to protect the interests of both LinkLayerAI and its users, ensuring all operations comply with applicable laws and regulations.</p>
+<h1><strong>Legal Documents</strong></h1>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="legal-disclaimer"><strong>Legal Disclaimer</strong><a href="#legal-disclaimer" class="hash-link" aria-label="Direct link to legal-disclaimer" title="Direct link to legal-disclaimer" translate="no">​</a></h2>
+<p>Welcome to the LinkLayerAI website and its products and services (collectively, the “Services”). Before using the Services, please carefully read this Legal Disclaimer. Accessing or using the Services indicates your understanding and acceptance of the following terms.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-purpose-of-information"><strong>1. Purpose of Information</strong><a href="#1-purpose-of-information" class="hash-link" aria-label="Direct link to 1-purpose-of-information" title="Direct link to 1-purpose-of-information" translate="no">​</a></h3>
+<p>All information, analysis, AI Agent functionalities, trading dashboards, persona modeling results, and related tools provided by LinkLayerAI are for educational, research, data analysis, and user behavior insight purposes only.</p>
+<p>All analysis results are generated based on authorized user data and public market data.</p>
+<p>The Services do not constitute any form of investment advice, buy/sell instructions, or financial planning guidance. Users are responsible for their own investment decisions and bear all consequences resulting from the use of the Services.</p>
+<p>We encourage users to use data and analytical tools rationally as an auxiliary reference, not as the sole basis for decision-making.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-data-and-privacy"><strong>2. Data and Privacy</strong><a href="#2-data-and-privacy" class="hash-link" aria-label="Direct link to 2-data-and-privacy" title="Direct link to 2-data-and-privacy" translate="no">​</a></h3>
+<p>LinkLayerAI only obtains trading API or other data sources with explicit user authorization.</p>
+<p>Data is used to generate analysis results, personalized reports, and optimize AI Agent functionalities.</p>
+<p>We do not access, control, or operate user account assets; user asset security is the responsibility of the user and their respective trading platforms.</p>
+<p>Users must ensure that uploaded data is legal, accurate, and complete, complying with the terms and regulations of exchanges and wallets.</p>
+<p>LinkLayerAI is committed to protecting user privacy and data security, though users should understand that any network data transmission carries inherent risk.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-scope-and-limitations-of-services"><strong>3. Scope and Limitations of Services</strong><a href="#3-scope-and-limitations-of-services" class="hash-link" aria-label="Direct link to 3-scope-and-limitations-of-services" title="Direct link to 3-scope-and-limitations-of-services" translate="no">​</a></h3>
+<p>AI Agent analysis is generated based on algorithms and historical trading data and cannot guarantee future trading profits or losses.</p>
+<p>All reports, strategy suggestions, and persona analysis are for reference only; users should assess risks before taking action.</p>
+<p>Services are provided “as-is”; we do not guarantee uninterrupted, error-free, or delay-free operation.</p>
+<p>Service functionality may change due to technology upgrades, regulatory requirements, or platform policy adjustments.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-risk-disclosure"><strong>4. Risk Disclosure</strong><a href="#4-risk-disclosure" class="hash-link" aria-label="Direct link to 4-risk-disclosure" title="Direct link to 4-risk-disclosure" translate="no">​</a></h3>
+<p>Using LinkLayerAI services may involve various risks, including but not limited to:</p>
+<ul>
+<li class="">Asset loss due to market volatility</li>
+<li class="">Model bias or incompleteness in trading data analysis</li>
+<li class="">Technical failures, network latency, or system interruptions</li>
+<li class="">Data upload, storage, and processing risks</li>
+</ul>
+<p>Users must fully understand and assume all associated risks. LinkLayerAI is not liable for any direct or indirect losses arising from the use of its services.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="5-intellectual-property-statement"><strong>5. Intellectual Property Statement</strong><a href="#5-intellectual-property-statement" class="hash-link" aria-label="Direct link to 5-intellectual-property-statement" title="Direct link to 5-intellectual-property-statement" translate="no">​</a></h3>
+<p>All LinkLayerAI website content, software, documents, report templates, AI models, and related resources are protected by copyright and other intellectual property rights.</p>
+<p>Unauthorized copying, modification, distribution, commercial use, or creation of derivative works is prohibited.</p>
+<p>Users may use service-generated reports and data for personal analysis or research purposes while complying with this disclaimer.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="6-governing-law-and-limitations"><strong>6. Governing Law and Limitations</strong><a href="#6-governing-law-and-limitations" class="hash-link" aria-label="Direct link to 6-governing-law-and-limitations" title="Direct link to 6-governing-law-and-limitations" translate="no">​</a></h3>
+<p>LinkLayerAI services are not intended for restricted regions or users prohibited from using digital asset services.</p>
+<p>Use of the Services indicates acceptance of local laws and regulations and a commitment to compliance.</p>
+<p>Interpretation and final applicability of this disclaimer remain with LinkLayerAI.</p>
+<h2 class="anchor anchorTargetStickyNavbar_b3Dd" id="privacy-policy"><strong>Privacy Policy</strong><a href="#privacy-policy" class="hash-link" aria-label="Direct link to privacy-policy" title="Direct link to privacy-policy" translate="no">​</a></h2>
+<p>Effective Date: November 15, 2025</p>
+<p>This Privacy Policy (“Policy”) describes how LinkLayerAI (“Platform” or “we”) collects, uses, stores, and discloses personal data (“Personal Data”) when you use the Platform and related services. This Policy should be read in conjunction with the Platform Terms of Service (“Terms of Service”).</p>
+<p>By accessing or using the Platform, interacting with us, or providing data, you agree to this Policy, including potential sharing of personal data with third-party service providers, to the extent permitted by law. If you disagree, please stop using the Platform immediately.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="1-definitions"><strong>1. Definitions</strong><a href="#1-definitions" class="hash-link" aria-label="Direct link to 1-definitions" title="Direct link to 1-definitions" translate="no">​</a></h3>
+<ul>
+<li class="">Cookie or Cookie Data: Technical and data elements as described in Section 7.</li>
+<li class="">Personal Data: Any information that directly or indirectly identifies an individual, including wallet addresses, and other data protected by applicable data protection laws.</li>
+<li class="">Sources: Data sources as described in Section 4.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="2-scope"><strong>2. Scope</strong><a href="#2-scope" class="hash-link" aria-label="Direct link to 2-scope" title="Direct link to 2-scope" translate="no">​</a></h3>
+<p>This Policy applies to the collection, use, and disclosure of personal data on the Platform.</p>
+<p>It does not govern interactions with third-party service providers unless authorized to provide them personal data.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="3-personal-data-collected"><strong>3. Personal Data Collected</strong><a href="#3-personal-data-collected" class="hash-link" aria-label="Direct link to 3-personal-data-collected" title="Direct link to 3-personal-data-collected" translate="no">​</a></h3>
+<p>Depending on Platform use, we may collect:</p>
+<ul>
+<li class="">Identity &amp; contact info: wallet address, email, username</li>
+<li class="">User records: trading analysis, personalized reports, interaction logs</li>
+<li class="">Device info: IP address, browser, OS, device IDs, app installation info</li>
+<li class="">Communications &amp; requests: info from support, forms, surveys</li>
+<li class="">User content: trading data, location, timestamps</li>
+<li class="">Cookies: for functionality, analytics, security, personalization</li>
+<li class="">Marketing info: preferences, registration details for newsletters/offers</li>
+<li class="">Location info: device or inferred geographic location</li>
+<li class="">User profiles &amp; inferences: preferences, behaviors, and personalized analysis</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="4-data-sources"><strong>4. Data Sources</strong><a href="#4-data-sources" class="hash-link" aria-label="Direct link to 4-data-sources" title="Direct link to 4-data-sources" translate="no">​</a></h3>
+<ul>
+<li class="">Directly provided: registration, forms, API authorization, or activity participation</li>
+<li class="">Third-party public channels: exchange data, social trading data</li>
+<li class="">Third-party service providers: with user authorization</li>
+<li class="">Automated platform generation: AI Agent, cookies, or platform behavior analysis</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="5-data-usage-purposes"><strong>5. Data Usage Purposes</strong><a href="#5-data-usage-purposes" class="hash-link" aria-label="Direct link to 5-data-usage-purposes" title="Direct link to 5-data-usage-purposes" translate="no">​</a></h3>
+<p>We and authorized third parties process data for:</p>
+<ul>
+<li class="">Service provision: dashboards, personalized reports, AI analysis, support</li>
+<li class="">Analytics &amp; optimization: feature improvement, research, satisfaction surveys</li>
+<li class="">Personalized experience: content, reports, recommendations</li>
+<li class="">Security &amp; risk management</li>
+<li class="">Legal compliance &amp; rights protection</li>
+<li class="">Internal auditing &amp; business management</li>
+</ul>
+<p>Data may also be anonymized or de-identified for statistics, industry analysis, and platform optimization.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="6-data-sharing--disclosure"><strong>6. Data Sharing &amp; Disclosure</strong><a href="#6-data-sharing--disclosure" class="hash-link" aria-label="Direct link to 6-data-sharing--disclosure" title="Direct link to 6-data-sharing--disclosure" translate="no">​</a></h3>
+<ul>
+<li class="">Service providers: developers, auditors, platform support</li>
+<li class="">Affiliates &amp; partners: for personalized content/services</li>
+<li class="">Legal requirements: court orders, government, or law enforcement</li>
+<li class="">Business transfer: mergers, acquisitions, sales, restructuring</li>
+<li class="">Protection of rights: fraud prevention, platform/user safety</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="7-cookies--analytics"><strong>7. Cookies &amp; Analytics</strong><a href="#7-cookies--analytics" class="hash-link" aria-label="Direct link to 7-cookies--analytics" title="Direct link to 7-cookies--analytics" translate="no">​</a></h3>
+<p>We use cookies, pixels, and tags for functionality, security, analytics, and personalization. Non-essential cookies require user consent.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="8-childrens-privacy"><strong>8. Children’s Privacy</strong><a href="#8-childrens-privacy" class="hash-link" aria-label="Direct link to 8-childrens-privacy" title="Direct link to 8-childrens-privacy" translate="no">​</a></h3>
+<p>Platform is for users 18+. If data from children under 13 is discovered, it will be deleted immediately.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="9-data-security--cross-border-transfer"><strong>9. Data Security &amp; Cross-Border Transfer</strong><a href="#9-data-security--cross-border-transfer" class="hash-link" aria-label="Direct link to 9-data-security--cross-border-transfer" title="Direct link to 9-data-security--cross-border-transfer" translate="no">​</a></h3>
+<p>We adopt reasonable technical and managerial measures to protect personal data.</p>
+<p>Data may be transferred to overseas servers or third-party providers, with compliance to relevant laws.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="10-user-rights"><strong>10. User Rights</strong><a href="#10-user-rights" class="hash-link" aria-label="Direct link to 10-user-rights" title="Direct link to 10-user-rights" translate="no">​</a></h3>
+<p>Where applicable, users have the right to:</p>
+<ul>
+<li class="">Access, correct, or update data</li>
+<li class="">Restrict processing</li>
+<li class="">Data portability</li>
+<li class="">Object to certain processing, including marketing</li>
+<li class="">Withdraw consent (does not affect prior lawful processing)</li>
+<li class="">Lodge complaints with regulators</li>
+</ul>
+<p>Contact: <a href="mailto:mkt@linklayer.ai" target="_blank" rel="noopener noreferrer" class="">mkt@linklayer.ai</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="11-data-retention"><strong>11. Data Retention</strong><a href="#11-data-retention" class="hash-link" aria-label="Direct link to 11-data-retention" title="Direct link to 11-data-retention" translate="no">​</a></h3>
+<p>Data is retained as long as necessary for processing, legal requirements, or dispute resolution, then deleted or anonymized.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="12-policy-updates"><strong>12. Policy Updates</strong><a href="#12-policy-updates" class="hash-link" aria-label="Direct link to 12-policy-updates" title="Direct link to 12-policy-updates" translate="no">​</a></h3>
+<p>This Policy may be updated due to legal, regulatory, or platform developments. Latest version on website prevails.</p>
+<h1><strong>Terms of Service</strong></h1>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="introduction"><strong>Introduction</strong><a href="#introduction" class="hash-link" aria-label="Direct link to introduction" title="Direct link to introduction" translate="no">​</a></h3>
+<p>Welcome to services operated by LinkLayerAI (“LLA”). These Terms of Service (“Terms”) govern your access to and use of the LLA website, mobile applications, dashboards, software, tools, and functionalities (collectively, “Services”).</p>
+<p>LLA is a blockchain-based data assetization protocol, using AI Agents to analyze real trading data, Web3 behavior, and public market data, providing data assetization, personalized analysis, trading persona modeling, social incentives, and asset growth services.</p>
+<p>By using the Services, users can upload trading data from exchanges and on-chain activities, authorize AI Agents for multi-dimensional analysis, and generate personalized reports, risk assessments, strategy recommendations, social rankings, and reward distributions.</p>
+<p>Users’ data becomes quantifiable and tradable assets, and on-chain incentives reward data contributors and active users.</p>
+<p>Definitions: “User,” “You,” or “Your” refers to any individual or entity using the Services. If representing a company/entity, you confirm:
+(a) Authority to accept Terms on behalf of the entity
+(b) Agreement to comply with Terms in entity’s name
+(c) Responsibility for entity’s actions</p>
+<p>Please read carefully. Use or acceptance of Services constitutes agreement to these Terms.</p>
+<p>Additional service-specific terms (dashboards, AI features, incentives, FreeClaim) form part of these Terms; in case of conflict, the service-specific terms prevail.</p>
+<p>LLA reserves the right to modify Terms at any time. Major changes will be notified. Continued use indicates acceptance.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="accessing-the-service"><strong>Accessing the Service</strong><a href="#accessing-the-service" class="hash-link" aria-label="Direct link to accessing-the-service" title="Direct link to accessing-the-service" translate="no">​</a></h3>
+<ul>
+<li class="">Service use requires linking LLA with third-party wallets (MetaMask, OKX/Binance Wallet, etc.).</li>
+<li class="">Accounts bind wallet addresses for identity verification, asset ownership, and incentive distribution. Deletion may take several days. Deleted accounts will remove personal information and cancel pending rewards.</li>
+<li class="">Users must comply with wallet terms; LLA does not control wallet assets.</li>
+<li class="">Users must follow all applicable laws and regulations, and may be asked to provide additional verification.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="age-restrictions"><strong>Age Restrictions</strong><a href="#age-restrictions" class="hash-link" aria-label="Direct link to age-restrictions" title="Direct link to age-restrictions" translate="no">​</a></h3>
+<ul>
+<li class="">Users must be 18+</li>
+<li class="">Users 13–17 must use parent/guardian accounts</li>
+<li class="">Users under 13 are prohibited</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="ownership--license"><strong>Ownership &amp; License</strong><a href="#ownership--license" class="hash-link" aria-label="Direct link to ownership--license" title="Direct link to ownership--license" translate="no">​</a></h3>
+<ul>
+<li class="">All Services content is proprietary to LLA or licensors.</li>
+<li class="">Unauthorized copying, modification, derivative creation, or commercial use is prohibited.</li>
+<li class="">Feedback or suggestions submitted grant LLA global, royalty-free rights for improvement and commercialization.</li>
+<li class="">LLA grants a limited, non-exclusive, non-transferable license for personal use only.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="third-party-materials"><strong>Third-Party Materials</strong><a href="#third-party-materials" class="hash-link" aria-label="Direct link to third-party-materials" title="Direct link to third-party-materials" translate="no">​</a></h3>
+<ul>
+<li class="">Services may include third-party content (exchanges, APIs, market data). Users assume all associated risks.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="user-activity"><strong>User Activity</strong><a href="#user-activity" class="hash-link" aria-label="Direct link to user-activity" title="Direct link to user-activity" translate="no">​</a></h3>
+<p>Users must not:</p>
+<ul>
+<li class="">Infringe rights or laws</li>
+<li class="">Upload illegal, harassing, obscene, defamatory, or offensive content</li>
+<li class="">Interfere with Services</li>
+<li class="">Access others’ accounts without authorization</li>
+<li class="">Use automated tools without permission</li>
+<li class="">Engage in money laundering, terrorist financing, or illegal transactions</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="intellectual-property-rights"><strong>Intellectual Property Rights</strong><a href="#intellectual-property-rights" class="hash-link" aria-label="Direct link to intellectual-property-rights" title="Direct link to intellectual-property-rights" translate="no">​</a></h3>
+<p>Users grant LLA a global, non-exclusive, sublicensable, royalty-free license to use submitted content for Service provision, AI training, report generation, rankings, and incentives.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="indemnification"><strong>Indemnification</strong><a href="#indemnification" class="hash-link" aria-label="Direct link to indemnification" title="Direct link to indemnification" translate="no">​</a></h3>
+<p>Users agree to indemnify LLA for claims, losses, liabilities, or expenses arising from violation of Terms, laws, or third-party rights.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="disclaimers--risk-assumption"><strong>Disclaimers &amp; Risk Assumption</strong><a href="#disclaimers--risk-assumption" class="hash-link" aria-label="Direct link to disclaimers--risk-assumption" title="Direct link to disclaimers--risk-assumption" translate="no">​</a></h3>
+<p>Services are “as-is”. LLA does not guarantee uninterrupted, secure, or error-free service. Users understand and accept risks, including technical failures, malware, wallet theft, or market losses. AI Agent outputs are for reference only, not investment advice.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="limitation-of-liability"><strong>Limitation of Liability</strong><a href="#limitation-of-liability" class="hash-link" aria-label="Direct link to limitation-of-liability" title="Direct link to limitation-of-liability" translate="no">​</a></h3>
+<p>LLA is not liable for indirect, special, incidental, or consequential damages, including profit, business, data, or revenue loss.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="termination"><strong>Termination</strong><a href="#termination" class="hash-link" aria-label="Direct link to termination" title="Direct link to termination" translate="no">​</a></h3>
+<p>LLA may suspend or terminate access for violations, fraud, abuse, or platform adjustments. Account termination revokes data and reward access.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="dispute-resolution"><strong>Dispute Resolution</strong><a href="#dispute-resolution" class="hash-link" aria-label="Direct link to dispute-resolution" title="Direct link to dispute-resolution" translate="no">​</a></h3>
+<p>Terms disputes governed by Singapore law, resolved via Singapore International Arbitration Centre (SIAC). IP infringement may be addressed in competent courts.</p>
+<h3 class="anchor anchorTargetStickyNavbar_b3Dd" id="miscellaneous"><strong>Miscellaneous</strong><a href="#miscellaneous" class="hash-link" aria-label="Direct link to miscellaneous" title="Direct link to miscellaneous" translate="no">​</a></h3>
+<ul>
+<li class="">Refer to Privacy Policy for data handling</li>
+<li class="">LLA may modify, suspend, or terminate Services</li>
+<li class="">Partial invalidity of Terms does not affect other provisions</li>
+<li class="">Violation may result in irreparable harm; LLA may seek equitable remedies</li>
+<li class="">Users agree to electronic notifications; opt-out is available</li>
+<li class="">Certain provisions remain effective after account termination</li>
+<li class="">Terms constitute the complete agreement between users and LLA</li>
+</ul>
+<p>Contact: <a href="mailto:mkt@linklayer.ai" target="_blank" rel="noopener noreferrer" class="">mkt@linklayer.ai</a></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_RLlU thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-personal-live-trading-data" class="table-of-contents__link toc-highlight"><strong>1. Personal Live Trading Data</strong></a></li><li><a href="#2-public-market-data" class="table-of-contents__link toc-highlight"><strong>2. Public Market Data</strong></a></li><li><a href="#-trading-persona" class="table-of-contents__link toc-highlight"><strong>• Trading Persona</strong></a></li><li><a href="#-loss-debriefing" class="table-of-contents__link toc-highlight"><strong>• Loss Debriefing</strong></a></li><li><a href="#-personalized-insights" class="table-of-contents__link toc-highlight"><strong>• Personalized Insights</strong></a></li><li><a href="#1-behavioral-model-persona" class="table-of-contents__link toc-highlight"><strong>1. Behavioral Model (Persona)</strong></a></li><li><a href="#2-interactive-agent-agent-interaction" class="table-of-contents__link toc-highlight"><strong>2. Interactive Agent (Agent Interaction)</strong></a></li><li><a href="#3-data-asset-layer-data-assetization" class="table-of-contents__link toc-highlight"><strong>3. Data Asset Layer (Data Assetization)</strong></a></li><li><a href="#how-can-the-core-behavior-of-web3tradingbe-transformed-into-measurable-value-for-every-individual" class="table-of-contents__link toc-highlight"><strong>How can the core behavior of Web3—trading—be transformed into measurable value for every individual?</strong></a></li><li><a href="#1-because-data-should-be-a-speaking-asset-not-a-silent-resource" class="table-of-contents__link toc-highlight"><strong>1. Because Data Should Be a “Speaking Asset,” Not a Silent Resource</strong></a></li><li><a href="#2-because-social-should-be-value-based-resonance-not-empty-connections" class="table-of-contents__link toc-highlight"><strong>2. Because Social Should Be “Value-Based Resonance,” Not Empty Connections</strong></a></li><li><a href="#3-because-ai-should-be-personalized-empowerment-not-a-black-box" class="table-of-contents__link toc-highlight"><strong>3. Because AI Should Be “Personalized Empowerment,” Not a Black Box</strong></a></li><li><a href="#4-because-linklayerai-builds-a-value-flywheel-not-just-product-features" class="table-of-contents__link toc-highlight"><strong>4. Because LinkLayerAI Builds a “Value Flywheel,” Not Just Product Features</strong></a><ul><li><a href="#data-value-axis" class="table-of-contents__link toc-highlight"><strong>Data Value Axis</strong></a></li><li><a href="#social-value-axis" class="table-of-contents__link toc-highlight"><strong>Social Value Axis</strong></a></li><li><a href="#in-linklayerai-every-trade-is-no-longer-an-endpoint" class="table-of-contents__link toc-highlight"><strong>**In LinkLayerAI, every trade is no longer an endpoint—</strong></a></li></ul></li><li><a href="#1-data-privacy--security" class="table-of-contents__link toc-highlight"><strong>1. Data, Privacy &amp; Security</strong></a></li><li><a href="#2-trading-persona--ai-core" class="table-of-contents__link toc-highlight"><strong>2. Trading Persona &amp; AI Core</strong></a></li><li><a href="#3-incentives-contribution--participation" class="table-of-contents__link toc-highlight"><strong>3. Incentives, Contribution &amp; Participation</strong></a></li><li><a href="#4-ecosystem--tokens" class="table-of-contents__link toc-highlight"><strong>4. Ecosystem &amp; Tokens</strong></a></li><li><a href="#insights-agent" class="table-of-contents__link toc-highlight"><strong>Insights Agent</strong></a><ul><li><a href="#product-overview--building-your-trading-persona-with-deep-behavioral-intelligence" class="table-of-contents__link toc-highlight"><strong>Product Overview – Building Your “Trading Persona” with Deep Behavioral Intelligence</strong></a></li></ul></li><li><a href="#core-capabilities" class="table-of-contents__link toc-highlight"><strong>Core Capabilities</strong></a><ul><li><a href="#1-trading-persona-modeling" class="table-of-contents__link toc-highlight"><strong>1. Trading Persona Modeling</strong></a></li><li><a href="#2-personalized-behavioral-insights" class="table-of-contents__link toc-highlight"><strong>2. Personalized Behavioral Insights</strong></a></li><li><a href="#3-strategy-level-performance-analysis" class="table-of-contents__link toc-highlight"><strong>3. Strategy-Level Performance Analysis</strong></a></li><li><a href="#4-persona-driven-user-experience" class="table-of-contents__link toc-highlight"><strong>4. Persona-Driven User Experience</strong></a></li><li><a href="#product-overview--ai-powered-tokenized-incentives-and-real-time-market-intelligence" class="table-of-contents__link toc-highlight"><strong>Product Overview – AI-Powered Tokenized Incentives and Real-Time Market Intelligence</strong></a></li></ul></li><li><a href="#core-capabilities-1" class="table-of-contents__link toc-highlight"><strong>Core Capabilities</strong></a><ul><li><a href="#1-natural-language-token-search" class="table-of-contents__link toc-highlight"><strong>1. Natural Language Token Search</strong></a></li><li><a href="#2-smart-ranking--opportunity-discovery" class="table-of-contents__link toc-highlight"><strong>2. Smart Ranking &amp; Opportunity Discovery</strong></a></li><li><a href="#3-holistic-token-profiling" class="table-of-contents__link toc-highlight"><strong>3. Holistic Token Profiling</strong></a></li><li><a href="#4-personalized-token-recommendations" class="table-of-contents__link toc-highlight"><strong>4. Personalized Token Recommendations</strong></a></li><li><a href="#5-real-time-analysis--risk-alerts" class="table-of-contents__link toc-highlight"><strong>5. Real-Time Analysis &amp; Risk Alerts</strong></a></li><li><a href="#linklayerai-protocol-lla-protocol" class="table-of-contents__link toc-highlight"><strong>LinkLayerAI Protocol (LLA Protocol)</strong></a></li></ul></li><li><a href="#i-multi-contract-system--trust--contribution-measurement-engine" class="table-of-contents__link toc-highlight"><strong>I. Multi-Contract System — Trust &amp; Contribution Measurement Engine</strong></a></li><li><a href="#ii-dual-token-system--layered-governance--equity-incentives" class="table-of-contents__link toc-highlight"><strong>II. Dual-Token System — Layered Governance &amp; Equity Incentives</strong></a><ul><li><a href="#1-lla--governance-token" class="table-of-contents__link toc-highlight"><strong>1. LLA — Governance Token</strong></a></li><li><a href="#2-llax--equity-token" class="table-of-contents__link toc-highlight"><strong>2. LLAx — Equity Token</strong></a></li></ul></li><li><a href="#iii-incentive-loops-for-three-core-roles" class="table-of-contents__link toc-highlight"><strong>III. Incentive Loops for Three Core Roles</strong></a><ul><li><a href="#1-traders--core-users" class="table-of-contents__link toc-highlight"><strong>1. Traders — Core Users</strong></a></li><li><a href="#2-trader-leaders--trust-amplifiers" class="table-of-contents__link toc-highlight"><strong>2. Trader-Leaders — Trust Amplifiers</strong></a></li><li><a href="#3-advertisers--projects--demand-side" class="table-of-contents__link toc-highlight"><strong>3. Advertisers / Projects — Demand Side</strong></a></li></ul></li><li><a href="#iv-structural-problems-addressed" class="table-of-contents__link toc-highlight"><strong>IV. Structural Problems Addressed</strong></a></li><li><a href="#v-unique-value-of-lla-protocol" class="table-of-contents__link toc-highlight"><strong>V. Unique Value of LLA Protocol</strong></a><ul><li><a href="#-a-next-generation-trading-community-based-on-real-trading-personas" class="table-of-contents__link toc-highlight"><strong>— A Next-Generation Trading Community Based on “Real Trading Personas”</strong></a></li><li><a href="#product-overview" class="table-of-contents__link toc-highlight"><strong>Product Overview</strong></a></li></ul></li><li><a href="#core-capabilities-2" class="table-of-contents__link toc-highlight"><strong>Core Capabilities</strong></a><ul><li><a href="#1-persona-based-trading-identity-system" class="table-of-contents__link toc-highlight"><strong>1. Persona-Based Trading Identity System</strong></a></li><li><a href="#2-trustworthy-information-exchange" class="table-of-contents__link toc-highlight"><strong>2. Trustworthy Information Exchange</strong></a></li><li><a href="#3-community-level-insights--rankings" class="table-of-contents__link toc-highlight"><strong>3. Community-Level Insights &amp; Rankings</strong></a></li><li><a href="#4-agent-integration--forum-interconnectivity" class="table-of-contents__link toc-highlight"><strong>4. Agent Integration &amp; Forum Interconnectivity</strong></a></li></ul></li><li><a href="#technical-architecture" class="table-of-contents__link toc-highlight"><strong>Technical Architecture</strong></a></li><li><a href="#1-data-layer" class="table-of-contents__link toc-highlight"><strong>1. Data Layer</strong></a><ul><li><a href="#11-public-market-data" class="table-of-contents__link toc-highlight"><strong>1.1 Public Market Data</strong></a></li><li><a href="#12-user-live-trading-data" class="table-of-contents__link toc-highlight"><strong>1.2 User Live Trading Data</strong></a></li></ul></li><li><a href="#2-algorithm--modeling-layer" class="table-of-contents__link toc-highlight"><strong>2. Algorithm &amp; Modeling Layer</strong></a><ul><li><a href="#21-algorithm-processing-engine" class="table-of-contents__link toc-highlight"><strong>2.1 Algorithm Processing Engine</strong></a></li><li><a href="#22-model-layer" class="table-of-contents__link toc-highlight"><strong>2.2 Model Layer</strong></a></li></ul></li><li><a href="#3-incentive-layer" class="table-of-contents__link toc-highlight"><strong>3. Incentive Layer</strong></a><ul><li><a href="#31-data-contribution-rewards" class="table-of-contents__link toc-highlight"><strong>3.1 Data Contribution Rewards</strong></a></li><li><a href="#32-agent-application--social-rewards" class="table-of-contents__link toc-highlight"><strong>3.2 Agent Application &amp; Social Rewards</strong></a></li><li><a href="#33-llax-incentive-system" class="table-of-contents__link toc-highlight"><strong>3.3 LLAx Incentive System</strong></a></li></ul></li><li><a href="#4-agent-application-layer" class="table-of-contents__link toc-highlight"><strong>4. Agent Application Layer</strong></a><ul><li><a href="#41-insight-agent" class="table-of-contents__link toc-highlight"><strong>4.1 Insight Agent</strong></a></li><li><a href="#42-trading-social-forum" class="table-of-contents__link toc-highlight"><strong>4.2 Trading Social Forum</strong></a></li></ul></li><li><a href="#prohibited-countries-and-regions" class="table-of-contents__link toc-highlight"><strong>Prohibited Countries and Regions</strong></a></li><li><a href="#legal-disclaimer" class="table-of-contents__link toc-highlight"><strong>Legal Disclaimer</strong></a><ul><li><a href="#1-purpose-of-information" class="table-of-contents__link toc-highlight"><strong>1. Purpose of Information</strong></a></li><li><a href="#2-data-and-privacy" class="table-of-contents__link toc-highlight"><strong>2. Data and Privacy</strong></a></li><li><a href="#3-scope-and-limitations-of-services" class="table-of-contents__link toc-highlight"><strong>3. Scope and Limitations of Services</strong></a></li><li><a href="#4-risk-disclosure" class="table-of-contents__link toc-highlight"><strong>4. Risk Disclosure</strong></a></li><li><a href="#5-intellectual-property-statement" class="table-of-contents__link toc-highlight"><strong>5. Intellectual Property Statement</strong></a></li><li><a href="#6-governing-law-and-limitations" class="table-of-contents__link toc-highlight"><strong>6. Governing Law and Limitations</strong></a></li></ul></li><li><a href="#privacy-policy" class="table-of-contents__link toc-highlight"><strong>Privacy Policy</strong></a><ul><li><a href="#1-definitions" class="table-of-contents__link toc-highlight"><strong>1. Definitions</strong></a></li><li><a href="#2-scope" class="table-of-contents__link toc-highlight"><strong>2. Scope</strong></a></li><li><a href="#3-personal-data-collected" class="table-of-contents__link toc-highlight"><strong>3. Personal Data Collected</strong></a></li><li><a href="#4-data-sources" class="table-of-contents__link toc-highlight"><strong>4. Data Sources</strong></a></li><li><a href="#5-data-usage-purposes" class="table-of-contents__link toc-highlight"><strong>5. Data Usage Purposes</strong></a></li><li><a href="#6-data-sharing--disclosure" class="table-of-contents__link toc-highlight"><strong>6. Data Sharing &amp; Disclosure</strong></a></li><li><a href="#7-cookies--analytics" class="table-of-contents__link toc-highlight"><strong>7. Cookies &amp; Analytics</strong></a></li><li><a href="#8-childrens-privacy" class="table-of-contents__link toc-highlight"><strong>8. Children’s Privacy</strong></a></li><li><a href="#9-data-security--cross-border-transfer" class="table-of-contents__link toc-highlight"><strong>9. Data Security &amp; Cross-Border Transfer</strong></a></li><li><a href="#10-user-rights" class="table-of-contents__link toc-highlight"><strong>10. User Rights</strong></a></li><li><a href="#11-data-retention" class="table-of-contents__link toc-highlight"><strong>11. Data Retention</strong></a></li><li><a href="#12-policy-updates" class="table-of-contents__link toc-highlight"><strong>12. Policy Updates</strong></a></li><li><a href="#introduction" class="table-of-contents__link toc-highlight"><strong>Introduction</strong></a></li><li><a href="#accessing-the-service" class="table-of-contents__link toc-highlight"><strong>Accessing the Service</strong></a></li><li><a href="#age-restrictions" class="table-of-contents__link toc-highlight"><strong>Age Restrictions</strong></a></li><li><a href="#ownership--license" class="table-of-contents__link toc-highlight"><strong>Ownership &amp; License</strong></a></li><li><a href="#third-party-materials" class="table-of-contents__link toc-highlight"><strong>Third-Party Materials</strong></a></li><li><a href="#user-activity" class="table-of-contents__link toc-highlight"><strong>User Activity</strong></a></li><li><a href="#intellectual-property-rights" class="table-of-contents__link toc-highlight"><strong>Intellectual Property Rights</strong></a></li><li><a href="#indemnification" class="table-of-contents__link toc-highlight"><strong>Indemnification</strong></a></li><li><a href="#disclaimers--risk-assumption" class="table-of-contents__link toc-highlight"><strong>Disclaimers &amp; Risk Assumption</strong></a></li><li><a href="#limitation-of-liability" class="table-of-contents__link toc-highlight"><strong>Limitation of Liability</strong></a></li><li><a href="#termination" class="table-of-contents__link toc-highlight"><strong>Termination</strong></a></li><li><a href="#dispute-resolution" class="table-of-contents__link toc-highlight"><strong>Dispute Resolution</strong></a></li><li><a href="#miscellaneous" class="table-of-contents__link toc-highlight"><strong>Miscellaneous</strong></a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/">API Configuration Guide</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="#" class="footer__link-item">Discord</a></li><li class="footer__item"><a href="#" class="footer__link-item">Twitter</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="#" class="footer__link-item">GitHub</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 LinkLayer. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
