@@ -1,10 +1,10 @@
-# Chrome Extension User Guide
+# Plug-In  Guide
 
-A step-by-step guide to installing and using the LinkLayerAI Chrome extension.
+A step-by-step guide to installing and using the LinkLayerAI Plug-In.
 
 ### Step 1
 
-Click the LinkLayerAI extension icon in the top right corner of your browser, connect your wallet and log in.  
+Click the LinkLayerAI Plug-In icon in the top right corner of your browser, connect your wallet and log in.  
 ⚠️ Note: Please use a wallet address that holds Binance Alpha tokens.
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse/1.png)
