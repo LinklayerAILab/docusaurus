@@ -10,15 +10,15 @@ Welcome to the LinkLayerAI product guide. This section will help you get started
 
 This guide covers everything you need to know about using LinkLayerAI:
 
-- **DApp User Guide**: Learn how to use our DApp.
-- **Chrome Extension User Guide**: Learn how to install and use the LinkLayerAI Chrome extension.
+- **Dapp Guide**: Learn how to use our Dapp.
+- **Plug-In Guide**: Learn how to install and use the LinkLayerAI Plug-In.
 
 ## Getting Started
 
 Choose your preferred way to access LinkLayerAI:
 
-- [DApp User Guide](./how-to-use/dapp-user-guide) - For LinkLayerAI DApp users
-- [Chrome Extension User Guide](./how-to-use/chrome-extension-setup) - For users of the LinkLayerAI browser extension
+- [Dapp Guide](./how-to-use/dapp-user-guide) - For LinkLayerAI Dapp users
+- [Plug-In Guide](./how-to-use/chrome-extension-setup) - For users of the LinkLayerAI Plug-In
 
 ## Need Help?
 
