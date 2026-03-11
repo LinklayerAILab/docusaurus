@@ -125,7 +125,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      label: 'Chrome Extension Setup',
+      label: 'Chrome Extension User Guide',
       id: 'how-to-use/chrome-extension-setup',
     },
   ],
