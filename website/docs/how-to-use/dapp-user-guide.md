@@ -1,10 +1,10 @@
-# DApp User Guide
+# Dapp Guide
 
-A step-by-step guide to using the LinkLayerAI DApp.
+A step-by-step guide to using the LinkLayerAI Dapp.
 
 ### Step 1
 
-Open the LinkLayerAI website 👉 (https://agent.linklayer.ai/)
+Open the LinkLayerAI Dapp 👉 (https://agent.linklayer.ai/)
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/1.png)
 
@@ -68,7 +68,7 @@ Recurring：Ongoing rewards distributed every 30 days, based on your new liquida
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/55.png)
 
-Perps Pilot: Click on your current perpetual positions in the exchange. The Agent will provide real-time analysis and recommendations for your contract positions.
+Perps Pilot: Click on your current perpetual positions in the exchange. The Agent will provide real-time analysis and recommendations for your perpetual positions.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/56.png)
 
@@ -76,7 +76,7 @@ Perps Pilot: Click on your current perpetual positions in the exchange. The Agen
 
 ### Step 6
 
-Click "Piloter" on the left. Select any token in "Picker" and the Agent can provide technical analysis for spot or contracts.
+Click "Piloter" on the left. Select any token in "Picker" and the Agent can provide real-time analysis for spot or perpetual.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/61.png)
 
