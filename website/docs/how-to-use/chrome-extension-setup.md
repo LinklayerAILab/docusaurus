@@ -2,99 +2,99 @@
 
 A step-by-step guide to installing and using the LinkLayerAI Chrome extension.
 
-## Installation Steps
+### Step 1
 
-### Step 1: Download the Extension
+Click the LinkLayerAI extension icon in the top right corner of your browser, connect your wallet and log in.  
+⚠️ Note: Please use a wallet address that holds Binance Alpha tokens.
 
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore)
-2. Search for "LinkLayerAI"
-3. Click "Add to Chrome"
-4. Confirm installation
+![](https://cdn.linklayer.ai/uploads/pluginuse/1.png)
 
-**Alternative Installation:**
+![](https://cdn.linklayer.ai/uploads/pluginuse/2.png)
 
-1. Download the `.crx` file from our [GitHub releases](https://github.com/LinklayerAILab/releases)
-2. Open Chrome and go to `chrome://extensions`
-3. Enable "Developer mode" (toggle in top right)
-4. Drag and drop the `.crx` file
+### Step 2
 
-### Step 2: Initial Setup
+After logging in, click the account icon in the top right corner to view your account information:  
+• Wallet address  
+• Bound email  
+• Points balance  
+• Referral count
 
-After installation, you'll see the LinkLayerAI icon in your browser toolbar.
+![](https://cdn.linklayer.ai/uploads/pluginuse/3.png)
 
-1. Click the LinkLayerAI icon
-2. Click "Get Started"
-3. Create your account or sign in
-4. Set up your security settings
+### Step 3
 
-### Step 3: Connect Exchanges
+Click the "BRC20" icon on the right to enter the BSC state scanner and view the most liquid assets on BNB Chain in real time.The system automatically filters high-liquidity tokens based on on-chain data, helping you quickly discover active assets and potential trading opportunities.
 
-1. Click "Add Exchange"
-2. Select your exchange (Binance, OKX, Bybit, Bitget)
-3. Enter your API keys:
-   - **API Key**: Your public API key
-   - **Secret Key**: Your private API secret
-   - **Passphrase** (if required): Some exchanges require this
-4. Set permissions:
-   - ☑ Read (required)
-   - ☑ Trade (optional)
-   - ☐ Withdraw (not recommended)
-5. Click "Connect"
+![](https://cdn.linklayer.ai/uploads/pluginuse/4.png)
 
-### Step 4: Configure Settings
+Click "Trade" to jump directly to the PancakeSwap trading interface.Click "Agent" for real-time liquidity analysis of the current token.
 
-#### General Settings
+![](https://cdn.linklayer.ai/uploads/pluginuse/5.png)
 
-- **Default Exchange**: Set your primary exchange
-- **Currency**: Choose your preferred display currency
-- **Theme**: Light or dark mode
+### Step 4
 
-#### Trading Settings
+Click the "Alpha" icon on the right to view all Binance Alpha tokens held by your current address.
 
-- **Default Order Type**: Market, Limit, or Stop-Limit
-- **Leverage**: Set default leverage (1x-100x)
-- **Risk Level**: Conservative, Moderate, or Aggressive
+The traffic light indicator shows each token's liquidity health:  
+🟢 Green = Sufficient liquidity  
+🔴 Red = Liquidity depletion risk  
+🟡 Yellow = Transitional state
 
-## Verification Checklist
+![](https://cdn.linklayer.ai/uploads/pluginuse/6.png)
 
-After setup, verify:
+Click "Explorer" to jump to the token's block explorer page.Click "Agent" to analyze the token's liquidity.
 
-- [ ] Extension icon visible in toolbar
-- [ ] Account created and logged in
-- [ ] At least one exchange connected
-- [ ] API keys verified working
-- [ ] Settings configured to preference
+![](https://cdn.linklayer.ai/uploads/pluginuse/7.png)
 
-## Testing Your Setup
+### Step 5
 
-### Test Connection
+Upload API. Click the "API" icon on the right, select "Binance," enter your Binance read-only API Key and Secret Key, and submit.
 
-1. Click the extension icon
-2. Check exchange status (should show "Connected")
-3. View balance data loading
+![](https://cdn.linklayer.ai/uploads/pluginuse/8.png)
 
-### Test Read Access
+Click "API Guide" to learn how to obtain a read-only exchange API.
 
-1. Navigate to any exchange page
-2. Open LinkLayerAI extension
-3. Verify balance and position data
+![](https://cdn.linklayer.ai/uploads/pluginuse/9.png)
 
-## Common Setup Issues
+### Step 6
 
-### "Invalid API Key"
+Click the "Earn" icon on the right. After successfully uploading a read-only API, the exchange icon will light up.Below the icon is your exchange spot holdings list. Click any token in the list and the Agent will provide real-time analysis and suggestions.
 
-- Verify API key is copied correctly
-- Check API key permissions
-- Ensure IP whitelist is configured
-- Try generating new API keys
+![](https://cdn.linklayer.ai/uploads/pluginuse/10.png)
 
-### "Connection Failed"
+Perps Mining：
 
-- Check internet connection
-- Verify exchange API is operational
-- Disable VPN or proxy
-- Try different browser
+Retroactive：A one-time reward issued after you connect your API, automatically calculated based on your liquidation history from the past 6 months.  
+Recurring：Ongoing rewards distributed every 30 days, based on your new liquidation records during each period.
 
-## Next Steps
+![](https://cdn.linklayer.ai/uploads/pluginuse/11.png)
 
-Once setup is complete, explore [Basic Usage](./basic-usage) to start using the extension.
+### Step 7
+
+Click the "Perps" icon on the right, select your current perpetual positions, and the Agent will provide real-time analysis and suggestions for your contract positions.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/12.png)
+
+### Step 8
+
+Click the "Piloter" icon on the right. Enter the "Picker" interface and select any token. The Agent will provide real-time analysis of the token's spot and futures, along with corresponding trading suggestions.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/13.png)
+
+Enter the token name you want to analyze in the search box and click "Analyze" to view results.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/14.png)
+
+Click the ⭐️ icon in front of a token to pin it for quick access later.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/15.png)
+
+In the "Tracker" interface, select a specific strategy to filter all tokens matching that strategy.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/16.png)
+
+### Step 9
+
+Click the Points icon on the right to enter the points interface and recharge.
+
+![](https://cdn.linklayer.ai/uploads/pluginuse/17.png)
