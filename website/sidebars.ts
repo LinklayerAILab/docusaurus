@@ -121,12 +121,12 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       label: 'Dapp Guide',
-      id: 'how-to-use/dapp-user-guide',
+      id: 'how-to-use/dapp-guide',
     },
     {
       type: 'doc',
-      label: 'Plug-In  Guide',
-      id: 'how-to-use/chrome-extension-setup',
+      label: 'Plug-In Guide',
+      id: 'how-to-use/plugin-guide',
     },
     {
       type: 'doc',
