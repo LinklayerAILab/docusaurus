@@ -1,6 +1,6 @@
-# DApp Guide
+# DApp PC Guide
 
-A step-by-step guide to using the LinkLayerAI DApp.
+A step-by-step guide to accessing and using the LinkLayerAI DApp on desktop.
 
 ### Step 1
 
