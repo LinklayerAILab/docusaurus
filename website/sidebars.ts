@@ -128,6 +128,11 @@ const sidebars: SidebarsConfig = {
       label: 'Plug-In  Guide',
       id: 'how-to-use/chrome-extension-setup',
     },
+    {
+      type: 'doc',
+      label: 'DApp H5 Guide',
+      id: 'how-to-use/dapp-h5-guide',
+    },
   ],
 };
 
