@@ -1,10 +1,10 @@
-# Plug-In  Guide
+# Plugin  Guide
 
-A step-by-step guide to installing and using the LinkLayerAI Plug-In.
+A step-by-step guide to installing and using the LinkLayerAI Plugin.
 
 ### Step 1
 
-Click the LinkLayerAI Plug-In icon in the top right corner of your browser, connect your wallet and log in.  
+Click the LinkLayerAI Plugin icon in the top right corner of your browser, connect your wallet and log in.  
 ⚠️ Note: Please use a wallet address that holds Binance Alpha tokens.
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/1.png)
