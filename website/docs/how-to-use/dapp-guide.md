@@ -1,10 +1,10 @@
-# Dapp Guide
+# DApp Guide
 
-A step-by-step guide to using the LinkLayerAI Dapp.
+A step-by-step guide to using the LinkLayerAI DApp.
 
 ### Step 1
 
-Open the LinkLayerAI Dapp 👉 (https://agent.linklayer.ai/)
+Open the LinkLayerAI DApp 👉 (https://agent.linklayer.ai/)
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/1.png)
 
