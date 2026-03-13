@@ -2,4 +2,6 @@
 
 A step-by-step video guide to accessing and using the LinkLayerAI DApp on mobile.
 
-https://drive.google.com/file/d/1PnTJX5ulQJhZo9y_qA6M9RKcYwDhBlOv/view?usp=drive_link
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/1UFzVsSoJb0" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen></iframe>
