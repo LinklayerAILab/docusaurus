@@ -4,14 +4,17 @@ A step-by-step guide to installing and using the LinkLayerAI Plugin.
 
 ### Step 1
 
-Click the LinkLayerAI Plugin icon in the top right corner of your browser, connect your wallet and log in.  
-⚠️ Note: Please use a wallet address that holds Binance Alpha tokens.
+Download and install the LinkLayerAI plugin. After installation, the right side of the X page will display the BSC chain liquidity heat map, along with a list of high-quality BRC20 tokens already listed on PancakeSwap.
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/1.png)
 
+### Step 2
+
+Click the LinkLayerAI plugin icon in the top right corner, connect your wallet, and log in. (Note: Please switch to a wallet address that holds Binance Alpha tokens.)
+
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/2.png)
 
-### Step 2
+### Step 3
 
 After logging in, click the account icon in the top right corner to view your account information:  
 • Wallet address  
@@ -21,7 +24,7 @@ After logging in, click the account icon in the top right corner to view your ac
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/3.png)
 
-### Step 3
+### Step 4
 
 Click the "BRC20" icon on the right to enter the BSC state scanner and view the most liquid assets on BNB Chain in real time.The system automatically filters high-liquidity tokens based on on-chain data, helping you quickly discover active assets and potential trading opportunities.
 
@@ -31,7 +34,7 @@ Click "Trade" to jump directly to the PancakeSwap trading interface.Click "Agent
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/5.png)
 
-### Step 4
+### Step 5
 
 Click the "Alpha" icon on the right to view all Binance Alpha tokens held by your current address.
 
@@ -46,7 +49,7 @@ Click "Explorer" to jump to the token's block explorer page.Click "Agent" to ana
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/7.png)
 
-### Step 5
+### Step 6
 
 Upload API. Click the "API" icon on the right, select "Binance," enter your Binance read-only API Key and Secret Key, and submit.
 
@@ -56,7 +59,7 @@ Click "API Guide" to learn how to obtain a read-only exchange API.
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/9.png)
 
-### Step 6
+### Step 7
 
 Click the "Earn" icon on the right. After successfully uploading a read-only API, the exchange icon will light up.Below the icon is your exchange spot holdings list. Click any token in the list and the Agent will provide real-time analysis and suggestions.
 
@@ -69,13 +72,13 @@ Recurring：Ongoing rewards distributed every 30 days, based on your new liquida
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/11.png)
 
-### Step 7
+### Step 8
 
 Click the "Perps" icon on the right, select your current perpetual positions, and the Agent will provide real-time analysis and suggestions for your contract positions.
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/12.png)
 
-### Step 8
+### Step 9
 
 Click the "Piloter" icon on the right. Enter the "Picker" interface and select any token. The Agent will provide real-time analysis of the token's spot and futures, along with corresponding trading suggestions.
 
@@ -93,7 +96,7 @@ In the "Tracker" interface, select a specific strategy to filter all tokens matc
 
 ![](https://cdn.linklayer.ai/uploads/pluginuse2/16.png)
 
-### Step 9
+### Step 10
 
 Click the Points icon on the right to enter the points interface and recharge.
 
