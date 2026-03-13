@@ -14,7 +14,7 @@ Click "Log in" in the top right corner and connect your wallet (Note: Use a wall
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/9.jpg)
 
-![](https://cdn.linklayer.ai/uploads/lladapp_use/9.jpg)
+![](https://cdn.linklayer.ai/uploads/lladapp_use/22.jpg)
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/23.png)
 
