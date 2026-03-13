@@ -133,6 +133,16 @@ const sidebars: SidebarsConfig = {
       label: 'DApp H5 Guide',
       id: 'how-to-use/dapp-h5-guide',
     },
+    {
+      type: 'doc',
+      label: 'Plugin Video Guide',
+      id: 'how-to-use/plugin-video-guide',
+    },
+    {
+      type: 'doc',
+      label: 'DApp Video Guide',
+      id: 'how-to-use/dapp-video-guide',
+    },
   ],
 };
 
