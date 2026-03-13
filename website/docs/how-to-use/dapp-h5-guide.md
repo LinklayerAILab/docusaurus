@@ -6,7 +6,7 @@ A step-by-step guide to accessing and using the LinkLayerAI DApp on mobile (H5).
 
 Open the LinkLayerAI Dapp👉 (https://agent.linklayer.ai/)
 
-![](https://cdn.linklayer.ai/uploads/dapph5guide/2.png)
+![](https://cdn.linklayer.ai/uploads/dapph5guide/2.jpg)
 
 ### Step 2
 
