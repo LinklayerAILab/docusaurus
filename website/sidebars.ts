@@ -120,13 +120,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      label: 'Dapp Guide',
-      id: 'how-to-use/dapp-guide',
+      label: 'Plugin Guide',
+      id: 'how-to-use/plugin-guide',
     },
     {
       type: 'doc',
-      label: 'Plug-In Guide',
-      id: 'how-to-use/plugin-guide',
+      label: 'DApp PC Guide',
+      id: 'how-to-use/dapp-pc-guide',
     },
     {
       type: 'doc',
