@@ -1,9 +1,9 @@
 ---
-id: guide
+id: Guide
 sidebar_position: 0
-slug: /guide
+slug: /Guide
 ---
- 
+
 # API Configuration Guide
 
 Welcome to the LinkLayerAI API Configuration Guide. This comprehensive guide will help you set up API keys for various cryptocurrency exchanges to connect with the LinkLayerAI platform.

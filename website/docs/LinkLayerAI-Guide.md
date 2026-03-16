@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /LinkLayerAI-Guide
 ---
 
 # LinkLayerAI Guide

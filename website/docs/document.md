@@ -1,5 +1,5 @@
 ---
-id: document
+id: Document
 sidebar_position: 0
 slug: /
 ---

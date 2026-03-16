@@ -9,10 +9,10 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   // Document sidebar - for LinkLayer AI documentation
-  document: [
+  Document: [
     {
       type: 'doc',
-      id: 'document',
+      id: 'Document',
       label: 'Overview',
     },
     {
@@ -20,10 +20,10 @@ const sidebars: SidebarsConfig = {
       label: 'Start Here',
       collapsed: false,
       items: [
-        'document/startHere/WhatIsLinkLayerAI',
-        'document/startHere/WhyLinkLayerAI',
-        'document/startHere/LinkLayerAITokenomics',
-        'document/startHere/FAQ&Glossary',
+        'Document/StartHere/WhatIsLinkLayerAI',
+        'Document/StartHere/WhyLinkLayerAI',
+        'Document/StartHere/LinkLayerAITokenomics',
+        'Document/StartHere/FAQ&Glossary',
       ],
     },
     {
@@ -33,17 +33,17 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
-          id: 'document/products/AlphaAgent',
+          id: 'Document/Products/AlphaAgent',
           label: 'Alpha Agent',
         },
         {
           type: 'doc',
-          id: 'document/products/PerpsAgent',
+          id: 'Document/Products/PerpsAgent',
           label: 'Perps Agent',
         },
         {
           type: 'doc',
-          id: 'document/products/TradingAgent',
+          id: 'Document/Products/TradingAgent',
           label: 'Trading Agent',
         },
       ],
@@ -53,15 +53,15 @@ const sidebars: SidebarsConfig = {
       label: 'Technical Documentation',
       collapsed: false,
       items: [
-        'document/technicalDocumentation/TechnicalArchitectur',
+        'Document/TechnicalDocumentation/TechnicalArchitectur',
         {
           type: 'doc',
-          id: 'document/technicalDocumentation/SmartContracts',
+          id: 'Document/TechnicalDocumentation/SmartContracts',
           label: 'Smart Contracts',
         },
         {
           type: 'doc',
-          id: 'document/technicalDocumentation/AuditReports',
+          id: 'Document/TechnicalDocumentation/AuditReports',
           label: 'Audit Reports',
         },
       ],
@@ -71,43 +71,43 @@ const sidebars: SidebarsConfig = {
       label: 'Resources & Ecosystem',
       collapsed: false,
       items: [
-        'document/resources&Ecosystem/Litepaper',
-        'document/resources&Ecosystem/ProhibitedCountriesandRegions',
-        'document/resources&Ecosystem/LegalDocuments',
+        'Document/Resources&Ecosystem/Litepaper',
+        'Document/Resources&Ecosystem/ProhibitedCountriesandRegions',
+        'Document/Resources&Ecosystem/LegalDocuments',
       ],
     },
   ],
 
   // API Documentation sidebar
-  guide: [
+  Guide: [
     {
       type: 'doc',
-      id: 'guide',
+      id: 'Guide',
       label: 'Overview',
     },
     {
       type: 'category',
       label: 'Binance',
       collapsed: false,
-      items: ['guide/bnpc', 'guide/bnapp'],
+      items: ['Guide/BnPc', 'Guide/BnApp'],
     },
     {
       type: 'category',
       label: 'OKX',
       collapsed: false,
-      items: ['guide/okxpc', 'guide/okxapp'],
+      items: ['Guide/OkxPc', 'Guide/OkxApp'],
     },
     {
       type: 'category',
       label: 'Bitget',
       collapsed: false,
-      items: ['guide/bitgetpc', 'guide/bitgetapp'],
+      items: ['Guide/BitgetPc', 'Guide/BitgetApp'],
     },
     {
       type: 'category',
       label: 'Bybit',
       collapsed: false,
-      items: ['guide/bybitpc'],
+      items: ['Guide/BybitPc'],
     },
   ],
 
@@ -121,27 +121,27 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       label: 'Plugin Guide',
-      id: 'LinkLayerAI-Guide/plugin-guide',
+      id: 'LinkLayerAI-Guide/PluginGuide',
     },
     {
       type: 'doc',
       label: 'DApp PC Guide',
-      id: 'LinkLayerAI-Guide/dapp-pc-guide',
+      id: 'LinkLayerAI-Guide/DappPcGuide',
     },
     {
       type: 'doc',
       label: 'DApp H5 Guide',
-      id: 'LinkLayerAI-Guide/dapp-h5-guide',
+      id: 'LinkLayerAI-Guide/DappH5Guide',
     },
     {
       type: 'doc',
       label: 'Plugin Video Guide',
-      id: 'LinkLayerAI-Guide/plugin-video-guide',
+      id: 'LinkLayerAI-Guide/PluginVideoGuide',
     },
     {
       type: 'doc',
       label: 'DApp Video Guide',
-      id: 'LinkLayerAI-Guide/dapp-video-guide',
+      id: 'LinkLayerAI-Guide/DappVideoGuide',
     },
   ],
 };
