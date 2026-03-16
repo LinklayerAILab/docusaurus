@@ -109,6 +109,6 @@ Click "Graph" on the left to view your referral graph.
 
 ### Step 8
 
-Click "Rewards" on the left to swap LLA for LLAX and stake your tokens.
+Click "Rewards" on the left to swap LLA for LLAx and stake your tokens.
 
 ![](https://cdn.linklayer.ai/uploads/photo_2026-03-16_16-20-14.jpg)
