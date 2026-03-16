@@ -1,4 +1,4 @@
-# Plugin  Guide
+# Plugin Guide
 
 A step-by-step guide to installing and using the LinkLayerAI Plugin.
 

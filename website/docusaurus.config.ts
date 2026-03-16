@@ -84,7 +84,7 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'how-to-use',
+          sidebarId: 'linkLayerAI-guide',
           position: 'left',
           label: 'Product Guide',
         },

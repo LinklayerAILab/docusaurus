@@ -112,36 +112,36 @@ const sidebars: SidebarsConfig = {
   ],
 
   // How to Use sidebar
-  'how-to-use': [
+  'linkLayerAI-guide': [
     {
       type: 'doc',
-      id: 'how-to-use',
+      id: 'linkLayerAI-guide',
       label: 'Overview',
     },
     {
       type: 'doc',
       label: 'Plugin Guide',
-      id: 'how-to-use/plugin-guide',
+      id: 'linkLayerAI-guide/plugin-guide',
     },
     {
       type: 'doc',
       label: 'DApp PC Guide',
-      id: 'how-to-use/dapp-pc-guide',
+      id: 'linkLayerAI-guide/dapp-pc-guide',
     },
     {
       type: 'doc',
       label: 'DApp H5 Guide',
-      id: 'how-to-use/dapp-h5-guide',
+      id: 'linkLayerAI-guide/dapp-h5-guide',
     },
     {
       type: 'doc',
       label: 'Plugin Video Guide',
-      id: 'how-to-use/plugin-video-guide',
+      id: 'linkLayerAI-guide/plugin-video-guide',
     },
     {
       type: 'doc',
       label: 'DApp Video Guide',
-      id: 'how-to-use/dapp-video-guide',
+      id: 'linkLayerAI-guide/dapp-video-guide',
     },
   ],
 };
