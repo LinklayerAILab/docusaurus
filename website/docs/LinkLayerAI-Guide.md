@@ -19,8 +19,8 @@ This guide covers everything you need to know about using LinkLayerAI:
 
 Choose your preferred way to access LinkLayerAI:
 
-- [DApp Guide](./how-to-use/dapp-user-guide) - For LinkLayerAI DApp users
-- [Plugin Guide](./how-to-use/chrome-extension-setup) - For LinkLayerAI Plugin users
+- **DApp Guide**：For LinkLayerAI DApp users
+- **Plugin Guide**：For LinkLayerAI Plugin users
 
 ## Need Help?
 
