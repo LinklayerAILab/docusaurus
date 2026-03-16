@@ -20,13 +20,18 @@ Click "Log in" in the top right corner and connect your wallet (Note: Use a wall
 
 ### Step 3
 
-After logging in, click your account address in the top right corner to view account information: wallet address, bound email, point balance, and referral count.
+After logging in, click your account address in the top right corner to view account information:   
+• Wallet address  
+• Bound email  
+• Points balance  
+• Referral count
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/31.png)
 
 Click the point button in the top right corner to enter the Points Recharge interface.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/32.png)
+
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/33.png)
 
@@ -36,7 +41,10 @@ Click "Earn" in the top right corner to copy your referral link with one click, 
 
 ### Step 4
 
-Alpha Agent: Click "Alpha" on the left side. The right panel will display all Binance Alpha token holdings for the current address. The traffic light indicates each token's liquidity health: Green = sufficient liquidity, Red = liquidity depletion risk, Yellow = transitional state.
+Alpha Agent: Click "Alpha" on the left side. The right panel will display all Binance Alpha token holdings for the current address. The traffic light indicates each token's liquidity health:  
+🟢 Green = Sufficient liquidity  
+🔴 Red = Liquidity depletion risk  
+🟡 Yellow = Transitional state
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/41.png)
 
@@ -50,6 +58,7 @@ Click "Insight" on the left, click "+", select "Binance", fill in your Binance r
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/51.png)
 
+
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/52.png)
 
 After successfully binding the Binance read-only API, the Binance icon will light up.
@@ -62,8 +71,7 @@ The bottom left corner shows the exchange spot list. Click any token icon and th
 
 Perps Mining：
 
-Retroactive：A one-time reward issued after you connect your API, automatically calculated based on your liquidation history from the past 6 months.
-
+Retroactive：A one-time reward issued after you connect your API, automatically calculated based on your liquidation history from the past 6 months.  
 Recurring：Ongoing rewards distributed every 30 days, based on your new liquidation records during each period.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/55.png)
@@ -71,6 +79,7 @@ Recurring：Ongoing rewards distributed every 30 days, based on your new liquida
 Perps Pilot: Click on your current perpetual positions in the exchange. The Agent will provide real-time analysis and recommendations for your perpetual positions.
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/56.png)
+
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/57.png)
 
