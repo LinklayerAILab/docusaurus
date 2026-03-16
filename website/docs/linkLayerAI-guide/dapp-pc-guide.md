@@ -12,9 +12,9 @@ Open the LinkLayerAI DApp 👉 (https://agent.linklayer.ai/)
 
 Click "Log in" in the top right corner and connect your wallet (Note: Use a wallet address that holds Binance Alpha tokens)
 
-![](https://cdn.linklayer.ai/uploads/lladapp_use/21.png)
-
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/9.jpg)
+
+![](https://cdn.linklayer.ai/uploads/3312.png)
 
 ![](https://cdn.linklayer.ai/uploads/lladapp_use/23.png)
 
