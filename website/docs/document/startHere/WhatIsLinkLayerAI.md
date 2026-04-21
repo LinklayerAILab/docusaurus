@@ -15,7 +15,7 @@ Users can connect exchange read-only APIs or on-chain addresses to the system. T
 
 Based on continuous comparison between live data and public factors, the system ultimately produces three core outputs:
 
-**1\.** Position State & Risk Structure – Provides explainable state determination and risk boundaries for the user's current holdings (e.g., mid-cycle liquidity state for Alpha assets, short-cycle state machine for MemeRush, liquidation and drawdown structures for Perpetuals).
+**1\.** Position State & Risk Structure – Provides explainable state determination and risk boundaries for the user's current holdings, including BEP20 token liquidity structure interpretation, mid-cycle liquidity state for Alpha assets, short-cycle state machine for MemeRush, and liquidation and drawdown structures for Perpetuals.
 
 **2\.** Execution Debriefing – Identifies key points of success and loss based on real trading paths and market structural factors, forming traceable decision and execution attribution.
 
