@@ -33,6 +33,11 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'doc',
+          id: 'Document/Products/BEP20Agent',
+          label: 'BEP20Agent',
+        },
+        {
+          type: 'doc',
           id: 'Document/Products/AlphaAgent',
           label: 'Alpha Agent',
         },
