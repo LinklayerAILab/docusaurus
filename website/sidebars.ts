@@ -34,7 +34,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'doc',
           id: 'Document/Products/BEP20Agent',
-          label: 'BEP20Agent',
+          label: 'BEP20 Agent',
         },
         {
           type: 'doc',
@@ -50,6 +50,28 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'Document/Products/TradingAgent',
           label: 'Trading Agent',
+        },
+        {
+          type: 'doc',
+          id: 'Document/Products/PiloterAgent',
+          label: 'Piloter Agent',
+        },
+        {
+          type: 'doc',
+          id: 'Document/Products/GuardAgent',
+          label: 'Guard Agent',
+        },
+        ],
+    },
+    {
+      type: 'category',
+      label: 'Token Economic',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'Document/TokenEconomic/LLAxToken',
+          label: 'LLAx Token',
         },
       ],
     },
